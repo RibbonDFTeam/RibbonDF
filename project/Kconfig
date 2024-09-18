@@ -54,7 +54,7 @@ config PROJECT_PATCH_VERSION
     default 0
 endmenu
 
-menu "Project Application Configuration"
+menu "Project Components Configuration"
 osource "${RibbonDF_PROJECT_DIR}/src/*/Kconfig"
 endmenu
 
