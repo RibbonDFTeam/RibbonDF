@@ -25,17 +25,17 @@ def write_cmake_setting(project_path, kconf):
             if sym.type == kconfiglib.BOOL:
                 cmake_value = "on" if sym.str_value == "y" else "off"
                 define_value = 1 if sym.str_value == "y" else 0
-                define_name = "-D" + sym.name + "=" + str(define_value)
+                define_name = "-DCONFIG_" + sym.name + "=" + str(define_value)
                 define_list.append(define_name)
             elif sym.type == kconfiglib.STRING:
                 cmake_value = '"' + sym.str_value + '"'
                 define_value = '"' + sym.str_value + '"'
-                define_name = "-D" + sym.name + "=" + define_value
+                define_name = "-DCONFIG_" + sym.name + "=" + define_value
                 define_list.append(define_name)
             elif sym.type == kconfiglib.INT:
                 cmake_value = sym.str_value
                 define_value = int(sym.str_value)
-                define_name = "-D" + sym.name + "=" + str(define_value)
+                define_name = "-DCONFIG_" + sym.name + "=" + str(define_value)
                 define_list.append(define_name)
 
             # 生成CMake设置
