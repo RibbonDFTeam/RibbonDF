@@ -1,0 +1,6 @@
+
+config MODULE_FDBUS_ENABLE
+    bool "Enable fdbus"
+    default n
+    help
+      Enable fdbus.

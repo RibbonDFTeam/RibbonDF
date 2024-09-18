@@ -1,0 +1,32 @@
+
+
+config MODULE_RBLOG_ENABLE
+    bool "rblog enalbe"
+    default n
+    help
+      Enable rblog.
+
+menu "rblog config"
+    depends on MODULE_RBLOG_ENABLE
+
+choice MODULE_RBLOG_BASE_LOG_COMPONENT
+    prompt "base log componnet of rblog"
+    default MODULE_RBLOG_BASE_LOG_ZLOG
+    depends on MODULE_RBLOG_ENABLE
+
+config MODULE_RBLOG_BASE_LOG_ZLOG
+    bool "use zlog"
+    select MODULE_ZLOG_ENABLE
+
+config MODULE_RBLOG_BASE_LOG_EASYLOGGER
+    bool "use EasyLogger"
+    select MODULE_EASYLOGGER_ENABLE
+endchoice
+
+config MODULE_RBLOG_ZLOG_CFG_FILE_PATH
+    string "zlog config file path"
+    default ""
+    depends on MODULE_RBLOG_BASE_LOG_ZLOG
+endmenu
+
+

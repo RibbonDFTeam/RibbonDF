@@ -1,0 +1,2458 @@
+insn vab:
+  v_result = 912eda774a8816dd | 02628f44a5ed5145
+  r_result = 0000000000000000
+insn vab:
+  v_result = 7cdb3f1f477c8b21 | bb5948084f31e9a3
+  r_result = 0000000000000000
+insn vab:
+  v_result = 7f1432b9ff175df8 | d65b691f3397dc23
+  r_result = 0000000000000000
+insn vab:
+  v_result = df357f1c9ea6afd9 | c380c87d68e81816
+  r_result = 0000000000000000
+insn vah:
+  v_result = 6c395f1d98ccccf3 | 00fc2991d2c5380b
+  r_result = 0000000000000000
+insn vah:
+  v_result = 0432f20b3310aeb7 | 91a1bac79d30fe4c
+  r_result = 0000000000000000
+insn vah:
+  v_result = 0bd5c934f94f7d4d | 905c9a09c501dd5e
+  r_result = 0000000000000000
+insn vah:
+  v_result = f9eb615e4744071a | 9ab44b388f707483
+  r_result = 0000000000000000
+insn vaf:
+  v_result = cee09e4dc4054942 | 5a5145b50e910939
+  r_result = 0000000000000000
+insn vaf:
+  v_result = 98355641df86f023 | 0d7264dda2d015ba
+  r_result = 0000000000000000
+insn vaf:
+  v_result = eb0ec7765b15ced5 | f37478867379b77b
+  r_result = 0000000000000000
+insn vaf:
+  v_result = 6fa81ea4bddf67af | e04db286f9353db0
+  r_result = 0000000000000000
+insn vag:
+  v_result = 52daf17fe06965c2 | ad193b2a7482a0c5
+  r_result = 0000000000000000
+insn vag:
+  v_result = d39ac5386516255e | c382a0c0774707e5
+  r_result = 0000000000000000
+insn vag:
+  v_result = b87985f73aa5298b | 99595b0f58364074
+  r_result = 0000000000000000
+insn vag:
+  v_result = d623126818b0a88f | 2d0354dcbe6b4d96
+  r_result = 0000000000000000
+insn vaq:
+  v_result = 8de1b12c0930f76d | 8c0a63671cd9d3a8
+  r_result = 0000000000000000
+insn vaq:
+  v_result = 4c1a9463dbf62761 | 4d8bc0ea31ccacc4
+  r_result = 0000000000000000
+insn vaq:
+  v_result = 07cc5c2db0316966 | 18c49c1c88705340
+  r_result = 0000000000000000
+insn vaq:
+  v_result = c714931d71eea1b2 | 1b8d8bb5f64e7c2e
+  r_result = 0000000000000000
+insn vsb:
+  v_result = b533dec7834ee224 | 19ade1cdf6771962
+  r_result = 0000000000000000
+insn vsb:
+  v_result = 8eed317b4974ab60 | 53dfad9c7666445d
+  r_result = 0000000000000000
+insn vsb:
+  v_result = 9468103a663c3a5b | acb519fc801b8bdb
+  r_result = 0000000000000000
+insn vsb:
+  v_result = 5aa731adaeea85fb | 3ab35b126a5b6040
+  r_result = 0000000000000000
+insn vsh:
+  v_result = f62ec8f37342ffa1 | 90dd26810667b970
+  r_result = 0000000000000000
+insn vsh:
+  v_result = f9018ab28c899e32 | c3b7af6da8070acf
+  r_result = 0000000000000000
+insn vsh:
+  v_result = 79a4a8104c81d512 | 6746ab79247d4742
+  r_result = 0000000000000000
+insn vsh:
+  v_result = 0b1cd6ad876f9626 | 900c4acbd18ce32b
+  r_result = 0000000000000000
+insn vsf:
+  v_result = bfec4cb0901857d1 | d10f46078079d470
+  r_result = 0000000000000000
+insn vsf:
+  v_result = 2d18bbbd3abe0cf6 | 3ed1cc4f85098b74
+  r_result = 0000000000000000
+insn vsf:
+  v_result = 692458f6dc2728fb | 6e599748b57ffe1b
+  r_result = 0000000000000000
+insn vsf:
+  v_result = 0412d8004996a1c3 | 7127d617639fa1c9
+  r_result = 0000000000000000
+insn vsg:
+  v_result = 146b6affd4cfeab2 | dc423e5f63af6863
+  r_result = 0000000000000000
+insn vsg:
+  v_result = 2d2fc8985317f4ac | c52f05430b6ec54b
+  r_result = 0000000000000000
+insn vsg:
+  v_result = 61e423ee17313915 | bceddc692e26b066
+  r_result = 0000000000000000
+insn vsg:
+  v_result = 488c30a4f75fa6d2 | da05f9f51e969918
+  r_result = 0000000000000000
+insn vsq:
+  v_result = f2ad24e14569b645 | b17a1088b2047647
+  r_result = 0000000000000000
+insn vsq:
+  v_result = f549af45d4925854 | 52cd564a3b35bb53
+  r_result = 0000000000000000
+insn vsq:
+  v_result = 64e709f8fb9c0161 | 57067cdb916c5b23
+  r_result = 0000000000000000
+insn vsq:
+  v_result = d687e59b8dcaa553 | cfa5b864056dcb1a
+  r_result = 0000000000000000
+insn vn:
+  v_result = 5180418401040400 | 018db07804481021
+  r_result = 0000000000000000
+insn vn:
+  v_result = 8001020036288000 | 0081041dd2088044
+  r_result = 0000000000000000
+insn vn:
+  v_result = 0210c4c040001b56 | 8010440010801ca1
+  r_result = 0000000000000000
+insn vn:
+  v_result = 08d8804008a01e40 | 2037800502028005
+  r_result = 0000000000000000
+insn vnc:
+  v_result = 0d80686122900205 | c00285820d202010
+  r_result = 0000000000000000
+insn vnc:
+  v_result = 06840c1819050084 | a012108e0b321404
+  r_result = 0000000000000000
+insn vnc:
+  v_result = 8c42228804184022 | 0a40230022002114
+  r_result = 0000000000000000
+insn vnc:
+  v_result = 11806c8082420200 | 280d091a2212ec93
+  r_result = 0000000000000000
+insn vx:
+  v_result = 4902e9f1919c7c37 | 3728d916386d85a1
+  r_result = 0000000000000000
+insn vx:
+  v_result = 0ceb80c4384ebe0b | 42fe1937ce590f69
+  r_result = 0000000000000000
+insn vx:
+  v_result = 5d8c5e8de52b798c | e1a88821ca175b06
+  r_result = 0000000000000000
+insn vx:
+  v_result = fd862d9cf07a808e | 29f1b0e2d1bd7cf5
+  r_result = 0000000000000000
+insn vno:
+  v_result = 0a2571012240d207 | 4400d00000000040
+  r_result = 0000000000000000
+insn vno:
+  v_result = 443284000c451800 | 0a021f041c410c00
+  r_result = 0000000000000000
+insn vno:
+  v_result = 0129402020535004 | 18403402399c430a
+  r_result = 0000000000000000
+insn vno:
+  v_result = 04040242040c0202 | b0b001820c010110
+  r_result = 0000000000000000
+insn vo:
+  v_result = f8f6d7b5ddee7fef | f3af37bffff59fb7
+  r_result = 0000000000000000
+insn vo:
+  v_result = fd7e2babefb7bfcf | dd5f75997fefdb7f
+  r_result = 0000000000000000
+insn vo:
+  v_result = 9ef5bd7eefb72fff | 73f9e7997fbfff97
+  r_result = 0000000000000000
+insn vo:
+  v_result = f913b3c3d9fe798b | efedffaeff1c7ff5
+  r_result = 0000000000000000
+insn vavgb:
+  v_result = 33fcfd073af71628 | d0f5994df69560f4
+  r_result = 0000000000000000
+insn vavgb:
+  v_result = 2bf900e8fa1629e9 | e5441e62d58b0f0c
+  r_result = 0000000000000000
+insn vavgb:
+  v_result = 30ebfcbbcbd9efb0 | 534ef0e1adedd8ba
+  r_result = 0000000000000000
+insn vavgb:
+  v_result = ca47fef22a312240 | b9e8234cf0e6dc2e
+  r_result = 0000000000000000
+insn vavgh:
+  v_result = c9d24b01bab8103a | 3cf4bf63f9100e37
+  r_result = 0000000000000000
+insn vavgh:
+  v_result = 055f1a1784f7dddc | cc23056346b3f982
+  r_result = 0000000000000000
+insn vavgh:
+  v_result = 190f5d6239a546c4 | d8b22bc8bc83feda
+  r_result = 0000000000000000
+insn vavgh:
+  v_result = a78ef8cdece9daab | 192f1c0ce86413e7
+  r_result = 0000000000000000
+insn vavgf:
+  v_result = 17db0a43db15c12d | 4db439e8b9280672
+  r_result = 0000000000000000
+insn vavgf:
+  v_result = da7fa16da3ec74fe | f8aa9c1246ceb91e
+  r_result = 0000000000000000
+insn vavgf:
+  v_result = 20d3066f0fdc8bb5 | 2686d07c0ec363ae
+  r_result = 0000000000000000
+insn vavgf:
+  v_result = 263d76aecb436b84 | a58d9b9a3423d6c5
+  r_result = 0000000000000000
+insn vavgg:
+  v_result = eb71e78ba9ad94fc | cc92351ac178b5a0
+  r_result = 0000000000000000
+insn vavgg:
+  v_result = f633c126e392dacc | b7b58eac6278b9dc
+  r_result = 0000000000000000
+insn vavgg:
+  v_result = 1213a31f599baa00 | 09a48dbaaf4af6b5
+  r_result = 0000000000000000
+insn vavgg:
+  v_result = 122ea3d04f5d40c6 | 295d4bafe3411143
+  r_result = 0000000000000000
+insn vavglb:
+  v_result = 8ef38e14311a78a3 | 86e9de349d9d86bd
+  r_result = 0000000000000000
+insn vavglb:
+  v_result = a45aa58150867b41 | 54a1896da64f68b9
+  r_result = 0000000000000000
+insn vavglb:
+  v_result = b92c5fafa27e8d23 | 4deb8cbf2b34a169
+  r_result = 0000000000000000
+insn vavglb:
+  v_result = 37c0ab71875147ed | 727c5b8b7e582e5e
+  r_result = 0000000000000000
+insn vavglh:
+  v_result = 4dbaac197f79571f | c7965e725ab36546
+  r_result = 0000000000000000
+insn vavglh:
+  v_result = b34d7ab774e14259 | 1b49b7911deeb0b0
+  r_result = 0000000000000000
+insn vavglh:
+  v_result = 637968da77a0a218 | bf347ac48d1dd046
+  r_result = 0000000000000000
+insn vavglh:
+  v_result = e14cb94b7c3be8f6 | ca44736794051b11
+  r_result = 0000000000000000
+insn vavglf:
+  v_result = 74236a579e669cec | dbf2e50f83d5beb7
+  r_result = 0000000000000000
+insn vavglf:
+  v_result = 6be96d055ec29a91 | d88945d4d3f07dbf
+  r_result = 0000000000000000
+insn vavglf:
+  v_result = 5b5568db641ed45b | 28dd03896120ef49
+  r_result = 0000000000000000
+insn vavglf:
+  v_result = 5caffa1cbd38945c | 7f134280aee3c3d8
+  r_result = 0000000000000000
+insn vavglg:
+  v_result = 500b778a9afcb685 | 8fde1b4927217f0b
+  r_result = 0000000000000000
+insn vavglg:
+  v_result = 9c0b2827184371e5 | 57bd5f7256723b5f
+  r_result = 0000000000000000
+insn vavglg:
+  v_result = 6d1e8ceff41410e9 | 59405346b4db6aed
+  r_result = 0000000000000000
+insn vavglg:
+  v_result = 74469a9ed3e5329c | dbc3f2915c0f9330
+  r_result = 0000000000000000
+insn vmxb:
+  v_result = d0e12f7a4d143d39 | 45d3b15f06d86dc0
+  r_result = 0000000000000000
+insn vmxb:
+  v_result = 7447fa647965d36c | 427a6ba97f6a2434
+  r_result = 0000000000000000
+insn vmxb:
+  v_result = 3bc0205ccf49e348 | a7eda857174c504e
+  r_result = 0000000000000000
+insn vmxb:
+  v_result = 7d38726ee76b4443 | c9b8572a40ad1c2e
+  r_result = 0000000000000000
+insn vmxh:
+  v_result = fe09bb031ee6285e | 177efd490a1e24c3
+  r_result = 0000000000000000
+insn vmxh:
+  v_result = 462f5c4ac0efef1d | 01784021504cdde9
+  r_result = 0000000000000000
+insn vmxh:
+  v_result = 32e6464337bf592c | 3c53fd240e2a5db6
+  r_result = 0000000000000000
+insn vmxh:
+  v_result = c1e4776bc1bd6242 | 55c331bdae44e6b0
+  r_result = 0000000000000000
+insn vmxf:
+  v_result = 7ee2eaf7f4450eeb | 04fca550e7d0c8a8
+  r_result = 0000000000000000
+insn vmxf:
+  v_result = 5826bd377ffe80a9 | 0dc68da550326ccf
+  r_result = 0000000000000000
+insn vmxf:
+  v_result = 418aefdf27ad85cb | 20acc9022764afbe
+  r_result = 0000000000000000
+insn vmxf:
+  v_result = e57be5f73fe3b5c6 | 2863ce806c7f4b91
+  r_result = 0000000000000000
+insn vmxg:
+  v_result = 4e46db2789824050 | 3e99a00d380a45e7
+  r_result = 0000000000000000
+insn vmxg:
+  v_result = f61204d100c21186 | 7063896bbc270064
+  r_result = 0000000000000000
+insn vmxg:
+  v_result = 5d6a8b7926248c0b | d5ae53f363175313
+  r_result = 0000000000000000
+insn vmxg:
+  v_result = 2bdcedcbc8372745 | 0e74c2bd800d6a99
+  r_result = 0000000000000000
+insn vmxlb:
+  v_result = a8fccdfa404c78b8 | fc7cd06008e888fc
+  r_result = 0000000000000000
+insn vmxlb:
+  v_result = 6cd8d2d4b395f2fd | a12ddfae8ff5f2b3
+  r_result = 0000000000000000
+insn vmxlb:
+  v_result = 598fa349b0ecdce9 | 6c7f9f7bf8b1d1c2
+  r_result = 0000000000000000
+insn vmxlb:
+  v_result = e750f7edba89acc6 | fed2a6568284b7e3
+  r_result = 0000000000000000
+insn vmxlh:
+  v_result = ea2ed6f379c5d5d5 | a611c34d8e328c35
+  r_result = 0000000000000000
+insn vmxlh:
+  v_result = 3d85f4fc458c90f0 | 9069eacbbaf226bb
+  r_result = 0000000000000000
+insn vmxlh:
+  v_result = 2462a4a56fede060 | ea75b5fcde59d28a
+  r_result = 0000000000000000
+insn vmxlh:
+  v_result = ad77484ccf632853 | a0d64f8b96b28710
+  r_result = 0000000000000000
+insn vmxlf:
+  v_result = af64d34de9440faa | 511793a458fe0d9a
+  r_result = 0000000000000000
+insn vmxlf:
+  v_result = b73a65e4760b89e1 | d9be542ddabafc78
+  r_result = 0000000000000000
+insn vmxlf:
+  v_result = 4604bf7bdf4248d0 | ace2198d65113dfc
+  r_result = 0000000000000000
+insn vmxlf:
+  v_result = edc8e54284f089ca | 442bdf68a54e9eb5
+  r_result = 0000000000000000
+insn vmxlg:
+  v_result = c397d12ba2b0f92e | e18cdb5faf3bde76
+  r_result = 0000000000000000
+insn vmxlg:
+  v_result = d7938aaaf12dcd3c | 4a0836d37a9211ad
+  r_result = 0000000000000000
+insn vmxlg:
+  v_result = 6e692e55054fb60b | ce34ff5acf4166a2
+  r_result = 0000000000000000
+insn vmxlg:
+  v_result = ce9621eccb118f6a | b422ffe63a89d2cf
+  r_result = 0000000000000000
+insn vmnb:
+  v_result = f2a48cd0dc2799b3 | a1ada9bb35f4b762
+  r_result = 0000000000000000
+insn vmnb:
+  v_result = a5b2e2a9ecf4a68d | ad2435f9bcecc0ef
+  r_result = 0000000000000000
+insn vmnb:
+  v_result = e7b3b4fcd4236099 | cdb7daf5f2ba0989
+  r_result = 0000000000000000
+insn vmnb:
+  v_result = 54921b18fb22aaf4 | 8e991002a1a6b586
+  r_result = 0000000000000000
+insn vmnh:
+  v_result = bc24de039d6fb236 | dd3008c1361ba9ec
+  r_result = 0000000000000000
+insn vmnh:
+  v_result = c8f0b06f9749274b | d0ed16db8b2536a9
+  r_result = 0000000000000000
+insn vmnh:
+  v_result = cda4a1b6a405fe19 | d511eb4397b1889e
+  r_result = 0000000000000000
+insn vmnh:
+  v_result = c918feebd74527f7 | a2439ab9294bd84f
+  r_result = 0000000000000000
+insn vmnf:
+  v_result = d1b9c96387230ffd | 842f0eb902a8e734
+  r_result = 0000000000000000
+insn vmnf:
+  v_result = 8ba888a12715a941 | 0237fab9d5e0f9b0
+  r_result = 0000000000000000
+insn vmnf:
+  v_result = 9c32fdb68b071550 | d9dca648c941016a
+  r_result = 0000000000000000
+insn vmnf:
+  v_result = 54f3349182f971f5 | cd746e859a0a81ad
+  r_result = 0000000000000000
+insn vmng:
+  v_result = f4ddac06473efa23 | f9dc56ee83b11b7f
+  r_result = 0000000000000000
+insn vmng:
+  v_result = 35d22e37e2c02e01 | 83f6e8c2f2c9a3a6
+  r_result = 0000000000000000
+insn vmng:
+  v_result = 91dcff908da766e2 | 891e079295872f79
+  r_result = 0000000000000000
+insn vmng:
+  v_result = b433335da7872d56 | 8c07ac4500673787
+  r_result = 0000000000000000
+insn vmnlb:
+  v_result = 698379d9222e8b34 | 2c21272612672a30
+  r_result = 0000000000000000
+insn vmnlb:
+  v_result = 20443bcd360987af | 12833b4008195858
+  r_result = 0000000000000000
+insn vmnlb:
+  v_result = 762952351ccd281c | 1d323267066d3b3c
+  r_result = 0000000000000000
+insn vmnlb:
+  v_result = 74806e9876163e6a | d09c48102c143d3e
+  r_result = 0000000000000000
+insn vmnlh:
+  v_result = 57b2d4318be41f2a | 2d4bc9a48586ab5b
+  r_result = 0000000000000000
+insn vmnlh:
+  v_result = 23430bdc0b26b32c | 8c040f6a093acc6e
+  r_result = 0000000000000000
+insn vmnlh:
+  v_result = 18f04a672112cf1a | 1f085feb29a41499
+  r_result = 0000000000000000
+insn vmnlh:
+  v_result = efc71e23d70cb4ad | 7380124625252710
+  r_result = 0000000000000000
+insn vmnlf:
+  v_result = 046d594c2063a859 | 5d6427103d34d77c
+  r_result = 0000000000000000
+insn vmnlf:
+  v_result = 7d29cbb69119ddc8 | 94140f7cb618a883
+  r_result = 0000000000000000
+insn vmnlf:
+  v_result = 4413a891289b57f7 | 22dcb9b90ab38acf
+  r_result = 0000000000000000
+insn vmnlf:
+  v_result = 3d94776509836409 | 27f1eac23b3773a7
+  r_result = 0000000000000000
+insn vmnlg:
+  v_result = 21ef01e53d5ba8ba | 07ca096f49ebedba
+  r_result = 0000000000000000
+insn vmnlg:
+  v_result = 1dfeef0b2294a5c0 | 5f082a18988558d2
+  r_result = 0000000000000000
+insn vmnlg:
+  v_result = 881f34e77e6b6698 | 056b6d98b4e8ad97
+  r_result = 0000000000000000
+insn vmnlg:
+  v_result = 7f995707a6d75db5 | b1f3b0c072d23011
+  r_result = 0000000000000000
+insn vlcb:
+  v_result = 7d866149efa087d0 | feb0a1a0e118eec6
+  r_result = 0000000000000000
+insn vlcb:
+  v_result = 24e07abfa747bdfb | 6673bab90b597582
+  r_result = 0000000000000000
+insn vlcb:
+  v_result = a60d8253017d6938 | 240fa3779591a09d
+  r_result = 0000000000000000
+insn vlcb:
+  v_result = f1d2507fd5f39990 | cdadef84a2f2d874
+  r_result = 0000000000000000
+insn vlch:
+  v_result = e96a478096ea83f1 | 3029fa8f2d82ed87
+  r_result = 0000000000000000
+insn vlch:
+  v_result = afc195939178ca6a | 9a502a8850565cb6
+  r_result = 0000000000000000
+insn vlch:
+  v_result = ddb36e392ec4b96c | 0c2230e17ad78985
+  r_result = 0000000000000000
+insn vlch:
+  v_result = c65153732c45850a | 841147ceb6000458
+  r_result = 0000000000000000
+insn vlcf:
+  v_result = b91b4f06e7058c39 | 3c3f7185e89cc5b7
+  r_result = 0000000000000000
+insn vlcf:
+  v_result = 3c4636b793e39a11 | e3c3be7e118d728a
+  r_result = 0000000000000000
+insn vlcf:
+  v_result = 52f7e68f7fcd2009 | e6e587b48800955e
+  r_result = 0000000000000000
+insn vlcf:
+  v_result = b686871854027c3e | ac5dace240bae89e
+  r_result = 0000000000000000
+insn vlcg:
+  v_result = 1fbdcc9c555635ac | d398dbc5064e8bda
+  r_result = 0000000000000000
+insn vlcg:
+  v_result = 7c16326d9f6d3d73 | 75f2ca60c1644903
+  r_result = 0000000000000000
+insn vlcg:
+  v_result = 38ff3d1868fe3013 | 67fc7933b2f3d8ad
+  r_result = 0000000000000000
+insn vlcg:
+  v_result = 7419bfb0411191af | 76b77383b387174b
+  r_result = 0000000000000000
+insn vlpb:
+  v_result = 5275140b5642134e | 55280c6a7b7c5175
+  r_result = 0000000000000000
+insn vlpb:
+  v_result = 262b5c0556053514 | 7b015f0d2a407725
+  r_result = 0000000000000000
+insn vlpb:
+  v_result = 3d1137655d447e73 | 430c245b126d670b
+  r_result = 0000000000000000
+insn vlpb:
+  v_result = 4b542f7c1955251e | 184311787b372862
+  r_result = 0000000000000000
+insn vlph:
+  v_result = 7e9c76125b2a49df | 75a02ac739062b0c
+  r_result = 0000000000000000
+insn vlph:
+  v_result = 16dc785c59925379 | 451269063f7f720d
+  r_result = 0000000000000000
+insn vlph:
+  v_result = 26e9262730986284 | 2ab77db52cc252bb
+  r_result = 0000000000000000
+insn vlph:
+  v_result = 2ae2732c38b1695b | 3cde738227e45518
+  r_result = 0000000000000000
+insn vlpf:
+  v_result = 1a4fb488268d49d4 | 176af20d35d22e22
+  r_result = 0000000000000000
+insn vlpf:
+  v_result = 7da889ac765512da | 15b700c80872de8e
+  r_result = 0000000000000000
+insn vlpf:
+  v_result = 69ef3969366622e3 | 2b5ebe966465b182
+  r_result = 0000000000000000
+insn vlpf:
+  v_result = 75a1361b2a07529c | 5186aa9a0f3c34e0
+  r_result = 0000000000000000
+insn vlpg:
+  v_result = 50821a00ba7f5a8f | 48a277f89a3992c5
+  r_result = 0000000000000000
+insn vlpg:
+  v_result = 69f8c9a9b86a5462 | 5735d08d1235385b
+  r_result = 0000000000000000
+insn vlpg:
+  v_result = 478be298051ca1c6 | 0a9013ba779e6931
+  r_result = 0000000000000000
+insn vlpg:
+  v_result = 7837a5064fc054d4 | 0c6ee8e7b0355b4f
+  r_result = 0000000000000000
+insn vchb:
+  v_result = ff00ff00ffff00ff | 00ffffffffff00ff
+  r_result = 0000000000000000
+insn vchb:
+  v_result = ff00000000ffff00 | ffff000000ff00ff
+  r_result = 0000000000000000
+insn vchb:
+  v_result = 0000ffff00ffff00 | 000000ffff00ffff
+  r_result = 0000000000000000
+insn vchb:
+  v_result = ffffff00ff00ffff | 0000ffff0000ff00
+  r_result = 0000000000000000
+insn vchbs:
+  v_result = 0000ffffff00ffff | 0000ff0000ffffff
+  r_result = 0000000000000001
+insn vchbs:
+  v_result = ffffffff0000ffff | 00ff00ff0000ff00
+  r_result = 0000000000000001
+insn vchbs:
+  v_result = 00ffff00ff00ffff | 0000ffff0000ffff
+  r_result = 0000000000000001
+insn vchbs:
+  v_result = 0000ffff0000ff00 | ffff00ff0000ffff
+  r_result = 0000000000000001
+insn vchh:
+  v_result = 0000ffffffffffff | 0000ffffffff0000
+  r_result = 0000000000000000
+insn vchh:
+  v_result = ffff00000000ffff | 0000ffffffff0000
+  r_result = 0000000000000000
+insn vchh:
+  v_result = 0000ffff0000ffff | 0000000000000000
+  r_result = 0000000000000000
+insn vchh:
+  v_result = ffff00000000ffff | ffff000000000000
+  r_result = 0000000000000000
+insn vchhs:
+  v_result = 0000ffff00000000 | ffffffff0000ffff
+  r_result = 0000000000000001
+insn vchhs:
+  v_result = 00000000ffffffff | 000000000000ffff
+  r_result = 0000000000000001
+insn vchhs:
+  v_result = ffffffff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vchhs:
+  v_result = ffff0000ffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vchf:
+  v_result = ffffffff00000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchf:
+  v_result = 00000000ffffffff | ffffffff00000000
+  r_result = 0000000000000000
+insn vchf:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000000
+insn vchf:
+  v_result = ffffffff00000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchfs:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000001
+insn vchfs:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchfs:
+  v_result = 00000000ffffffff | ffffffff00000000
+  r_result = 0000000000000001
+insn vchfs:
+  v_result = ffffffff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vchg:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000000
+insn vchg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vchg:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000000
+insn vchgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vchgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vchgs:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vchgs:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vchlb:
+  v_result = 0000ffff00ffff00 | 0000ff00ffffffff
+  r_result = 0000000000000000
+insn vchlb:
+  v_result = ffff000000ffff00 | ffffffff0000ffff
+  r_result = 0000000000000000
+insn vchlb:
+  v_result = ffffff0000ffffff | 00ffffff000000ff
+  r_result = 0000000000000000
+insn vchlb:
+  v_result = 000000ff00ffff00 | ff00ff00000000ff
+  r_result = 0000000000000000
+insn vchlbs:
+  v_result = 00ff00ff00ff00ff | 00ff0000ff00ffff
+  r_result = 0000000000000001
+insn vchlbs:
+  v_result = 000000ff000000ff | ff00ff00ffffff00
+  r_result = 0000000000000001
+insn vchlbs:
+  v_result = ffff00ffffffff00 | ffffff0000ff0000
+  r_result = 0000000000000001
+insn vchlbs:
+  v_result = ffffffffffffff00 | ff0000ffff00ff00
+  r_result = 0000000000000001
+insn vchlh:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlh:
+  v_result = 0000ffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlh:
+  v_result = 0000ffffffffffff | ffff0000ffff0000
+  r_result = 0000000000000000
+insn vchlh:
+  v_result = ffffffff00000000 | 00000000ffff0000
+  r_result = 0000000000000000
+insn vchlhs:
+  v_result = 0000ffff0000ffff | ffff000000000000
+  r_result = 0000000000000001
+insn vchlhs:
+  v_result = ffffffff00000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vchlhs:
+  v_result = 00000000ffffffff | 00000000ffff0000
+  r_result = 0000000000000001
+insn vchlhs:
+  v_result = ffffffffffff0000 | 0000ffff0000ffff
+  r_result = 0000000000000001
+insn vchlf:
+  v_result = 00000000ffffffff | 0000000000000000
+  r_result = 0000000000000000
+insn vchlf:
+  v_result = ffffffffffffffff | ffffffff00000000
+  r_result = 0000000000000000
+insn vchlf:
+  v_result = 00000000ffffffff | 00000000ffffffff
+  r_result = 0000000000000000
+insn vchlf:
+  v_result = ffffffff00000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlfs:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlfs:
+  v_result = 0000000000000000 | ffffffff00000000
+  r_result = 0000000000000001
+insn vchlfs:
+  v_result = 00000000ffffffff | 00000000ffffffff
+  r_result = 0000000000000001
+insn vchlfs:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vchlg:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlg:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vchlg:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vchlgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vchlgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vchlgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vchlgs:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000001
+insn vclzb:
+  v_result = 0000030000030500 | 0102010000020101
+  r_result = 0000000000000000
+insn vclzb:
+  v_result = 0000020105000303 | 0500000201010100
+  r_result = 0000000000000000
+insn vclzb:
+  v_result = 0100020001000000 | 0300020002030000
+  r_result = 0000000000000000
+insn vclzb:
+  v_result = 0000010203000001 | 0201010300010001
+  r_result = 0000000000000000
+insn vclzh:
+  v_result = 0000000000000001 | 0000000000040000
+  r_result = 0000000000000000
+insn vclzh:
+  v_result = 0004000000000001 | 0000000100010000
+  r_result = 0000000000000000
+insn vclzh:
+  v_result = 0001000000000000 | 0001000200010001
+  r_result = 0000000000000000
+insn vclzh:
+  v_result = 0000000200020002 | 0004000100000000
+  r_result = 0000000000000000
+insn vclzf:
+  v_result = 0000000000000000 | 0000000000000005
+  r_result = 0000000000000000
+insn vclzf:
+  v_result = 0000000000000000 | 0000000000000003
+  r_result = 0000000000000000
+insn vclzf:
+  v_result = 0000000200000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vclzf:
+  v_result = 0000000100000000 | 0000000000000003
+  r_result = 0000000000000000
+insn vclzg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vclzg:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vclzg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vclzg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vctzb:
+  v_result = 0502000000010002 | 0000000100000000
+  r_result = 0000000000000000
+insn vctzb:
+  v_result = 0202000001000200 | 0100000004000403
+  r_result = 0000000000000000
+insn vctzb:
+  v_result = 0502010101000001 | 0200030100080300
+  r_result = 0000000000000000
+insn vctzb:
+  v_result = 0100030102000500 | 0202010002010003
+  r_result = 0000000000000000
+insn vctzh:
+  v_result = 0000000100020000 | 0007000100010002
+  r_result = 0000000000000000
+insn vctzh:
+  v_result = 0001000000000000 | 0007000400010000
+  r_result = 0000000000000000
+insn vctzh:
+  v_result = 0004000000010000 | 0000000200010000
+  r_result = 0000000000000000
+insn vctzh:
+  v_result = 0000000000000000 | 0001000200020000
+  r_result = 0000000000000000
+insn vctzf:
+  v_result = 0000000400000002 | 0000000000000000
+  r_result = 0000000000000000
+insn vctzf:
+  v_result = 0000000000000003 | 0000000000000000
+  r_result = 0000000000000000
+insn vctzf:
+  v_result = 0000000200000000 | 0000000200000000
+  r_result = 0000000000000000
+insn vctzf:
+  v_result = 0000000200000000 | 0000000000000009
+  r_result = 0000000000000000
+insn vctzg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vctzg:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vctzg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vctzg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vmhb:
+  v_result = f4fc01fbe003f207 | e2ff00dcfbe9f70f
+  r_result = 0000000000000000
+insn vmhb:
+  v_result = fc2d03f9000c0ffd | fd1df31b161929d0
+  r_result = 0000000000000000
+insn vmhb:
+  v_result = f3ff0cd6fb1102f6 | d0ff2501fcf8c5fc
+  r_result = 0000000000000000
+insn vmhb:
+  v_result = 0d17202f0be2fefa | 00fb04090c04fdec
+  r_result = 0000000000000000
+insn vmhh:
+  v_result = f591fcb3ef760a86 | ff95dd6ee5d7000a
+  r_result = 0000000000000000
+insn vmhh:
+  v_result = 2753fcb202d61a24 | 0e1c03770e90e4ee
+  r_result = 0000000000000000
+insn vmhh:
+  v_result = 17bfdd7c092906cf | 1850fe19e417dc63
+  r_result = 0000000000000000
+insn vmhh:
+  v_result = ef751e8cef042557 | e3c5fdac0185d9a4
+  r_result = 0000000000000000
+insn vmhf:
+  v_result = fe66ff13fadaabd1 | d1eaccb200609677
+  r_result = 0000000000000000
+insn vmhf:
+  v_result = f1e7d0e00b7e73b2 | f88a151ff789ab76
+  r_result = 0000000000000000
+insn vmhf:
+  v_result = fc44ebd1eb395f15 | 16c36835f6ed81a2
+  r_result = 0000000000000000
+insn vmhf:
+  v_result = ee9f5601eb366953 | 00e5d24bf8bcb8e6
+  r_result = 0000000000000000
+insn vmlhb:
+  v_result = 2e00093f201c6f6b | 3303b714171a3308
+  r_result = 0000000000000000
+insn vmlhb:
+  v_result = 5a21e2fbce451c01 | 54245500d98c7902
+  r_result = 0000000000000000
+insn vmlhb:
+  v_result = 7b1d15563420593b | 527f4c1f7b050120
+  r_result = 0000000000000000
+insn vmlhb:
+  v_result = 722e12308f00cd52 | 79175aa4adaa0106
+  r_result = 0000000000000000
+insn vmlhh:
+  v_result = 2ca1bedb22d40e67 | 2261635d49960936
+  r_result = 0000000000000000
+insn vmlhh:
+  v_result = a3417fc0ca6c468c | 5f8c015a06a15f2c
+  r_result = 0000000000000000
+insn vmlhh:
+  v_result = 35d9252117651bd0 | 2ef000921c0953bb
+  r_result = 0000000000000000
+insn vmlhh:
+  v_result = 51523007142c102a | 018247940d39156f
+  r_result = 0000000000000000
+insn vmlhf:
+  v_result = 0359bbf70a3c61ff | 7131e2e1006ffb5d
+  r_result = 0000000000000000
+insn vmlhf:
+  v_result = 3d4c42980cadefc7 | 2e63deb606d25b76
+  r_result = 0000000000000000
+insn vmlhf:
+  v_result = 2a974f806f6157d2 | 4ce205e2346967c0
+  r_result = 0000000000000000
+insn vmlhf:
+  v_result = 6c3beb3516784fcb | bab977940b028e43
+  r_result = 0000000000000000
+insn vmlb:
+  v_result = 854cfec05d203070 | 5ac91fb6ac9c6400
+  r_result = 0000000000000000
+insn vmlb:
+  v_result = be92341c30505c1f | 8848a029aef20e64
+  r_result = 0000000000000000
+insn vmlb:
+  v_result = 006801e4b08e2c0f | 808914e67be9a072
+  r_result = 0000000000000000
+insn vmlb:
+  v_result = 1b1bf77aaec06556 | 3ba8a0af05150c24
+  r_result = 0000000000000000
+insn vmlhw:
+  v_result = 4c4e9d64f590005e | 2e149af0132c420f
+  r_result = 0000000000000000
+insn vmlhw:
+  v_result = ea756450f8589a00 | 10002dda28b00f40
+  r_result = 0000000000000000
+insn vmlhw:
+  v_result = 19b0b7cda5b39084 | c2c26fe03d160c4d
+  r_result = 0000000000000000
+insn vmlhw:
+  v_result = d369cec87b8ce124 | 45acc730b0cce037
+  r_result = 0000000000000000
+insn vmlf:
+  v_result = e41bbc702f0c1bca | fd0b752c894a6d23
+  r_result = 0000000000000000
+insn vmlf:
+  v_result = a78d252df84ef294 | d2ff9eba8cc9566b
+  r_result = 0000000000000000
+insn vmlf:
+  v_result = 796740e8165afd4a | 720b61a963e72686
+  r_result = 0000000000000000
+insn vmlf:
+  v_result = a984d3701ad1be94 | b163df140075a916
+  r_result = 0000000000000000
+insn vmeb:
+  v_result = 057518ddec14e1c5 | f6d0d44efa10f196
+  r_result = 0000000000000000
+insn vmeb:
+  v_result = f100e457dc980164 | 002af17208a6e17c
+  r_result = 0000000000000000
+insn vmeb:
+  v_result = ffb20046fbe6dc82 | d22eeca40b0d07f3
+  r_result = 0000000000000000
+insn vmeb:
+  v_result = 35ecff9b18ecf85b | f7c6009c2100fd5d
+  r_result = 0000000000000000
+insn vmeh:
+  v_result = ffe3af96fdae295e | d834ce2026c29758
+  r_result = 0000000000000000
+insn vmeh:
+  v_result = 068600370598ab08 | 18c98ac02b6b9df0
+  r_result = 0000000000000000
+insn vmeh:
+  v_result = 3abdd1f0f636c400 | fc531b5efe587c38
+  r_result = 0000000000000000
+insn vmeh:
+  v_result = 09543ecd03cf5ee2 | fe258b8d1936bef1
+  r_result = 0000000000000000
+insn vmef:
+  v_result = e737b6512eb4be50 | 0c52f68cd63d5c14
+  r_result = 0000000000000000
+insn vmef:
+  v_result = f1c12c629af9e2c4 | e2118344e49cc2f7
+  r_result = 0000000000000000
+insn vmef:
+  v_result = d24a212fddd5f724 | 0bf22532a1cbfeea
+  r_result = 0000000000000000
+insn vmef:
+  v_result = 2e22a1ab5121624e | f0bc571e423f3b4e
+  r_result = 0000000000000000
+insn vmleb:
+  v_result = 0060ae9502c01e18 | 0ad6a30853b8a350
+  r_result = 0000000000000000
+insn vmleb:
+  v_result = 259e573173502484 | 22511d7492182742
+  r_result = 0000000000000000
+insn vmleb:
+  v_result = 603f8edd04ecbc40 | 922431b0550251f8
+  r_result = 0000000000000000
+insn vmleb:
+  v_result = 1d345684be413b64 | 11284ab512c00db6
+  r_result = 0000000000000000
+insn vmleh:
+  v_result = 12b0af380d4aac88 | 8d7768561f6bc81f
+  r_result = 0000000000000000
+insn vmleh:
+  v_result = 138c8c10412529db | 18d529ca62535af4
+  r_result = 0000000000000000
+insn vmleh:
+  v_result = a30c68201a837560 | 13e352bc479ecbfd
+  r_result = 0000000000000000
+insn vmleh:
+  v_result = 989807c2086ea2d9 | 71a7fcd4d305f10c
+  r_result = 0000000000000000
+insn vmlef:
+  v_result = 408774fec0cffe4a | 5577ab629f8f52f0
+  r_result = 0000000000000000
+insn vmlef:
+  v_result = 134f87960608de1f | 01b5f80c10dd7d60
+  r_result = 0000000000000000
+insn vmlef:
+  v_result = 9e333c63c4449760 | 6d4c1f065443f020
+  r_result = 0000000000000000
+insn vmlef:
+  v_result = 447b33b792455d14 | 2249748f858febd4
+  r_result = 0000000000000000
+insn vmob:
+  v_result = d3d00b7ffebcfc40 | fd28f359146408b2
+  r_result = 0000000000000000
+insn vmob:
+  v_result = ebd22a37fdffe334 | febce680fbf4ec9c
+  r_result = 0000000000000000
+insn vmob:
+  v_result = 15761b3008af2a8a | 1d340f46fb50fb26
+  r_result = 0000000000000000
+insn vmob:
+  v_result = 02100b80f1b4ec1c | e9daee9ef0e8e75c
+  r_result = 0000000000000000
+insn vmoh:
+  v_result = ff5bbfa2d7035db5 | 37c4be7808b77bfd
+  r_result = 0000000000000000
+insn vmoh:
+  v_result = 02c2a5fcf005c7fa | 03f106f014ac257c
+  r_result = 0000000000000000
+insn vmoh:
+  v_result = 11c622a2fbfbe7d8 | edb8e210e1842264
+  r_result = 0000000000000000
+insn vmoh:
+  v_result = 2c36e50809fe17b3 | 0b35e7fe222134e0
+  r_result = 0000000000000000
+insn vmof:
+  v_result = 17c50a4a29fbe5c4 | 0ddce8e826e4fde3
+  r_result = 0000000000000000
+insn vmof:
+  v_result = fd1102a6682dfae2 | e438c1a2a07e9ed0
+  r_result = 0000000000000000
+insn vmof:
+  v_result = 0a98b5b463c51f44 | f3fbf172ef898d82
+  r_result = 0000000000000000
+insn vmof:
+  v_result = 010d13f69cb01e88 | e0d4a8b090b8647d
+  r_result = 0000000000000000
+insn vmlob:
+  v_result = 1878074406c0bc7a | 396649508a633956
+  r_result = 0000000000000000
+insn vmlob:
+  v_result = b9dc448ea9a44042 | 750a02583f001757
+  r_result = 0000000000000000
+insn vmlob:
+  v_result = 20fe2a309d2314a0 | 1262666000f80220
+  r_result = 0000000000000000
+insn vmlob:
+  v_result = 4a4089b289c20318 | 6cc6006c9de44f2f
+  r_result = 0000000000000000
+insn vmloh:
+  v_result = 4acde35568d1b6b2 | 853068450f39579a
+  r_result = 0000000000000000
+insn vmloh:
+  v_result = 1857a936ba17b18b | 04c2ce8831eba15c
+  r_result = 0000000000000000
+insn vmloh:
+  v_result = 008fc1fc2140ac8a | 6b5a24342bbcb986
+  r_result = 0000000000000000
+insn vmloh:
+  v_result = 000e320c34e635f0 | c276cba00a8dd250
+  r_result = 0000000000000000
+insn vmlof:
+  v_result = 12640d0a2ea90be7 | 771b3b752b98e004
+  r_result = 0000000000000000
+insn vmlof:
+  v_result = 69a0cf829d65dc90 | 86b36f7e29914748
+  r_result = 0000000000000000
+insn vmlof:
+  v_result = 0b9bc58fb45d7af6 | 3fc61c19b1b35a9a
+  r_result = 0000000000000000
+insn vmlof:
+  v_result = 36505e01dcd70d8b | 16ea2b620a0acca0
+  r_result = 0000000000000000
+insn veslb:
+  v_result = a0a020a0c0e0e0c0 | e0a0a0600000e040
+  r_result = 0000000000000000
+insn veslb:
+  v_result = a80c289a48ec1e32 | 96a0e810bce62e34
+  r_result = 0000000000000000
+insn veslb:
+  v_result = 8000008000000080 | 8080800080800000
+  r_result = 0000000000000000
+insn veslb:
+  v_result = 74940c700490c8ac | 7814509cb8a8e804
+  r_result = 0000000000000000
+insn veslh:
+  v_result = 0c001800e0008800 | c4005c0014008800
+  r_result = 0000000000000000
+insn veslh:
+  v_result = 40b0b140d6b06a30 | af3046804e903a20
+  r_result = 0000000000000000
+insn veslh:
+  v_result = 9c002f00f680eb00 | 91803f8042006b00
+  r_result = 0000000000000000
+insn veslh:
+  v_result = 9000d000f8000000 | 38001000a0007800
+  r_result = 0000000000000000
+insn veslf:
+  v_result = 683054fd9c4d4883 | 0f345c90ed85bd7f
+  r_result = 0000000000000000
+insn veslf:
+  v_result = da5ddc00cbe28400 | 32b23000bef8d800
+  r_result = 0000000000000000
+insn veslf:
+  v_result = 0ce80000f4e40000 | b3480000347c0000
+  r_result = 0000000000000000
+insn veslf:
+  v_result = 44e9e4c06e4c61c0 | cb5c1f80774a8980
+  r_result = 0000000000000000
+insn veslg:
+  v_result = 090dabf846e70000 | c4ab843a2d150000
+  r_result = 0000000000000000
+insn veslg:
+  v_result = 0c80000000000000 | 1a88000000000000
+  r_result = 0000000000000000
+insn veslg:
+  v_result = 272b1500ad800000 | b1c0da96cf800000
+  r_result = 0000000000000000
+insn veslg:
+  v_result = c87bbe8000000000 | c082f20000000000
+  r_result = 0000000000000000
+insn veslvb:
+  v_result = 00e080d0a050c0e0 | 2ce60040000080df
+  r_result = 0000000000000000
+insn veslvb:
+  v_result = aee01000b64c0060 | 8c30c040a4a038f0
+  r_result = 0000000000000000
+insn veslvb:
+  v_result = 0080fcc0807060c8 | 9000c880f4f0e000
+  r_result = 0000000000000000
+insn veslvb:
+  v_result = a080409400fec040 | 1811e04000d880c4
+  r_result = 0000000000000000
+insn veslvh:
+  v_result = 5800b40040003508 | 80009000d4004000
+  r_result = 0000000000000000
+insn veslvh:
+  v_result = c0007a8010501780 | bd601f385f801a00
+  r_result = 0000000000000000
+insn veslvh:
+  v_result = 7400f0004000e000 | 5500233294007198
+  r_result = 0000000000000000
+insn veslvh:
+  v_result = a800a2e047c0aa30 | 8000022edfd0e000
+  r_result = 0000000000000000
+insn veslvf:
+  v_result = 8000000020000000 | ebcaf170a9000000
+  r_result = 0000000000000000
+insn veslvf:
+  v_result = 5a909ec05b000000 | dcc00000a6000000
+  r_result = 0000000000000000
+insn veslvf:
+  v_result = 6c9ce330c5c00000 | 02f4b1d04e32263e
+  r_result = 0000000000000000
+insn veslvf:
+  v_result = 926cf30098000000 | 3000000085f28000
+  r_result = 0000000000000000
+insn veslvg:
+  v_result = cc40000000000000 | 329d8373d5edd3c0
+  r_result = 0000000000000000
+insn veslvg:
+  v_result = bde8c0c000000000 | 83f6f775c0eb7000
+  r_result = 0000000000000000
+insn veslvg:
+  v_result = 8f21e00000000000 | 978f7b9c9ae928e0
+  r_result = 0000000000000000
+insn veslvg:
+  v_result = c63b7b2eee253000 | c16fecee6c5c11f8
+  r_result = 0000000000000000
+insn vesrab:
+  v_result = 140f60db25f70660 | e76d43509abca8c3
+  r_result = 0000000000000000
+insn vesrab:
+  v_result = f807fcfc02fbfe04 | 02fdfc0103010203
+  r_result = 0000000000000000
+insn vesrab:
+  v_result = 3329102ffd19ccb3 | a8987e9ee7454345
+  r_result = 0000000000000000
+insn vesrab:
+  v_result = 0000000000ff00ff | ff00ffff000000ff
+  r_result = 0000000000000000
+insn vesrah:
+  v_result = 00020000ffff0002 | fffc0002fffe0000
+  r_result = 0000000000000000
+insn vesrah:
+  v_result = 02560208fd8effa0 | 023503fd02c00349
+  r_result = 0000000000000000
+insn vesrah:
+  v_result = fc05f838027705af | 0634fc61029c01f3
+  r_result = 0000000000000000
+insn vesrah:
+  v_result = e92016781077f01b | 0707f553f95206e9
+  r_result = 0000000000000000
+insn vesraf:
+  v_result = fffffff800000017 | 0000001b00000018
+  r_result = 0000000000000000
+insn vesraf:
+  v_result = 0000004efffffff8 | ffffffca000000a6
+  r_result = 0000000000000000
+insn vesraf:
+  v_result = ffffd627ffffc51a | 0000241c00000f03
+  r_result = 0000000000000000
+insn vesraf:
+  v_result = ffffff60000000a1 | 0000035bfffffc2c
+  r_result = 0000000000000000
+insn vesrag:
+  v_result = 01a6c7316c428535 | ff99da1901ce43df
+  r_result = 0000000000000000
+insn vesrag:
+  v_result = 0000000000000036 | ffffffffffffffeb
+  r_result = 0000000000000000
+insn vesrag:
+  v_result = fffffffffff87e2c | fffffffffff477d3
+  r_result = 0000000000000000
+insn vesrag:
+  v_result = ff046efaf7fd90c7 | ff6636d0052e018d
+  r_result = 0000000000000000
+insn vesravb:
+  v_result = ff000102e3e1f308 | 01002203060113fe
+  r_result = 0000000000000000
+insn vesravb:
+  v_result = 32fe00a60519f701 | ffff00011b0a0b01
+  r_result = 0000000000000000
+insn vesravb:
+  v_result = d1062ff80a00ffd2 | f838fefd0100fef9
+  r_result = 0000000000000000
+insn vesravb:
+  v_result = ec46fdf800f91301 | ff0046fbea200bfd
+  r_result = 0000000000000000
+insn vesravh:
+  v_result = b9b7049900180e74 | ffffffa037e6ffcb
+  r_result = 0000000000000000
+insn vesravh:
+  v_result = 0be60342fff90004 | f946fc4d00320058
+  r_result = 0000000000000000
+insn vesravh:
+  v_result = d1501b6c007e0253 | feb0fd31fff5f8dc
+  r_result = 0000000000000000
+insn vesravh:
+  v_result = fffc0001012a0000 | 00c0002d0892fffe
+  r_result = 0000000000000000
+insn vesravf:
+  v_result = 0030c604001b7360 | ffffffd100000112
+  r_result = 0000000000000000
+insn vesravf:
+  v_result = fffa4756ffffffff | ffffff99fda81afb
+  r_result = 0000000000000000
+insn vesravf:
+  v_result = 0001b3e600000007 | 0001c5e8fffffe71
+  r_result = 0000000000000000
+insn vesravf:
+  v_result = 0007ccb7ffffffe2 | 00002dfdfffbfaa4
+  r_result = 0000000000000000
+insn vesravg:
+  v_result = fffd67d78c8a0db0 | 005186f34172e4ec
+  r_result = 0000000000000000
+insn vesravg:
+  v_result = fffffffffffe0b14 | fffff41e04cb221d
+  r_result = 0000000000000000
+insn vesravg:
+  v_result = ffffffffffff7c8d | ff9cf93db112e3a2
+  r_result = 0000000000000000
+insn vesravg:
+  v_result = ffffffffffffffff | ffe02f9001933873
+  r_result = 0000000000000000
+insn vesrlb:
+  v_result = 4258c48762fd0b58 | 0ccc1f5c994768a1
+  r_result = 0000000000000000
+insn vesrlb:
+  v_result = 0204070404060404 | 0201060502070205
+  r_result = 0000000000000000
+insn vesrlb:
+  v_result = 0100010100000000 | 0101000000000101
+  r_result = 0000000000000000
+insn vesrlb:
+  v_result = 3376472e4c18604e | 4d16787d677a704a
+  r_result = 0000000000000000
+insn vesrlh:
+  v_result = 0002000000000002 | 0000000300020002
+  r_result = 0000000000000000
+insn vesrlh:
+  v_result = 03500ec409a80478 | 0f7c020e0b280d59
+  r_result = 0000000000000000
+insn vesrlh:
+  v_result = 0000000000000001 | 0000000100000000
+  r_result = 0000000000000000
+insn vesrlh:
+  v_result = 00190191001a015a | 00ea008a001b01da
+  r_result = 0000000000000000
+insn vesrlf:
+  v_result = 0000506d00006180 | 00006b1500001cb1
+  r_result = 0000000000000000
+insn vesrlf:
+  v_result = 28eecd9530e437e9 | 1fc6298918bc9171
+  r_result = 0000000000000000
+insn vesrlf:
+  v_result = 00002c4f0000d870 | 0003ecfe0002a57f
+  r_result = 0000000000000000
+insn vesrlf:
+  v_result = 0508ab6c3b5f4ac2 | 375efa2424bf973a
+  r_result = 0000000000000000
+insn vesrlg:
+  v_result = 0000000036c8a4c3 | 0000000fbf57a279
+  r_result = 0000000000000000
+insn vesrlg:
+  v_result = 00000006cf681418 | 00000005d7b08d4e
+  r_result = 0000000000000000
+insn vesrlg:
+  v_result = 000000015f78b479 | 00000005bbbcd150
+  r_result = 0000000000000000
+insn vesrlg:
+  v_result = 065dbb548a277136 | 04f09c3557516ce6
+  r_result = 0000000000000000
+insn vesrlvb:
+  v_result = 04035a0004000e06 | 0158000007151f13
+  r_result = 0000000000000000
+insn vesrlvb:
+  v_result = 237e00015a070104 | 011006050b015001
+  r_result = 0000000000000000
+insn vesrlvb:
+  v_result = 02010a370d0a0007 | 4a41084626011e00
+  r_result = 0000000000000000
+insn vesrlvb:
+  v_result = 010000381f2e0202 | 8563654f041e0053
+  r_result = 0000000000000000
+insn vesrlvh:
+  v_result = 045e001506c66b04 | 000c0f6314d0707f
+  r_result = 0000000000000000
+insn vesrlvh:
+  v_result = 00cd19e20012022b | 0001022b0006063e
+  r_result = 0000000000000000
+insn vesrlvh:
+  v_result = 01e501ad64e70002 | 0003001f002e354c
+  r_result = 0000000000000000
+insn vesrlvh:
+  v_result = 000301c6089f0022 | 0005000c040e000f
+  r_result = 0000000000000000
+insn vesrlvf:
+  v_result = 0001e81b0000153e | 0000c4020005ff9e
+  r_result = 0000000000000000
+insn vesrlvf:
+  v_result = 000004840333f0fb | 0000009600260431
+  r_result = 0000000000000000
+insn vesrlvf:
+  v_result = 00062a9800000000 | 00000073032f2f1e
+  r_result = 0000000000000000
+insn vesrlvf:
+  v_result = 01f75cd10000023f | 078f87c00af66ed6
+  r_result = 0000000000000000
+insn vesrlvg:
+  v_result = 0cfcd8a373ec8859 | 0000000000d7a3cd
+  r_result = 0000000000000000
+insn vesrlvg:
+  v_result = 0000001cbdecf759 | 00000000000004aa
+  r_result = 0000000000000000
+insn vesrlvg:
+  v_result = 000027b30efa0621 | 000000000003cce2
+  r_result = 0000000000000000
+insn vesrlvg:
+  v_result = 0000629c3de33d3b | 0000000000000e1d
+  r_result = 0000000000000000
+insn verllb:
+  v_result = dab76f5922581357 | 9b5c38537f20fe4f
+  r_result = 0000000000000000
+insn verllb:
+  v_result = 4081c9a8a647a08f | 44ed31e2e6bd3161
+  r_result = 0000000000000000
+insn verllb:
+  v_result = 5da5e5e896008e54 | 15d2293b07eea2c1
+  r_result = 0000000000000000
+insn verllb:
+  v_result = cf1b17657aeda68c | 0657478664785bab
+  r_result = 0000000000000000
+insn verllh:
+  v_result = 462f5cd97a0fc1e7 | 576a3dacf4872773
+  r_result = 0000000000000000
+insn verllh:
+  v_result = 4fc41d70d587e23a | dc5cee3b6624afc3
+  r_result = 0000000000000000
+insn verllh:
+  v_result = 79f3bd7e05bce87b | c24e79b7068bd63c
+  r_result = 0000000000000000
+insn verllh:
+  v_result = 23eab8b77efe8fc0 | d45769b1e773af52
+  r_result = 0000000000000000
+insn verllf:
+  v_result = 79226829d81a5cb3 | fea1e8903de71c9e
+  r_result = 0000000000000000
+insn verllf:
+  v_result = 99b9192d189ab77a | a3a786f8cf56c4bf
+  r_result = 0000000000000000
+insn verllf:
+  v_result = 4d9f126264ebdc12 | a8a2c6684c51d635
+  r_result = 0000000000000000
+insn verllf:
+  v_result = d42bd8676536d578 | f6aad2aa92dac8c2
+  r_result = 0000000000000000
+insn verllg:
+  v_result = 4e6e199fb3c93bf1 | 8d6470b0a1944361
+  r_result = 0000000000000000
+insn verllg:
+  v_result = c3096e90267320c3 | 9496dbfb31b59af1
+  r_result = 0000000000000000
+insn verllg:
+  v_result = 882a6b279f859b44 | 3b1aea27b165651d
+  r_result = 0000000000000000
+insn verllg:
+  v_result = de067cad348a9aca | c41112cf9fb2b5a1
+  r_result = 0000000000000000
+insn verllvb:
+  v_result = 53d141b315afc1ed | e3275c515fa0f0f4
+  r_result = 0000000000000000
+insn verllvb:
+  v_result = fcaf560aae94aebf | 6c3ce8919c945507
+  r_result = 0000000000000000
+insn verllvb:
+  v_result = e4f23b93dd77890a | fded213e2c7bd10a
+  r_result = 0000000000000000
+insn verllvb:
+  v_result = 661f5cdf8b7a1d82 | 47ba051887471858
+  r_result = 0000000000000000
+insn verllvh:
+  v_result = 1f7d97dd3e59a4fc | ef75383bb937fee5
+  r_result = 0000000000000000
+insn verllvh:
+  v_result = 1217ab2a7980595a | b9a971930f584c26
+  r_result = 0000000000000000
+insn verllvh:
+  v_result = 09ce75cf8c730968 | 2257931c999e4e48
+  r_result = 0000000000000000
+insn verllvh:
+  v_result = 747628fcd722b2b3 | 9fabac658bcb2a2c
+  r_result = 0000000000000000
+insn verllvf:
+  v_result = 21422779b4ccc685 | cf8af170ea5f90fb
+  r_result = 0000000000000000
+insn verllvf:
+  v_result = f0d4b2313af5c95b | f5166bf3b41560ad
+  r_result = 0000000000000000
+insn verllvf:
+  v_result = 5adfd3a3e0aecc99 | 8e8ebc5f4ef93478
+  r_result = 0000000000000000
+insn verllvf:
+  v_result = 6e92bae3d0d08301 | 446659908ae905da
+  r_result = 0000000000000000
+insn verllvg:
+  v_result = c928f020285a2853 | 291b11319549cc7d
+  r_result = 0000000000000000
+insn verllvg:
+  v_result = 0427eceb45c56c0c | d490b1ae4f8e1651
+  r_result = 0000000000000000
+insn verllvg:
+  v_result = 0626d1e658d2a0df | 812ba10c41669d1b
+  r_result = 0000000000000000
+insn verllvg:
+  v_result = 3a58cd0beda3558d | 427f12574291e4bd
+  r_result = 0000000000000000
+insn vsl:
+  v_arg2   = 6a6a6a6a6a6a6a6a | 6a6a6a6a6a6a6a6a
+  v_result = bd4ebd6b34496189 | a0cce0b72a9da6e0
+  r_result = 0000000000000000
+insn vsl:
+  v_arg2   = 3d3d3d3d3d3d3d3d | 3d3d3d3d3d3d3d3d
+  v_result = 6756b8b46f4befdf | 3a9156d8008d0a20
+  r_result = 0000000000000000
+insn vsl:
+  v_arg2   = 5f5f5f5f5f5f5f5f | 5f5f5f5f5f5f5f5f
+  v_result = f3ab1d6c5cab2db7 | c6866d47538ffa00
+  r_result = 0000000000000000
+insn vsl:
+  v_arg2   = dbdbdbdbdbdbdbdb | dbdbdbdbdbdbdbdb
+  v_result = 356f88a44da73a3d | 726336284fb704f0
+  r_result = 0000000000000000
+insn vsrl:
+  v_arg2   = 8181818181818181 | 8181818181818181
+  v_result = 01b42f791f61c9d7 | 2ea739d09641c894
+  r_result = 0000000000000000
+insn vsrl:
+  v_arg2   = a7a7a7a7a7a7a7a7 | a7a7a7a7a7a7a7a7
+  v_result = 003c8d4cd73ecee3 | af57bc08abb3a0de
+  r_result = 0000000000000000
+insn vsrl:
+  v_arg2   = e9e9e9e9e9e9e9e9 | e9e9e9e9e9e9e9e9
+  v_result = 1b40e66ca009f6d4 | 8609d0a4cb06e609
+  r_result = 0000000000000000
+insn vsrl:
+  v_arg2   = eaeaeaeaeaeaeaea | eaeaeaeaeaeaeaea
+  v_result = 1b88620455f9a25a | fea552079475f44f
+  r_result = 0000000000000000
+insn vsra:
+  v_arg2   = 1111111111111111 | 1111111111111111
+  v_result = f85e039440b74fbf | 5b2c163c8e7c9eaa
+  r_result = 0000000000000000
+insn vsra:
+  v_arg2   = 4c4c4c4c4c4c4c4c | 4c4c4c4c4c4c4c4c
+  v_result = fae38ad2e81651e2 | 4055d78b8f22e24c
+  r_result = 0000000000000000
+insn vsra:
+  v_arg2   = d1d1d1d1d1d1d1d1 | d1d1d1d1d1d1d1d1
+  v_result = 0e43ea7a00bb249d | f9bb855d38edd935
+  r_result = 0000000000000000
+insn vsra:
+  v_arg2   = d9d9d9d9d9d9d9d9 | d9d9d9d9d9d9d9d9
+  v_result = fc34c5e4a87c3e00 | ca011c4d4febf311
+  r_result = 0000000000000000
+insn verimb:
+  v_result = 6cef6bf775f77d5e | dffff1cefebe9bd7
+  r_result = 0000000000000000
+insn verimb:
+  v_result = fbfdff5dbff37afc | fee773eb7bf6df96
+  r_result = 0000000000000000
+insn verimb:
+  v_result = ebfac7bdf6efdff3 | 6f465eddb5b5ff6f
+  r_result = 0000000000000000
+insn verimb:
+  v_result = dffda75f71efbddd | e8ff7c7e38f7d9df
+  r_result = 0000000000000000
+insn verimh:
+  v_result = 6cf6bf7bdfe53ffe | fbf5b9c9ffe4f9fb
+  r_result = 0000000000000000
+insn verimh:
+  v_result = 962fd5bfeec5bf79 | ffb77fbfebf7ff7d
+  r_result = 0000000000000000
+insn verimh:
+  v_result = 72edfcd5f7fbeef3 | fa5cf8f6bbf7bfdf
+  r_result = 0000000000000000
+insn verimh:
+  v_result = bd7e3f8f7ee7e8ef | fbfefedceffcdfff
+  r_result = 0000000000000000
+insn verimf:
+  v_result = fe7e7ceefffb6fff | fbff58fffdbb7d74
+  r_result = 0000000000000000
+insn verimf:
+  v_result = f5e46ff7fd57367d | afbfffff7ff6bfb9
+  r_result = 0000000000000000
+insn verimf:
+  v_result = fe2eefccfe97fffb | beebdfb7ebee7fb7
+  r_result = 0000000000000000
+insn verimf:
+  v_result = def7d7b5fdeebbbb | c7bfbcf3bf4dbfef
+  r_result = 0000000000000000
+insn verimg:
+  v_result = cd76eb1eff7bff82 | efcfbfbfff6fbae4
+  r_result = 0000000000000000
+insn verimg:
+  v_result = ff7fe7a793a5feb7 | a7feddeffdd7ebcf
+  r_result = 0000000000000000
+insn verimg:
+  v_result = bd9ab7f3ab7dbfdf | fef9debfaffdf2fd
+  r_result = 0000000000000000
+insn verimg:
+  v_result = 7cf1dce1efbffbb5 | 6fcffdf8ffd775ef
+  r_result = 0000000000000000
+insn vecb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vecb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vecb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vech:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vech:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vech:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vech:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vecf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vecf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vecf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vecg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclh:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclh:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclh:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclh:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn veclf:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn veclg:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000002
+insn vceqb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqb:
+  v_result = 0000000000000000 | ff00000000000000
+  r_result = 0000000000000000
+insn vceqh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vceqbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vceqgs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vslb:
+  v_result = 11884de798177ed2 | 0000000000000000
+  r_result = 0000000000000000
+insn vslb:
+  v_result = 7e6a000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vslb:
+  v_result = f247000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vslb:
+  v_result = cf4477251bfc7a6f | 02a5387481c293ad
+  r_result = 0000000000000000
+insn vsrlb:
+  v_result = 0000000000000000 | 00000040d564464b
+  r_result = 0000000000000000
+insn vsrlb:
+  v_result = 0000000000000000 | 43f4c4ebb22162c4
+  r_result = 0000000000000000
+insn vsrlb:
+  v_result = 0000000000000000 | 0000000000606481
+  r_result = 0000000000000000
+insn vsrlb:
+  v_result = 000063b53bbaaff3 | a667d8846b26bd92
+  r_result = 0000000000000000
+insn vsrab:
+  v_result = 0000000000000000 | 0000000000001e07
+  r_result = 0000000000000000
+insn vsrab:
+  v_result = 00000000000029c5 | 32f824e774b807c1
+  r_result = 0000000000000000
+insn vsrab:
+  v_result = ffffffa26afc21af | 52c5236b5b222a19
+  r_result = 0000000000000000
+insn vsrab:
+  v_result = ffffffffffffffff | ed3e5eee834f58f6
+  r_result = 0000000000000000
+insn vsldb0:
+  v_result = 7519c5b37ba9c8d5 | 32c6df736f9424ae
+  r_result = 0000000000000000
+insn vsldb4:
+  v_result = 9c5e41411a0ec704 | e7df58d48a25f38f
+  r_result = 0000000000000000
+insn vsldb16:
+  v_result = 827e282bcf564a58 | 5533f733db0e559f
+  r_result = 0000000000000000
+insn vsldb24:
+  v_result = 33d5065a8f365a3a | f8998c3f3010e81e
+  r_result = 0000000000000000
+insn vmaeb:
+  v_result = 00da6e58329f9665 | f3ba798ad7fca8e4
+  r_result = 0000000000000000
+insn vmaeb:
+  v_result = 290818a1e50f6138 | 9e861b6825571e76
+  r_result = 0000000000000000
+insn vmaeb:
+  v_result = c4120ce167a17d23 | d0778bae2aff6b20
+  r_result = 0000000000000000
+insn vmaeb:
+  v_result = d81ac3e1d2bb0df5 | 050d4faac3998d73
+  r_result = 0000000000000000
+insn vmaeh:
+  v_result = f3f3824d7eff8d7b | 08a3786f26d85191
+  r_result = 0000000000000000
+insn vmaeh:
+  v_result = 85a08bc5e0de680b | 64eb1af332b8dcce
+  r_result = 0000000000000000
+insn vmaeh:
+  v_result = 0b08c618aa100691 | ec9a049151ca90de
+  r_result = 0000000000000000
+insn vmaeh:
+  v_result = b0622d43a1070f2f | dbd833e7d63dc29c
+  r_result = 0000000000000000
+insn vmaef:
+  v_result = 82565b17a65435d5 | 1aec4c90d6691ebe
+  r_result = 0000000000000000
+insn vmaef:
+  v_result = d9747aff3092825f | c4a211ac935c5be9
+  r_result = 0000000000000000
+insn vmaef:
+  v_result = e13617267c93e6f6 | 6d5dd049f08813f2
+  r_result = 0000000000000000
+insn vmaef:
+  v_result = 7bdaccce3aabf089 | 10189fa37a3ef484
+  r_result = 0000000000000000
+insn vmaleb:
+  v_result = 162832d8d1570805 | b0303ad3fb538c02
+  r_result = 0000000000000000
+insn vmaleb:
+  v_result = ec8ab009b6773f3b | 836d5aa8c0ac1d0b
+  r_result = 0000000000000000
+insn vmaleb:
+  v_result = e64bb31fc2655139 | 4b03f193fcad63b6
+  r_result = 0000000000000000
+insn vmaleb:
+  v_result = 0bc39789a76154b6 | c35931fded7e0c65
+  r_result = 0000000000000000
+insn vmaleh:
+  v_result = 29f647c11c81ea20 | 59286ed118236a2b
+  r_result = 0000000000000000
+insn vmaleh:
+  v_result = d40b312bc6a53ae6 | 70f371321879d230
+  r_result = 0000000000000000
+insn vmaleh:
+  v_result = e9f9ab16388f9c68 | 356256fede65b545
+  r_result = 0000000000000000
+insn vmaleh:
+  v_result = 0b9e632d311e002a | 069b668baf9ccfae
+  r_result = 0000000000000000
+insn vmalef:
+  v_result = 0b285d58b53733af | 450acd9c358d4c01
+  r_result = 0000000000000000
+insn vmalef:
+  v_result = 587c2b26cf64785a | cbe67f214e50887b
+  r_result = 0000000000000000
+insn vmalef:
+  v_result = c94f6e7329e45c48 | cc1a031805528ac8
+  r_result = 0000000000000000
+insn vmalef:
+  v_result = 13e6ea2eb4b12843 | 7ec2789421b022ec
+  r_result = 0000000000000000
+insn vmaob:
+  v_result = 67c8db6cfc1e1823 | e698b97d468470cc
+  r_result = 0000000000000000
+insn vmaob:
+  v_result = 4b35d91fad219c17 | cd834c072533b55b
+  r_result = 0000000000000000
+insn vmaob:
+  v_result = 4ffe5a59bef0fc98 | 02965a349f74702e
+  r_result = 0000000000000000
+insn vmaob:
+  v_result = bd9f9a364b91a807 | 872f737512e495a5
+  r_result = 0000000000000000
+insn vmaoh:
+  v_result = 254a05e731b3dfd8 | 69a2a9e184b14c0c
+  r_result = 0000000000000000
+insn vmaoh:
+  v_result = 19b90b94764b0e26 | 357ca6d22420083f
+  r_result = 0000000000000000
+insn vmaoh:
+  v_result = 0ab16fc60406ca4e | e449b010f9ccb757
+  r_result = 0000000000000000
+insn vmaoh:
+  v_result = 54f7aef0772f3d00 | cbbb2dab3c3053d8
+  r_result = 0000000000000000
+insn vmaof:
+  v_result = e30b9c74509b344a | edaed3851128b8be
+  r_result = 0000000000000000
+insn vmaof:
+  v_result = b90c73d56829c4e0 | dccb19b808622c6f
+  r_result = 0000000000000000
+insn vmaof:
+  v_result = 196875959eeb92be | ee775c35ac5c98aa
+  r_result = 0000000000000000
+insn vmaof:
+  v_result = fa09105af91477c3 | d7997c074b93d050
+  r_result = 0000000000000000
+insn vmalob:
+  v_result = 0fa8a2192c4ca3f1 | d426c826f211fcb5
+  r_result = 0000000000000000
+insn vmalob:
+  v_result = c80f237b45e91c53 | f33cd20328f2c695
+  r_result = 0000000000000000
+insn vmalob:
+  v_result = 64ce547513678824 | 3d3f27f7224e7c17
+  r_result = 0000000000000000
+insn vmalob:
+  v_result = c64679f439910778 | 0ff625d8d41f4a1d
+  r_result = 0000000000000000
+insn vmaloh:
+  v_result = d088c57a6c43e23d | b373ed2285486708
+  r_result = 0000000000000000
+insn vmaloh:
+  v_result = 6259b01e7693da42 | 5cc11ba9ba835e2e
+  r_result = 0000000000000000
+insn vmaloh:
+  v_result = 95edf707c65f268c | 3500c2fdfa1a381b
+  r_result = 0000000000000000
+insn vmaloh:
+  v_result = d65f08c9bf214b52 | 96d092d26919c23b
+  r_result = 0000000000000000
+insn vmalof:
+  v_result = b413d388c8cf1bf3 | 50a54eda6ae87eb6
+  r_result = 0000000000000000
+insn vmalof:
+  v_result = a1c124fe3b8f2a4a | 4a007b6a7d7e1e1b
+  r_result = 0000000000000000
+insn vmalof:
+  v_result = b19db79365e0a59b | 148c931ae9bd25cb
+  r_result = 0000000000000000
+insn vmalof:
+  v_result = d184366c856121d8 | a8e8d36538796652
+  r_result = 0000000000000000
+insn vmalb:
+  v_result = c8f8121a6be9e509 | e8e272a1150d7ec3
+  r_result = 0000000000000000
+insn vmalb:
+  v_result = ec6815cc7ccbe0eb | b12b3f3773c989cc
+  r_result = 0000000000000000
+insn vmalb:
+  v_result = f09529fe6056d961 | 09edc7be59ec4499
+  r_result = 0000000000000000
+insn vmalb:
+  v_result = 368b35ec52d84a1b | 041738159e065e77
+  r_result = 0000000000000000
+insn vmalhw:
+  v_result = d2e0a5a60dc5f75f | 8135cc2386b5eb27
+  r_result = 0000000000000000
+insn vmalhw:
+  v_result = 456710a305d4f030 | 22b5c2543c05fecd
+  r_result = 0000000000000000
+insn vmalhw:
+  v_result = a090ce44083cba90 | 81c6842d71b6d5a6
+  r_result = 0000000000000000
+insn vmalhw:
+  v_result = 79c71058c3623f14 | e6fc3142b03eccd3
+  r_result = 0000000000000000
+insn vmalf:
+  v_result = 40fad259e2511014 | 0ce2b1809e9ff032
+  r_result = 0000000000000000
+insn vmalf:
+  v_result = aa5d926389dfeff3 | 5109c52416517f80
+  r_result = 0000000000000000
+insn vmalf:
+  v_result = c63f2103ce35b5ff | f1bdb51b42df51b8
+  r_result = 0000000000000000
+insn vmalf:
+  v_result = 96a7962613698a12 | 2c3ebc55b97a3719
+  r_result = 0000000000000000
+insn vmahb:
+  v_result = e4fff517f5f1fe1a | 1a14faeb080c0033
+  r_result = 0000000000000000
+insn vmahb:
+  v_result = 0efa08fe0a3dee04 | dfd514e50509faca
+  r_result = 0000000000000000
+insn vmahb:
+  v_result = 1d00f707f61ce705 | 2efd00d2ef08e6f8
+  r_result = 0000000000000000
+insn vmahb:
+  v_result = 07001300fff9f3ff | ffd9e2010af0e502
+  r_result = 0000000000000000
+insn vmahh:
+  v_result = e89a20a82884df07 | f34313391a240336
+  r_result = 0000000000000000
+insn vmahh:
+  v_result = 14c6e15b120c03c9 | f21e1483008e025e
+  r_result = 0000000000000000
+insn vmahh:
+  v_result = 24bfeb690cd8d9ed | 062b12bbdf15e807
+  r_result = 0000000000000000
+insn vmahh:
+  v_result = 144b076afec0fc70 | 04f2f089f1720c61
+  r_result = 0000000000000000
+insn vmahf:
+  v_result = ff9701bff38a561b | 0d5429101032d20f
+  r_result = 0000000000000000
+insn vmahf:
+  v_result = fe2d1ba0f014f598 | 05e21d05fe1b6bcd
+  r_result = 0000000000000000
+insn vmahf:
+  v_result = ffde7574002eb959 | 03d7bfdb211a2baa
+  r_result = 0000000000000000
+insn vmahf:
+  v_result = 0b3d61ba1beaa47f | f48b8f06fa0c2ed0
+  r_result = 0000000000000000
+insn vmalhb:
+  v_result = 6e0552420246c205 | 0b93083f302d5769
+  r_result = 0000000000000000
+insn vmalhb:
+  v_result = 6c2e311904837d9b | 075f4d1a7c412514
+  r_result = 0000000000000000
+insn vmalhb:
+  v_result = 0c582c2603142223 | 27193f1c47ac1870
+  r_result = 0000000000000000
+insn vmalhb:
+  v_result = 2204634321080468 | 42b92900301e0893
+  r_result = 0000000000000000
+insn vmalhh:
+  v_result = 1b170fdb00e104e8 | 874587fb7d83658d
+  r_result = 0000000000000000
+insn vmalhh:
+  v_result = 3bfd240344447715 | 0b5c7473107f906a
+  r_result = 0000000000000000
+insn vmalhh:
+  v_result = a0382cf138d75031 | 0839263100840868
+  r_result = 0000000000000000
+insn vmalhh:
+  v_result = 08080a241fb962bb | 33fe851606cf13da
+  r_result = 0000000000000000
+insn vmalhf:
+  v_result = 0c8ec0801f2f9583 | 5a33f6a8c7ae74fc
+  r_result = 0000000000000000
+insn vmalhf:
+  v_result = 6b567cfb45872bcd | 90f1890c52b23cf3
+  r_result = 0000000000000000
+insn vmalhf:
+  v_result = 6192cfe9558271e0 | ca78458b88d221db
+  r_result = 0000000000000000
+insn vmalhf:
+  v_result = b2e7f51966164ede | 8d98f0221f5fc513
+  r_result = 0000000000000000
+insn vsumb:
+  v_result = 000002ab0000025f | 000002bb00000283
+  r_result = 0000000000000000
+insn vsumb:
+  v_result = 000003c8000002a8 | 00000383000003a8
+  r_result = 0000000000000000
+insn vsumb:
+  v_result = 000002e60000020f | 00000194000002ec
+  r_result = 0000000000000000
+insn vsumb:
+  v_result = 000001db00000277 | 00000418000002eb
+  r_result = 0000000000000000
+insn vsumh:
+  v_result = 00016ab90001c74d | 00015c120001918b
+  r_result = 0000000000000000
+insn vsumh:
+  v_result = 0001e82700021575 | 000131a6000192e6
+  r_result = 0000000000000000
+insn vsumh:
+  v_result = 0000faca000242f4 | 00017b4a00013641
+  r_result = 0000000000000000
+insn vsumh:
+  v_result = 0001063000011a11 | 0000fb460001c13a
+  r_result = 0000000000000000
+insn vsumgh:
+  v_result = 0000000000034c9a | 000000000002f3a7
+  r_result = 0000000000000000
+insn vsumgh:
+  v_result = 0000000000027bce | 000000000002418f
+  r_result = 0000000000000000
+insn vsumgh:
+  v_result = 000000000003b148 | 0000000000029590
+  r_result = 0000000000000000
+insn vsumgh:
+  v_result = 0000000000014c7f | 00000000000265e9
+  r_result = 0000000000000000
+insn vsumgf:
+  v_result = 000000017b3b53e4 | 0000000108de1f95
+  r_result = 0000000000000000
+insn vsumgf:
+  v_result = 00000000b47a7cd8 | 0000000104333912
+  r_result = 0000000000000000
+insn vsumgf:
+  v_result = 00000001a8728828 | 00000000d084df44
+  r_result = 0000000000000000
+insn vsumgf:
+  v_result = 0000000227f5c99f | 0000000281bf7ba0
+  r_result = 0000000000000000
+insn vsumqf:
+  v_result = 0000000000000000 | 0000000218fc589d
+  r_result = 0000000000000000
+insn vsumqf:
+  v_result = 0000000000000000 | 00000002d7994abe
+  r_result = 0000000000000000
+insn vsumqf:
+  v_result = 0000000000000000 | 000000017c88d708
+  r_result = 0000000000000000
+insn vsumqf:
+  v_result = 0000000000000000 | 0000000247d33fc2
+  r_result = 0000000000000000
+insn vsumqg:
+  v_result = 0000000000000001 | 3a6ba070cc253a34
+  r_result = 0000000000000000
+insn vsumqg:
+  v_result = 0000000000000001 | 161086c00ce6dbeb
+  r_result = 0000000000000000
+insn vsumqg:
+  v_result = 0000000000000001 | d73bacda5a5bbd98
+  r_result = 0000000000000000
+insn vsumqg:
+  v_result = 0000000000000001 | 24dd33da0f37db23
+  r_result = 0000000000000000
+insn vtm0:
+  v_arg2   = 9de911268a4a4442 | cd7fa6a83d9eacd2
+  v_arg3   = ffffffffffffffff | ffffffffffffffff
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vtm0_zeromask:
+  v_arg2   = 0000000000000000 | 0000000000000000
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vtm1:
+  v_arg2   = ffffffffffffffff | ffffffffffffffff
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vtm3_equalargs:
+  v_arg2   = 3051c8f545b7ed17 | 739221f3b21f06e3
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000003
+insn vtm3:
+  v_arg2   = 1545fa27e64c9ed4 | 0000000000000000
+  v_arg3   = ffffffffffffffff | 0000000000000000
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000003
+insn vacq:
+  v_result = 3bba57853eb2f472 | eed65e64f62b8684
+  r_result = 0000000000000000
+insn vacq:
+  v_result = 1517c7f60b744d24 | 00d4504d97781c01
+  r_result = 0000000000000000
+insn vacq:
+  v_result = b029ca3eea1c6455 | 578f48dcc66fc9b8
+  r_result = 0000000000000000
+insn vacq:
+  v_result = 6b37a704e39e9709 | 038c1d4ef5083c07
+  r_result = 0000000000000000
+insn vaccb:
+  v_result = 0101000000000000 | 0000010000000001
+  r_result = 0000000000000000
+insn vaccb:
+  v_result = 0000000100000100 | 0100010101010001
+  r_result = 0000000000000000
+insn vaccb:
+  v_result = 0000000100000000 | 0000010101010101
+  r_result = 0000000000000000
+insn vaccb:
+  v_result = 0101000100010000 | 0001000100000000
+  r_result = 0000000000000000
+insn vacch:
+  v_result = 0001000100000001 | 0001000000010001
+  r_result = 0000000000000000
+insn vacch:
+  v_result = 0001000100000001 | 0001000100000000
+  r_result = 0000000000000000
+insn vacch:
+  v_result = 0000000100000000 | 0001000000010000
+  r_result = 0000000000000000
+insn vacch:
+  v_result = 0000000000010000 | 0001000000010000
+  r_result = 0000000000000000
+insn vaccf:
+  v_result = 0000000000000001 | 0000000100000001
+  r_result = 0000000000000000
+insn vaccf:
+  v_result = 0000000000000001 | 0000000100000001
+  r_result = 0000000000000000
+insn vaccf:
+  v_result = 0000000000000001 | 0000000100000000
+  r_result = 0000000000000000
+insn vaccf:
+  v_result = 0000000100000001 | 0000000000000001
+  r_result = 0000000000000000
+insn vaccg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vaccg:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vaccg:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vaccg:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vaccq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vaccq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vaccq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vaccq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vacccq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vacccq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vacccq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vacccq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vcksm:
+  v_result = 000000006a0f2ce9 | 0000000000000000
+  r_result = 0000000000000000
+insn vcksm:
+  v_result = 0000000011ee68cd | 0000000000000000
+  r_result = 0000000000000000
+insn vcksm:
+  v_result = 000000004b9d06b3 | 0000000000000000
+  r_result = 0000000000000000
+insn vcksm:
+  v_result = 00000000107bbaf9 | 0000000000000000
+  r_result = 0000000000000000
+insn vgfmb:
+  v_result = 0a0c2b2c1b7c2a5e | 11d850c60a7b38c0
+  r_result = 0000000000000000
+insn vgfmb:
+  v_result = 053c287d20ce6111 | 55ba208b3a4e7ba2
+  r_result = 0000000000000000
+insn vgfmb:
+  v_result = 3804029512f02d07 | 267521a2164823e4
+  r_result = 0000000000000000
+insn vgfmb:
+  v_result = 132663d232fa5efe | 4fbf07373e4c4616
+  r_result = 0000000000000000
+insn vgfmh:
+  v_result = 73409f2620cd13cb | 0247cc2d3135d340
+  r_result = 0000000000000000
+insn vgfmh:
+  v_result = 1781fc37141f9ce0 | 0f670e390e7280a8
+  r_result = 0000000000000000
+insn vgfmh:
+  v_result = 47c7c1732c3ef59c | 0380ab2a0f6e5d92
+  r_result = 0000000000000000
+insn vgfmh:
+  v_result = 16fcc0af1be27106 | 111c046c289801ee
+  r_result = 0000000000000000
+insn vgfmf:
+  v_result = 6ddc723da3eac5f0 | 33c0d45c74c10010
+  r_result = 0000000000000000
+insn vgfmf:
+  v_result = 3f2a7323d7144d90 | 56e401a8ad4a786e
+  r_result = 0000000000000000
+insn vgfmf:
+  v_result = 42c65075c342f641 | 1e282bbb28e2c333
+  r_result = 0000000000000000
+insn vgfmf:
+  v_result = 245995d084be1603 | 5372b2a442919a0d
+  r_result = 0000000000000000
+insn vgfmg:
+  v_result = 186dbec67dee7be7 | ce53636f0bb4aaa7
+  r_result = 0000000000000000
+insn vgfmg:
+  v_result = 6a161681ebea9aa7 | 3d703a9279625218
+  r_result = 0000000000000000
+insn vgfmg:
+  v_result = 38c7183992ed523e | 19cf8fa1041f8d81
+  r_result = 0000000000000000
+insn vgfmg:
+  v_result = 60c40769cab01bdb | 0b7a08a38c16ad1f
+  r_result = 0000000000000000
+insn vgfmab:
+  v_result = 6309343753c88505 | ec3bed7fbec4d470
+  r_result = 0000000000000000
+insn vgfmab:
+  v_result = 00cc3ed1848fe586 | dd5db0645c90e89f
+  r_result = 0000000000000000
+insn vgfmab:
+  v_result = ffbd6b4d3565f783 | df88e5c0b9456b59
+  r_result = 0000000000000000
+insn vgfmab:
+  v_result = 67f106ba96d531c3 | c5c781b499d7848c
+  r_result = 0000000000000000
+insn vgfmah:
+  v_result = 91eb6e2a1a8da728 | f61bf1e86228637c
+  r_result = 0000000000000000
+insn vgfmah:
+  v_result = b5091ad0a6043cc9 | ef186703dcd59a40
+  r_result = 0000000000000000
+insn vgfmah:
+  v_result = fb845adf8373bc0e | d72ff09d9401cfbf
+  r_result = 0000000000000000
+insn vgfmah:
+  v_result = 45978d96b3962e17 | b8afacfce812dbe5
+  r_result = 0000000000000000
+insn vgfmaf:
+  v_result = d1051ca9ff7f8578 | 69f3cada1c743f17
+  r_result = 0000000000000000
+insn vgfmaf:
+  v_result = 098a3785ebcb046c | 1b9e460ec6d629f3
+  r_result = 0000000000000000
+insn vgfmaf:
+  v_result = f68c43fd1eb80b8f | e143bc02b6818357
+  r_result = 0000000000000000
+insn vgfmaf:
+  v_result = 7fa60897660afc37 | 11aef6b5fd72829d
+  r_result = 0000000000000000
+insn vgfmag:
+  v_result = c52cafa40d7e447a | 75c4a97129a412cd
+  r_result = 0000000000000000
+insn vgfmag:
+  v_result = d53d3f47e3c5d7df | e00151c9f7183dc2
+  r_result = 0000000000000000
+insn vgfmag:
+  v_result = 23228237790b29a7 | d7bfaa0db40dca80
+  r_result = 0000000000000000
+insn vgfmag:
+  v_result = 16da7ae4c3636d7e | b7d190a21c593a9f
+  r_result = 0000000000000000
+insn vsbiq:
+  v_result = 763e02ab4e54976d | ccc5cabc3d4c2c48
+  r_result = 0000000000000000
+insn vsbiq:
+  v_result = 25880652c5db7abe | 324ab9e402a123fd
+  r_result = 0000000000000000
+insn vsbiq:
+  v_result = f774aa8bc8277895 | 2ad7dea0085f0c7a
+  r_result = 0000000000000000
+insn vsbiq:
+  v_result = fe8a2379a8ff0551 | 4c71ed961ecbdba1
+  r_result = 0000000000000000
+insn vscbib:
+  v_result = 0100010101000100 | 0000010000000000
+  r_result = 0000000000000000
+insn vscbib:
+  v_result = 0000000100000100 | 0001010100000101
+  r_result = 0000000000000000
+insn vscbib:
+  v_result = 0000010000000100 | 0001010001000000
+  r_result = 0000000000000000
+insn vscbib:
+  v_result = 0101000000010000 | 0001010001010001
+  r_result = 0000000000000000
+insn vscbih:
+  v_result = 0000000100010000 | 0001000100000000
+  r_result = 0000000000000000
+insn vscbih:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbih:
+  v_result = 0000000100000000 | 0001000000010001
+  r_result = 0000000000000000
+insn vscbih:
+  v_result = 0000000100010001 | 0001000100010000
+  r_result = 0000000000000000
+insn vscbif:
+  v_result = 0000000000000001 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbif:
+  v_result = 0000000000000000 | 0000000100000001
+  r_result = 0000000000000000
+insn vscbif:
+  v_result = 0000000000000001 | 0000000100000001
+  r_result = 0000000000000000
+insn vscbif:
+  v_result = 0000000100000000 | 0000000100000000
+  r_result = 0000000000000000
+insn vscbig:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbig:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vscbig:
+  v_result = 0000000000000001 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbig:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vscbiq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbiq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vscbiq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vscbiq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vsbcbiq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vsbcbiq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vsbcbiq:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vsbcbiq:
+  v_result = 0000000000000000 | 0000000000000001
+  r_result = 0000000000000000
+insn vpopct:
+  v_result = 0405020506030305 | 0104020204040305
+  r_result = 0000000000000000
+insn vpopct:
+  v_result = 0303040501030306 | 0305070404030604
+  r_result = 0000000000000000
+insn vpopct:
+  v_result = 0504040304020605 | 0504050404070403
+  r_result = 0000000000000000
+insn vpopct:
+  v_result = 0505040405050504 | 0404030302020301
+  r_result = 0000000000000000

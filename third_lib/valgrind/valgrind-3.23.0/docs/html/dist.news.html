@@ -1,0 +1,647 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2. NEWS</title>
+<link rel="stylesheet" type="text/css" href="vg_basic.css">
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="Valgrind Documentation">
+<link rel="up" href="dist.html" title="Valgrind Distribution Documents">
+<link rel="prev" href="dist.authors.html" title="1. AUTHORS">
+<link rel="next" href="dist.news.old.html" title="3. OLDER NEWS">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<div><table class="nav" width="100%" cellspacing="3" cellpadding="3" border="0" summary="Navigation header"><tr>
+<td width="22px" align="center" valign="middle"><a accesskey="p" href="dist.authors.html"><img src="images/prev.png" width="18" height="21" border="0" alt="Prev"></a></td>
+<td width="25px" align="center" valign="middle"><a accesskey="u" href="dist.html"><img src="images/up.png" width="21" height="18" border="0" alt="Up"></a></td>
+<td width="31px" align="center" valign="middle"><a accesskey="h" href="index.html"><img src="images/home.png" width="27" height="20" border="0" alt="Up"></a></td>
+<th align="center" valign="middle">Valgrind Distribution Documents</th>
+<td width="22px" align="center" valign="middle"><a accesskey="n" href="dist.news.old.html"><img src="images/next.png" width="18" height="21" border="0" alt="Next"></a></td>
+</tr></table></div>
+<div class="chapter">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="dist.news"></a>2. NEWS</h1></div></div></div>
+<div class="literallayout"><p><br>
+      Release 3.23.0 (26 Apr 2024)<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+This release supports X86/Linux, AMD64/Linux, ARM32/Linux, ARM64/Linux,<br>
+PPC32/Linux, PPC64BE/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux,<br>
+MIPS64/Linux, ARM/Android, ARM64/Android, MIPS32/Android, X86/Android,<br>
+X86/Solaris, AMD64/Solaris, AMD64/MacOSX 10.12, X86/FreeBSD, AMD64/FreeBSD<br>
+and ARM64/FreeBSD  There is also preliminary support for X86/macOS 10.13,<br>
+AMD64/macOS 10.13 and nanoMIPS/Linux.<br>
+<br>
+* ==================== CORE CHANGES ===================<br>
+<br>
+* --track-fds=yes will now also warn about double closing of file<br>
+  descriptors. Printing the context where the file descriptor was<br>
+  originally opened and where it was previously closed.<br>
+<br>
+* --track-fds=yes also produces "real" errors now which can be<br>
+  suppressed and work with --error-exitcode. When combined with<br>
+  --xml the xml-output now also includes FdBadClose and FdNotClosed<br>
+  error kinds (see docs/internals/xml-output-protocol5.txt).<br>
+<br>
+* The option --show-error-list=no|yes now accepts a new value all.<br>
+  This indicates to also print the suppressed errors.<br>
+  This is useful to analyse which errors are suppressed by which<br>
+  suppression entries.<br>
+  The valgrind monitor command 'v.info all_errors' similarly now<br>
+  accepts a new optional argument 'also_suppressed' to show<br>
+  all errors including the suppressed errors.<br>
+<br>
+* ================== PLATFORM CHANGES =================<br>
+<br>
+* Added ARM64 support for FreeBSD.<br>
+<br>
+* ARM64 now supports dotprod instructions (sdot/udot).<br>
+<br>
+* AMD64 better supports code build with -march=x86-64-v3.<br>
+  fused-multiple-add instructions (fma) are now emulated more<br>
+  accurately. And memcheck now handles __builtin_strcmp using 128/256<br>
+  bit vectors with sse4.1, avx/avx2.<br>
+<br>
+* S390X added support for NNPA (neural network processing assist)<br>
+  facility vector instructions VCNF, VCLFNH, VCFN, VCLFNL, VCRNF and<br>
+  NNPA (z16/arch14).<br>
+<br>
+* X86 recognizes new binutils-2.42 nop patterns.<br>
+<br>
+* ==================== TOOL CHANGES ===================<br>
+<br>
+* The none tool now also supports xml output.<br>
+<br>
+* ==================== FIXED BUGS ====================<br>
+<br>
+The following bugs have been fixed or resolved.  Note that "n-i-bz"<br>
+stands for "not in bugzilla" -- that is, a bug that was reported to us<br>
+but never got a bugzilla entry.  We encourage you to file bugs in<br>
+bugzilla (https://bugs.kde.org/enter_bug.cgi?product=valgrind) rather<br>
+than mailing the developers (or mailing lists) directly -- bugs that<br>
+are not entered into bugzilla tend to get forgotten about or ignored.<br>
+<br>
+<br>
+283429  ARM leak checking needs CLEAR_CALLER_SAVED_REGS<br>
+281059  Cannot connect to Oracle using valgrind<br>
+328563  make track-fds support xml output<br>
+362680  --error-exitcode not honored when file descriptor leaks are found<br>
+369723  __builtin_longjmp not supported in clang/llvm on Android arm64 target<br>
+390269  unhandled amd64-darwin syscall: unix:464 (openat_nocancel)<br>
+401284  False positive "Source and destination overlap in strncat"<br>
+428364  Signals inside io_uring_enter not handled<br>
+437790  valgrind reports "Conditional jump or move depends on uninitialised<br>
+        value" in memchr of macOS 10.12-10.15<br>
+460616  disInstr(arm64): unhandled instruction 0x4E819402 (dotprod/ASIMDDP)<br>
+463458  memcheck/tests/vcpu_fnfns fails when glibc is built for x86-64-v3<br>
+463463  none/tests/amd64/fma fails when executed on a x86-64-v3 system<br>
+466762  Add redirs for C23 free_sized() and free_aligned_sized()<br>
+466884  Missing writev uninit padding suppression for _XSend<br>
+471036  disInstr_AMD64: disInstr miscalculated next %rip on RORX imm8, m32/64, r32/6<br>
+471222  support tracking of file descriptors being double closed<br>
+474160  If errors-for-leak-kinds is specified, exit-on-first-error should only exit<br>
+        on one of the listed errors.<br>
+475498  Add reallocarray wrapper<br>
+476025  Vbit expected test results for Iop_CmpGT64Ux2 are wrong<br>
+476320  Build failure with GCC<br>
+476331  clean up generated/distributed filter scripts<br>
+476535  Difference in allocation size for massif/tests/overloaded-new between<br>
+        clang++/libc++ and g++/libstdc++<br>
+476548  valgrind 3.22.0 fails on assertion when loading debuginfo file<br>
+        produced by mold<br>
+476708  valgrind-monitor.py regular expressions should use raw strings<br>
+476780  Extend strlcat and strlcpy wrappers to GNU libc<br>
+476787  Build of Valgrind 3.21.0 fails when SOLARIS_PT_SUNDWTRACE_THRP is<br>
+        defined<br>
+476887  WARNING: unhandled amd64-freebsd syscall: 578<br>
+477198  Add fchmodat2 syscall on linux<br>
+477628  Add mremap support for Solaris<br>
+477630  Include ucontext.h rather than sys/ucontext.h in Solaris sources<br>
+477719  vgdb incorrectly replies to qRcmd packet<br>
+478211  Redundant code for vgdb.c and Valgrind core tools<br>
+478624  Valgrind incompatibility with binutils-2.42 on x86 with new nop patterns<br>
+        (unhandled instruction bytes: 0x2E 0x8D 0xB4 0x26<br>
+478837  valgrind fails to read debug info for rust binaries<br>
+479041  Executables without RW sections do not trigger debuginfo reading<br>
+480052  WARNING: unhandled amd64-freebsd syscall: 580<br>
+480126  Build failure on Raspberry Pi 5 / OS 6.1.0-rpi7-rpi-v8<br>
+480405  valgrind 3.22.0 "m_debuginfo/image.c:586 (set_CEnt):<br>
+        Assertion '!sr_isError(sr)' failed."<br>
+480488  Add support for FreeBSD 13.3<br>
+480706  Unhandled syscall 325 (mlock2)<br>
+481127  amd64: Implement VFMADD213 for Iop_MAddF32<br>
+481131  [PATCH] x86 regtest: fix clobber lists in generated asm statements<br>
+481676  Build failure on Raspberry Pi 5 Ubuntu 23.10 with clang<br>
+481874  Add arm64 support for FreeBSD<br>
+483786  Incorrect parameter indexing in FreeBSD clock_nanosleep syscall wrapper<br>
+484002  Add suppression for invalid read in glibc's __wcpncpy_avx2() via wcsxfrm()<br>
+484426  aarch64: 0.5 gets rounded to 0<br>
+484480  False positives when using sem_trywait<br>
+484935  [patch] Valgrind reports false "Conditional jump or move depends on<br>
+        uninitialised value" errors for aarch64 signal handlers<br>
+485148  vfmadd213ss instruction is instrumented incorrectly (the remaining<br>
+        part of the register is cleared instead of kept unmodified)<br>
+485487  glibc built with -march=x86-64-v3 does not work due to ld.so strcmp<br>
+485778  Crash with --track-fds=all and --gen-suppressions=all<br>
+n-i-bz  Add redirect for memccpy<br>
+<br>
+To see details of a given bug, visit<br>
+  https://bugs.kde.org/show_bug.cgi?id=XXXXXX<br>
+where XXXXXX is the bug number as listed above.<br>
+<br>
+(3.23.0.RC1: 19 Apr 2024)<br>
+(3.23.0.RC2: 24 Apr 2024)<br>
+<br>
+Release 3.22.0 (31 Oct 2023)<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+This release supports X86/Linux, AMD64/Linux, ARM32/Linux, ARM64/Linux,<br>
+PPC32/Linux, PPC64BE/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux,<br>
+MIPS64/Linux, ARM/Android, ARM64/Android, MIPS32/Android, X86/Android,<br>
+X86/Solaris, AMD64/Solaris, AMD64/MacOSX 10.12, X86/FreeBSD and<br>
+AMD64/FreeBSD.  There is also preliminary support for X86/macOS 10.13,<br>
+AMD64/macOS 10.13 and nanoMIPS/Linux.<br>
+<br>
+* ==================== CORE CHANGES ===================<br>
+<br>
+* A new configure option --with-gdbscripts-dir lets you install<br>
+  the gdb valgrind python monitor scripts in a specific location.<br>
+  For example a distro could use it to install the scripts in a<br>
+  safe load location --with-gdbscripts-dir=%{_datadir}/gdb/auto-load<br>
+  It is also possible to configure --without-gdb-scripts-dir so no<br>
+  .debug_gdb_scripts section is added to the vgpreload library and<br>
+  no valgrind-monitor python scripts are installed at all.<br>
+<br>
+* ================== PLATFORM CHANGES =================<br>
+<br>
+* Support has been added for FreeBSD 14 and FreeBSD 15.<br>
+* Add support for the folllowing FreeBSD system calls:<br>
+  close_range, kqueuex, membarrier, timerfd_create,<br>
+  timerfd_settime and timerfd_gettime (all added in FreeBSD 15).<br>
+<br>
+* ==================== TOOL CHANGES ===================<br>
+<br>
+* Memcheck now tests and warns about the values used for<br>
+  alignment and size. These apply to various functions: memalign,<br>
+  posix_memalign and aligned_alloc in C and various overloads<br>
+  of operators new and delete in C++. The kinds of error that can<br>
+  be detected are<br>
+  - invalid alignment, for instance the alignment is usually required<br>
+    to be a power of 2<br>
+  - mismatched alignment between aligned allocation and aligned<br>
+    deallocation<br>
+  - mismatched size when sized delete is used<br>
+  - bad size for functions that have implementation defined behaviour<br>
+    when the requested size is zero<br>
+<br>
+* Cachegrind:<br>
+  - You can now profile part of a program's execution using the new<br>
+    `CACHEGRIND_START_INSTRUMENTATION` and `CACHEGRIND_STOP_INSTRUMENTATION`<br>
+    client requests, along with the new `--instr-at-start` option. The<br>
+    behaviour is the same as Callgrind's equivalent functionality.<br>
+<br>
+* ==================== FIXED BUGS ====================<br>
+<br>
+The following bugs have been fixed or resolved.  Note that "n-i-bz"<br>
+stands for "not in bugzilla" -- that is, a bug that was reported to us<br>
+but never got a bugzilla entry.  We encourage you to file bugs in<br>
+bugzilla (https://bugs.kde.org/enter_bug.cgi?product=valgrind) rather<br>
+than mailing the developers (or mailing lists) directly -- bugs that<br>
+are not entered into bugzilla tend to get forgotten about or ignored.<br>
+<br>
+390871  ELF debug info reader confused with multiple .rodata* sections<br>
+417993  vbit-test fail on s390x with Iop_Add32: spurious dependency on uninit<br>
+426751  Valgrind reports "still reachable" memory using musl<br>
+        (alpine running inside docker)<br>
+432801  Valgrind 3.16.1 reports a jump based on uninitialized memory somehow<br>
+        related to clang and signals<br>
+433857  Add validation to C++17 aligned new/delete alignment size<br>
+433859  Add mismatched detection to C++ 17 aligned new/delete<br>
+460192  Add epoll_pwait2<br>
+461074  DWARF2 CFI reader: unhandled DW_OP_ 0x11 (consts) DW_OP_ 0x92 (bregx)<br>
+465782  s390x: Valgrind doesn't compile with Clang on s390x<br>
+466105  aligned_alloc problems, part 2<br>
+467441  Add mismatched detection to C++ 14 sized delete<br>
+469049  link failure on ppc64 (big endian) valgrind 3.20<br>
+469146  massif --ignore-fn does not ignore inlined functions<br>
+469768  Make it possible to install gdb scripts in a different location<br>
+470121  Can't run callgrind_control with valgrind 3.21.0 because of perl errors<br>
+470132  s390x: Assertion failure on VGM instruction<br>
+470520  Multiple realloc zero errors crash in MC_(eq_Error)<br>
+470713  Failure on the Yosys project: valgrind: m_libcfile.c:1802<br>
+        (Bool vgPlain_realpath(const HChar *, HChar *)):<br>
+        Assertion 'resolved' failed<br>
+470830  Don't print actions vgdb me ... continue for vgdb --multi mode<br>
+470978  s390x: Valgrind cannot start qemu-kvm when "sysctl vm.allocate_pgste=0"<br>
+471311  gdb --multi mode stdout redirecting to stderr<br>
+471807  Add support for lazy reading and downloading of DWARF debuginfo<br>
+472219  Syscall param ppoll(ufds.events) points to uninitialised byte(s)<br>
+472875  none/tests/s390x/dfp-1 failure <br>
+472963  Broken regular expression in configure.ac<br>
+473604  Fix bug472219.c compile failure with Clang 16<br>
+473677  make check compile failure with Clang 16 based on GCC 13.x<br>
+473745  must-be-redirected function - strlen<br>
+473870  FreeBSD 14 applications fail early at startup<br>
+473944  Handle mold linker split RW PT_LOAD segments correctly<br>
+474332  aligned_alloc under Valgrind returns nullptr when alignment is not a multiple of sizeof(void *)<br>
+475650  DRD does not work with C11 threads<br>
+475652  Missing suppression for __wcsncpy_avx2 (strncpy-avx2.S:308)?<br>
+476108  vg_replace_malloc DELETE checks size<br>
+n-i-bz  Allow arguments with spaces in .valgrindrc files<br>
+n-i-bz  FreeBSD fixed reading of Valgrind tools own debuginfo<br>
+<br>
+To see details of a given bug, visit<br>
+  https://bugs.kde.org/show_bug.cgi?id=XXXXXX<br>
+where XXXXXX is the bug number as listed above.<br>
+<br>
+(3.22.0.RC1: 17 Oct 2023)<br>
+(3.22.0.RC2: 26 Oct 2023)<br>
+<br>
+Release 3.21.0 (28 Apr 2023)<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+This release supports X86/Linux, AMD64/Linux, ARM32/Linux, ARM64/Linux,<br>
+PPC32/Linux, PPC64BE/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux,<br>
+MIPS64/Linux, ARM/Android, ARM64/Android, MIPS32/Android, X86/Android,<br>
+X86/Solaris, AMD64/Solaris, AMD64/MacOSX 10.12, X86/FreeBSD and<br>
+AMD64/FreeBSD.  There is also preliminary support for X86/macOS 10.13,<br>
+AMD64/macOS 10.13 and nanoMIPS/Linux.<br>
+<br>
+* ==================== CORE CHANGES ===================<br>
+<br>
+* When GDB is used to debug a program running under valgrind using<br>
+  the valgrind gdbserver, GDB will automatically load some<br>
+  python code provided in valgrind defining GDB front end commands<br>
+  corresponding to the valgrind monitor commands.<br>
+  These GDB front end commands accept the same format as<br>
+  the monitor commands directly sent to the Valgrind gdbserver.<br>
+  These GDB front end commands provide a better integration<br>
+  in the GDB command line interface, so as to use for example<br>
+  GDB auto-completion, command specific help, searching for<br>
+  a command or command help matching a regexp, ...<br>
+  For relevant monitor commands, GDB will evaluate arguments<br>
+  to make the use of monitor commands easier.<br>
+  For example, instead of having to print the address of a variable<br>
+  to pass it to a subsequent monitor command, the GDB front end<br>
+  command will evaluate the address argument. It is for example<br>
+  possible to do:<br>
+    (gdb) memcheck who_points_at &amp;some_struct sizeof(some_struct)<br>
+  instead of:<br>
+    (gdb) p &amp;some_struct<br>
+    $2 = (some_struct_type *) 0x1130a0 &lt;some_struct&gt;<br>
+    (gdb) p sizeof(some_struct)<br>
+    $3 = 40<br>
+    (gdb) monitor who_point_at 0x1130a0 40<br>
+<br>
+* The vgdb utility now supports extended-remote protocol when<br>
+  invoked with --multi. In this mode the GDB run command is<br>
+  supported. Which means you don't need to run gdb and valgrind<br>
+  from different terminals. So for example to start your program<br>
+  in gdb and run it under valgrind you can do:<br>
+  $ gdb prog<br>
+  (gdb) set remote exec-file prog<br>
+  (gdb) set sysroot /<br>
+  (gdb) target extended-remote | vgdb --multi<br>
+  (gdb) start<br>
+<br>
+* The behaviour of realloc with a size of zero can now<br>
+  be changed for tools that intercept malloc. Those<br>
+  tools are memcheck, helgrind, drd, massif and dhat.<br>
+  Realloc implementations generally do one of two things<br>
+     - free the memory like free() and return NULL<br>
+       (GNU libc and ptmalloc).<br>
+     - either free the memory and then allocate a<br>
+       minimum sized block or just return the<br>
+       original pointer. Return NULL if the<br>
+       allocation of the minimum sized block fails<br>
+       (jemalloc, musl, snmalloc, Solaris, macOS).<br>
+  When Valgrind is configured and built it will<br>
+  try to match the OS and libc behaviour. However<br>
+  if you are using a non-default library to replace<br>
+  malloc and family (e.g., musl on a glibc Linux or<br>
+  tcmalloc on FreeBSD) then you can use a command line<br>
+  option to change the behaviour of Valgrind:<br>
+    --realloc-zero-bytes-frees=yes|no [yes on Linux glibc, no otherwise]<br>
+<br>
+* ================== PLATFORM CHANGES =================<br>
+<br>
+* Make the address space limit on FreeBSD amd64 128Gbytes<br>
+  (the same as Linux and Solaris, it was 32Gbytes)<br>
+<br>
+* ==================== TOOL CHANGES ===================<br>
+<br>
+* Memcheck:<br>
+  - When doing a delta leak_search, it is now possible to only<br>
+    output the new loss records compared to the previous leak search.<br>
+    This is available in the memcheck monitor command 'leak_search'<br>
+    by specifying the "new" keyword or in your program by using<br>
+    the client request VALGRIND_DO_NEW_LEAK_CHECK.<br>
+    Whenever a "delta" leak search is done (i.e. when specifying<br>
+    "new" or "increased" or "changed" in the monitor command),<br>
+    the new loss records have a "new" marker.<br>
+  - Valgrind now contains python code that defines GDB memcheck<br>
+    front end monitor commands. See CORE CHANGES.<br>
+  - Performs checks for the use of realloc with a size of zero.<br>
+    This is non-portable and a source of errors. If memcheck<br>
+    detects such a usage it will generate an error<br>
+      realloc() with size 0<br>
+    followed by the usual callstacks.<br>
+    A switch has been added to allow this to be turned off:<br>
+      --show-realloc-size-zero=yes|no [yes]<br>
+<br>
+* Helgrind:<br>
+  - The option ---history-backtrace-size=&lt;number&gt; allows to configure<br>
+    the number of entries to record in the stack traces of "old"<br>
+    accesses. Previously, this number was hardcoded to 8.<br>
+  - Valgrind now contains python code that defines GDB helgrind<br>
+    front end monitor commands. See CORE CHANGES.<br>
+<br>
+* Cachegrind:<br>
+  - `--cache-sim=no` is now the default. The cache simulation is old and<br>
+    unlikely to match any real modern machine. This means only the `Ir`<br>
+    event are gathered by default, but that is by far the most useful<br>
+    event.<br>
+  - `cg_annotate`, `cg_diff`, and `cg_merge` have been rewritten in<br>
+    Python. As a result, they all have more flexible command line<br>
+    argument handling, e.g. supporting `--show-percs` and<br>
+    `--no-show-percs` forms as well as the existing `--show-percs=yes`<br>
+    and `--show-percs=no`.<br>
+  - `cg_annotate` has some functional changes.<br>
+    - It's much faster, e.g. 3-4x on common cases.<br>
+    - It now supports diffing (with `--diff`, `--mod-filename`, and<br>
+      `--mod-funcname`) and merging (by passing multiple data files).<br>
+    - It now provides more information at the file and function level.<br>
+      There are now "File:function" and "Function:file" sections. These<br>
+      are very useful for programs that use inlining a lot.<br>
+    - Support for user-annotated files and the `-I`/`--include` option<br>
+      has been removed, because it was of little use and blocked other<br>
+      improvements.<br>
+    - The `--auto` option is renamed `--annotate`, though the old<br>
+      `--auto=yes`/`--auto=no` forms are still supported.<br>
+  - `cg_diff` and `cg_merge` are now deprecated, because `cg_annotate`<br>
+    now does a better job of diffing and merging.<br>
+  - The Cachegrind output file format has changed very slightly, but in<br>
+    ways nobody is likely to notice.<br>
+<br>
+* Callgrind:<br>
+  - Valgrind now contains python code that defines GDB callgrind<br>
+    front end monitor commands. See CORE CHANGES.<br>
+<br>
+* Massif:<br>
+  - Valgrind now contains python code that defines GDB massif<br>
+    front end monitor commands. See CORE CHANGES.<br>
+<br>
+* DHAT:<br>
+  - A new kind of user request has been added which allows you to<br>
+    override the 1024 byte limit on access count histograms for blocks<br>
+    of memory. The client request is DHAT_HISTOGRAM_MEMORY.<br>
+<br>
+* ==================== FIXED BUGS ====================<br>
+<br>
+The following bugs have been fixed or resolved.  Note that "n-i-bz"<br>
+stands for "not in bugzilla" -- that is, a bug that was reported to us<br>
+but never got a bugzilla entry.  We encourage you to file bugs in<br>
+bugzilla (https://bugs.kde.org/enter_bug.cgi?product=valgrind) rather<br>
+than mailing the developers (or mailing lists) directly -- bugs that<br>
+are not entered into bugzilla tend to get forgotten about or ignored.<br>
+<br>
+170510  Don't warn about ioctl of size 0 without direction hint<br>
+241072  List tools in --help output<br>
+327548  false positive while destroying mutex<br>
+382034  Testcases build fixes for musl<br>
+351857  confusing error message about valid command line option<br>
+374596  inconsistent RDTSCP support on x86_64<br>
+392331  Spurious lock not held error from inside pthread_cond_timedwait<br>
+397083  Likely false positive "uninitialised value(s)" for __wmemchr_avx2 and __wmemcmp_avx2_movbe<br>
+400793  pthread_rwlock_timedwrlock false positive<br>
+419054  Unhandled syscall getcpu on arm32<br>
+433873  openat2 syscall unimplemented on Linux<br>
+434057  Add stdio mode to valgrind's gdbserver<br>
+435441  valgrind fails to interpose malloc on musl 1.2.2 due to weak symbol name and no libc soname<br>
+436413  Warn about realloc of size zero<br>
+439685  compiler warning in callgrind/main.c<br>
+444110  priv/guest_ppc_toIR.c:36198:31: warning: duplicated 'if' condition.<br>
+444487  hginfo test detects an extra lock inside data symbol "_rtld_local"<br>
+444488  Use glibc.pthread.stack_cache_size tunable<br>
+444568  drd/tests/pth_barrier_thr_cr fails on Fedora 38<br>
+445743  "The impossible happened: mutex is locked simultaneously by two threads"<br>
+        while using mutexes with priority inheritance and signals<br>
+449309  Missing loopback device ioctl(s) <br>
+459476  vgdb: allow address reuse to avoid "address already in use" errorsuse" errors<br>
+460356  s390: Sqrt32Fx4 -- cannot reduce tree<br>
+462830  WARNING: unhandled amd64-freebsd syscall: 474<br>
+463027  broken check for MPX instruction support in assembler<br>
+464103  Enhancement: add a client request to DHAT to mark memory to be histogrammed<br>
+464476  Firefox fails to start under Valgrind<br>
+464609  Valgrind memcheck should support Linux pidfd_open<br>
+464680  Show issues caused by memory policies like selinux deny_execmem<br>
+464859  Build failures with GCC-13 (drd tsan_unittest)<br>
+464969  D language demangling<br>
+465435  m_libcfile.c:66 (vgPlain_safe_fd): Assertion 'newfd &gt;= VG_(fd_hard_limit)' failed.<br>
+466104  aligned_alloc problems, part 1<br>
+467036  Add time cost statistics for Regtest<br>
+467482  Build failure on aarch64 Alpine<br>
+467714  fdleak_* and rlimit tests fail when parent process has more than<br>
+        64 descriptors opened<br>
+467839  Gdbserver: Improve compatibility of library directory name<br>
+468401  [PATCH] Add a style file for clang-format<br>
+468556  Build failure for vgdb<br>
+468606  build: remove "Valgrind relies on GCC" check/output<br>
+469097  ppc64(be) doesn't support SCV syscall instruction<br>
+n-i-bz  FreeBSD rfork syscall fail with EINVAL or ENOSYS rather than VG_(unimplemented)<br>
+<br>
+To see details of a given bug, visit<br>
+  https://bugs.kde.org/show_bug.cgi?id=XXXXXX<br>
+where XXXXXX is the bug number as listed above.<br>
+<br>
+* ==================== KNOWN ISSUES ===================<br>
+<br>
+* configure --enable-lto=yes is know to not work in all setups.<br>
+  See bug 469049. Workaround: Build without LTO.<br>
+<br>
+(3.21.0.RC1: 14 Apr 2023)<br>
+(3.21.0.RC2: 21 Apr 2023)<br>
+<br>
+Release 3.20.0 (24 Oct 2022)<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+This release supports X86/Linux, AMD64/Linux, ARM32/Linux, ARM64/Linux,<br>
+PPC32/Linux, PPC64BE/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux,<br>
+MIPS64/Linux, ARM/Android, ARM64/Android, MIPS32/Android, X86/Android,<br>
+X86/Solaris, AMD64/Solaris, AMD64/MacOSX 10.12, X86/FreeBSD and<br>
+AMD64/FreeBSD.  There is also preliminary support for X86/macOS 10.13,<br>
+AMD64/macOS 10.13 and nanoMIPS/Linux.<br>
+<br>
+* ==================== CORE CHANGES ===================<br>
+<br>
+* The option "--vgdb-stop-at=event1,event2,..." accepts the new value abexit.<br>
+  This indicates to invoke gdbserver when your program exits abnormally<br>
+  (i.e. with a non zero exit code).<br>
+* Fix Rust v0 name demangling.<br>
+* The Linux rseq syscall is now implemented as (silently) returning ENOSYS.<br>
+* Add FreeBSD syscall wrappers for __specialfd and __realpathat.<br>
+* Remove FreeBSD dependencies on COMPAT10, which fixes compatibility with<br>
+  HardenedBSD<br>
+* The option --enable-debuginfod=&lt;no|yes&gt; [default: yes] has been added on<br>
+  Linux.<br>
+* More DWARF5 support as generated by clang14.<br>
+<br>
+* ==================== FIXED BUGS ====================<br>
+<br>
+The following bugs have been fixed or resolved.  Note that "n-i-bz"<br>
+stands for "not in bugzilla" -- that is, a bug that was reported to us<br>
+but never got a bugzilla entry.  We encourage you to file bugs in<br>
+bugzilla (https://bugs.kde.org/enter_bug.cgi?product=valgrind) rather<br>
+than mailing the developers (or mailing lists) directly -- bugs that<br>
+are not entered into bugzilla tend to get forgotten about or ignored.<br>
+<br>
+131186  writev reports error in (vector[...])<br>
+434764  iconv_open causes ld.so v2.28+ to use optimised strncmp<br>
+446754  Improve error codes from alloc functions under memcheck<br>
+452274  memcheck crashes with Assertion 'sci-&gt;status.what == SsIdle' failed<br>
+452779  Valgrind fails to build on FreeBSD 13.0 with llvm-devel (15.0.0)<br>
+453055  shared_timed_mutex drd test fails with "Lock shared failed" message<br>
+453602  Missing command line option to enable/disable debuginfod<br>
+452802  Handle lld 9+ split RW PT_LOAD segments correctly<br>
+454040  s390x: False-positive memcheck:cond in memmem on arch13 systems <br>
+456171  [PATCH] FreeBSD: Don't record address errors when accessing the 'kern.ps_strings' sysctl struct<br>
+n-i-bz  Implement vgdb invoker on FreeBSD<br>
+458845  PowerPC: The L field for the dcbf and sync instruction should be<br>
+        3 bits in ISA 3.1.<br>
+458915  Remove register cache to fix 458915 gdbserver causes wrong syscall return<br>
+459031  Documentation on --error-exitcode incomplete<br>
+459477  XERROR messages lacks ending '\n' in vgdb<br>
+462007  Implicit int in none/tests/faultstatus.c<br>
+<br>
+To see details of a given bug, visit<br>
+  https://bugs.kde.org/show_bug.cgi?id=XXXXXX<br>
+where XXXXXX is the bug number as listed above.<br>
+<br>
+(3.20.0.RC1: 20 Oct 2022)<br>
+<br>
+<br>
+Release 3.19.0 (11 Apr 2022)<br>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>
+<br>
+This release supports X86/Linux, AMD64/Linux, ARM32/Linux, ARM64/Linux,<br>
+PPC32/Linux, PPC64BE/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux,<br>
+MIPS64/Linux, ARM/Android, ARM64/Android, MIPS32/Android, X86/Android,<br>
+X86/Solaris, AMD64/Solaris, AMD64/MacOSX 10.12, X86/FreeBSD and<br>
+AMD64/FreeBSD.  There is also preliminary support for X86/macOS 10.13,<br>
+AMD64/macOS 10.13 and nanoMIPS/Linux.<br>
+<br>
+* ==================== CORE CHANGES ===================<br>
+<br>
+* Fix Rust v0 name demangling.<br>
+* The Linux rseq syscall is now implemented as (silently) returning ENOSYS.<br>
+* Add FreeBSD syscall wrappers for __specialfd and __realpathat.<br>
+* Remove FreeBSD dependencies on COMPAT10, which fixes compatibility with HardenedBSD<br>
+<br>
+* ================== PLATFORM CHANGES =================<br>
+<br>
+* arm64:<br>
+  - ignore the "v8.x" architecture levels, only look at actual CPU features<br>
+    present. Fixes mismatch detected between RDMA and atomics features<br>
+    preventing startup on some QEMU configurations.<br>
+  - Implement LD{,A}XP and ST{,L}XP<br>
+  - Fix incorrect code emitted for doubleword CAS.<br>
+<br>
+* s390:<br>
+  - Fix sys_ipc semtimedop syscall<br>
+  - Fix VFLRX and WFLRX instructions<br>
+  - Fix EXRL instruction with negative offset<br>
+<br>
+* ppc64:<br>
+  - Reimplement the vbpermq instruction support to generate less Iops and<br>
+    avoid overflowing internal buffers.<br>
+  - Fix checking for scv support to avoid "Facility 'SCV' unavailable (12),<br>
+    exception" messages in dmsg.<br>
+  - Fix setting condition code for Vector Compare quad word instructions.<br>
+  - Fix fix lxsibzx, lxsihzx and lxsihzx instructions so they only load<br>
+    their respective sized data.<br>
+  - Fix the prefixed stq instruction in PC relative mode.<br>
+<br>
+* ==================== TOOL CHANGES ===================<br>
+<br>
+* Memcheck:<br>
+  - Speed up --track-origins=yes for large (in the range of hundreds to<br>
+    thousands of megabytes) mmap/munmaps.<br>
+* DRD/Helgrind:<br>
+  - Several fixes for new versions of libstd++ using new posix try_lock<br>
+    functions<br>
+<br>
+* ==================== FIXED BUGS ====================<br>
+<br>
+The following bugs have been fixed or resolved.  Note that "n-i-bz"<br>
+stands for "not in bugzilla" -- that is, a bug that was reported to us<br>
+but never got a bugzilla entry.  We encourage you to file bugs in<br>
+bugzilla (https://bugs.kde.org/enter_bug.cgi?product=valgrind) rather<br>
+than mailing the developers (or mailing lists) directly -- bugs that<br>
+are not entered into bugzilla tend to get forgotten about or ignored.<br>
+<br>
+403802  leak_cpp_interior fails with some reachable blocks different than expected<br>
+435732  memcheck/tests/leak_cpp_interior fails with gcc11<br>
+444242  s390x: Valgrind crashes on EXRL with negative offset<br>
+444399  arm64: unhandled instruction 0xC87F2D89 (LD{,A}XP and ST{,L}XP).<br>
+        == 434283<br>
+444481  gdb_server test failures on s390x<br>
+444495  dhat/tests/copy fails on s390x<br>
+444552  memcheck/tests/sem fails on s390x with glibc 2.34<br>
+444571  PPC, fix the lxsibzx and lxsihzx so they only load their respective<br>
+        sized data.<br>
+444836  PPC, pstq instruction for R=1 is not storing to the correct address.<br>
+444925  fexecve syscall wrapper not properly implemented<br>
+445032  valgrind/memcheck crash with SIGSEGV when SIGVTALRM timer used and<br>
+        libthr.so associated<br>
+445211  Fix out of tree builds<br>
+445300  [PATCH] Fix building tests with Musl<br>
+445011  SIGCHLD is sent when valgrind uses debuginfod-find<br>
+445354  arm64 backend: incorrect code emitted for doubleword CAS<br>
+445415  arm64 front end: alignment checks missing for atomic instructions<br>
+445504  Using C++ condition_variable results in bogus "mutex is locked simultaneously by two threads" warning<br>
+445607  Unhandled amd64-freebsd syscall: 247<br>
+445668  Inline stack frame generation is broken for Rust binaries<br>
+445916  Demangle Rust v0 symbols with .llvm suffix<br>
+446139  DRD/Helgrind with std::shared_timed_mutex::try_lock_until and try_lock_shared_until false positives<br>
+446138  DRD/Helgrind with std::timed_mutex::try_lock_until false positives<br>
+446281  Add a DRD suppression for fwrite<br>
+446103  Memcheck: `--track-origins=yes` causes extreme slowdowns for large mmap/munmap<br>
+446139  DRD/Helgrind with std::shared_timed_mutex::try_lock_until and try_lock_shared_until false<br>
+446251  TARGET_SIGNAL_THR added to enum target_signal<br>
+446823  FreeBSD - missing syscalls when using libzm4<br>
+447991  s390x: Valgrind indicates illegal instruction on wflrx<br>
+447995  Valgrind segfault on power10 due to hwcap checking code<br>
+449483  Powerpc: vcmpgtsq., vcmpgtuq,, vcmpequq. instructions not setting the<br>
+        condition code correctly.<br>
+449672  ppc64 --track-origins=yes failures because of bad cmov addHRegUse<br>
+449838  sigsegv liburing the 'impossible' happened for io_uring_setup<br>
+450025  Powerc: ACC file not implemented as a logical overlay of the VSR<br>
+        registers.<br>
+450437  Warn for execve syscall with argv or argv[0] being NULL<br>
+450536  Powerpc: valgrind throws 'facility scv unavailable exception'<br>
+451626  Syscall param bpf(attr-&gt;raw_tracepoint.name) points to unaddressable byte(s)<br>
+451827  [ppc64le] VEX temporary storage exhausted with several vbpermq instructions<br>
+451843  valgrind fails to start on a FreeBSD system which enforces W^X<br>
+<br>
+To see details of a given bug, visit<br>
+  https://bugs.kde.org/show_bug.cgi?id=XXXXXX<br>
+where XXXXXX is the bug number as listed above.<br>
+<br>
+(3.19.0.RC1: 02 Apr 2022)<br>
+(3.19.0.RC2: 08 Apr 2022)<br>
+<br>
+    </p></div>
+</div>
+<div>
+<br><table class="nav" width="100%" cellspacing="3" cellpadding="2" border="0" summary="Navigation footer">
+<tr>
+<td rowspan="2" width="40%" align="left">
+<a accesskey="p" href="dist.authors.html">&lt;&lt; 1. AUTHORS</a> </td>
+<td width="20%" align="center"><a accesskey="u" href="dist.html">Up</a></td>
+<td rowspan="2" width="40%" align="right"> <a accesskey="n" href="dist.news.old.html">3. OLDER NEWS &gt;&gt;</a>
+</td>
+</tr>
+<tr><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td></tr>
+</table>
+</div>
+</body>
+</html>

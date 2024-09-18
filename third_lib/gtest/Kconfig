@@ -1,0 +1,7 @@
+
+
+config MODULE_GTEST_ENABLE
+    bool "Enable gtest"
+    default n
+    help
+      Enable gtest.

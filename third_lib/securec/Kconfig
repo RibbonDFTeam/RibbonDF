@@ -1,0 +1,7 @@
+
+config MODULE_SECUREC_ENABLE
+    bool "Enable securec"
+    default n
+    help
+      Enable securec.
+

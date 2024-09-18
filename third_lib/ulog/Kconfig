@@ -1,0 +1,6 @@
+
+config MODULE_ULOG_ENABLE
+    bool "Enable ulog"
+    default n
+    help
+      Enable ulog.

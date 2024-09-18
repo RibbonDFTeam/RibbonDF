@@ -1,0 +1,1817 @@
+insn vfaeb0:
+  v_result = 0000000000000007 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb0:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb0:
+  v_result = 0000000000000009 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb1:
+  v_result = 0000000000000006 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeb1:
+  v_result = 0000000000000006 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb1:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb1:
+  v_result = 0000000000000003 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb2:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb2:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeb3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeb3:
+  v_result = 0000000000000002 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb3:
+  v_result = 0000000000000006 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb3:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb4:
+  v_result = 0000000000000000 | 00ff000000000000
+  r_result = 0000000000000000
+insn vfaeb4:
+  v_result = 00000000ff0000ff | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb4:
+  v_result = 000000ff0000ff00 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb5:
+  v_result = 0000000000000000 | 00000000000000ff
+  r_result = 0000000000000001
+insn vfaeb5:
+  v_result = 000000ff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb5:
+  v_result = 000000ff00ff0000 | 00000000000000ff
+  r_result = 0000000000000001
+insn vfaeb5:
+  v_result = 0000000000000000 | 00000000ff000000
+  r_result = 0000000000000001
+insn vfaeb5:
+  v_result = 0000000000000000 | 0000000000ff0000
+  r_result = 0000000000000001
+insn vfaeb6:
+  v_result = ff00000000000000 | 0000ff0000000000
+  r_result = 0000000000000000
+insn vfaeb6:
+  v_result = 000000ff00ff0000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb6:
+  v_result = 000000ff00000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb6:
+  v_result = 00ff000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb7:
+  v_result = 0000000000000000 | 00000000ff000000
+  r_result = 0000000000000001
+insn vfaeb7:
+  v_result = 00000000ff00ff00 | 000000ff00000000
+  r_result = 0000000000000001
+insn vfaeb7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeb7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeb7:
+  v_result = ffff000000000000 | ff00000000000000
+  r_result = 0000000000000001
+insn vfaeb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb8:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb8:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeb11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeb11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfaeb12:
+  v_result = ffffffffffffffff | ffffffffff00ffff
+  r_result = 0000000000000000
+insn vfaeb12:
+  v_result = ffffff00ffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb12:
+  v_result = ffffffff00ffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb12:
+  v_result = ffffffffffffffff | ff00ffffffffffff
+  r_result = 0000000000000000
+insn vfaeb13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb13:
+  v_result = ff00ffffff00ffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb13:
+  v_result = ffffffffffffff00 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb14:
+  v_result = ffff00ffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb14:
+  v_result = ffffffffffffffff | ffffffff00ff00ff
+  r_result = 0000000000000000
+insn vfaeb14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb14:
+  v_result = ffffffff00ffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeb14:
+  v_result = ffffffff00ffff00 | ffffffff00ffffff
+  r_result = 0000000000000000
+insn vfaeb15:
+  v_result = ffffffff00ff00ff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb15:
+  v_result = ff00ffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeb15:
+  v_result = ffffffffffff00ff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaeh8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaeh11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaeh12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaeh15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaeh15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef6:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfaef8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfaef11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfaef12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfaef15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfaef15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfeeb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeeh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeef:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeef:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeef:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeef:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeef:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezb:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezh:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezf:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezf:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezf:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezf:
+  v_result = 0000000000000008 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezf:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezbs:
+  v_result = 000000000000000d | 0000000000000000
+  r_result = 0000000000000000
+insn vfeezbs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezbs:
+  v_result = 0000000000000007 | 0000000000000000
+  r_result = 0000000000000001
+insn vfeezbs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezbs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezhs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezhs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezhs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezhs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezhs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezfs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezfs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezfs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezfs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeezfs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeebs:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000001
+insn vfeebs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeebs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeebs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeebs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeehs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeehs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeehs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeehs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeehs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeefs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeefs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeefs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeefs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeefs:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vfeneb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfeneh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenef:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenef:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenef:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenef:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenef:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezb:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezh:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezf:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezhs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezfs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenebs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenebs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenebs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenebs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenebs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenehs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenehs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenehs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenehs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenehs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenefs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenefs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenefs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenefs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenefs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb1:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb2:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vstrcb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb4:
+  v_result = ffff00ffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb4:
+  v_result = ffffff00ffffffff | 00ff00ffffffffff
+  r_result = 0000000000000000
+insn vstrcb4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb5:
+  v_result = ffffffff000000ff | 00ffffffffff00ff
+  r_result = 0000000000000001
+insn vstrcb5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb5:
+  v_result = 00ffffff00ffffff | ffffff00ffffffff
+  r_result = 0000000000000001
+insn vstrcb6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcb7:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb7:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb7:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb7:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb7:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcb8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb9:
+  v_result = 0000000000000006 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb10:
+  v_result = 0000000000000001 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb10:
+  v_result = 0000000000000002 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb11:
+  v_result = 000000000000000d | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb11:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb11:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb11:
+  v_result = 000000000000000e | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcb11:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcb14:
+  v_result = 00ff0000ff00ffff | 0000ff0000ff0000
+  r_result = 0000000000000000
+insn vstrcb15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcb15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch1:
+  v_result = 0000000000000002 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch2:
+  v_result = 0000000000000006 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch2:
+  v_result = 0000000000000002 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch4:
+  v_result = ffffffffffff0000 | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch4:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch5:
+  v_result = ffff00000000ffff | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrch5:
+  v_result = ffffffffffffffff | ffffffff0000ffff
+  r_result = 0000000000000001
+insn vstrch5:
+  v_result = 0000ffffffff0000 | ffffffffffff0000
+  r_result = 0000000000000001
+insn vstrch5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrch6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch6:
+  v_result = ffff0000ffffffff | 0000ffffffffffff
+  r_result = 0000000000000000
+insn vstrch6:
+  v_result = ffffffffffffffff | 0000ffffffffffff
+  r_result = 0000000000000000
+insn vstrch6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch7:
+  v_result = 000000000000ffff | 00000000ffff0000
+  r_result = 0000000000000001
+insn vstrch7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch7:
+  v_result = 0000000000000000 | 000000000000ffff
+  r_result = 0000000000000001
+insn vstrch7:
+  v_result = 0000ffffffff0000 | 0000ffff0000ffff
+  r_result = 0000000000000001
+insn vstrch7:
+  v_result = ffffffffffffffff | 0000ffff0000ffff
+  r_result = 0000000000000001
+insn vstrch8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch8:
+  v_result = 0000000000000002 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch10:
+  v_result = 0000000000000008 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch10:
+  v_result = 0000000000000008 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch11:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch11:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch11:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrch12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch12:
+  v_result = 000000000000ffff | 000000000000ffff
+  r_result = 0000000000000000
+insn vstrch12:
+  v_result = ffff0000ffff0000 | ffff000000000000
+  r_result = 0000000000000000
+insn vstrch12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch12:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch13:
+  v_result = 000000000000ffff | 000000000000ffff
+  r_result = 0000000000000001
+insn vstrch13:
+  v_result = 0000000000000000 | 000000000000ffff
+  r_result = 0000000000000001
+insn vstrch13:
+  v_result = 0000ffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrch13:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrch14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch14:
+  v_result = 0000ffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrch14:
+  v_result = 0000ffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrch15:
+  v_result = 0000ffff0000ffff | 00000000ffffffff
+  r_result = 0000000000000001
+insn vstrch15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch15:
+  v_result = 0000ffff00000000 | ffff000000000000
+  r_result = 0000000000000001
+insn vstrch15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrch15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf0:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf1:
+  v_result = 000000000000000c | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf1:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf2:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf2:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf2:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf3:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf4:
+  v_result = 0000000000000000 | ffffffff00000000
+  r_result = 0000000000000000
+insn vstrcf4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf4:
+  v_result = ffffffffffffffff | 00000000ffffffff
+  r_result = 0000000000000000
+insn vstrcf4:
+  v_result = ffffffffffffffff | ffffffff00000000
+  r_result = 0000000000000000
+insn vstrcf5:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf5:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf5:
+  v_result = 00000000ffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf6:
+  v_result = ffffffffffffffff | 00000000ffffffff
+  r_result = 0000000000000000
+insn vstrcf6:
+  v_result = 00000000ffffffff | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf6:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf7:
+  v_result = ffffffff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf7:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf7:
+  v_result = ffffffff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf7:
+  v_result = ffffffff00000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf8:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf8:
+  v_result = 0000000000000004 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf9:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf9:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf10:
+  v_result = 0000000000000008 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf10:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf10:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf11:
+  v_result = 000000000000000c | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf11:
+  v_result = 000000000000000c | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf11:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vstrcf12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf12:
+  v_result = ffffffffffffffff | 00000000ffffffff
+  r_result = 0000000000000000
+insn vstrcf12:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf13:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf13:
+  v_result = 00000000ffffffff | 00000000ffffffff
+  r_result = 0000000000000001
+insn vstrcf13:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf14:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vstrcf14:
+  v_result = 0000000000000000 | 00000000ffffffff
+  r_result = 0000000000000000
+insn vstrcf14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf14:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vstrcf15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf15:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vstrcf15:
+  v_result = 0000000000000000 | 00000000ffffffff
+  r_result = 0000000000000001
+insn vstrcf15:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000001
+insn vstrcf15:
+  v_result = ffffffffffffffff | 00000000ffffffff
+  r_result = 0000000000000001
+insn vfenezbs0:
+  v_arg1   = 0019c5b37ba9c8d5 | 32c6df736f9424ae
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000000
+insn vfenezbs1:
+  v_arg1   = 6a00d5c29c5e4141 | 1a0ec704e7df58d4
+  v_arg2   = 8aaaf38ff4bcf5cb | c7d8d64ffbb63879
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000001
+insn vfenezbs2:
+  v_arg1   = 82aa282bcf564a58 | 5533f733db0e559f
+  v_arg2   = 3a00ff94ff732079 | 76a7e3690a275049
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000002
+insn vfenezbs3:
+  v_result = 0000000000000010 | 0000000000000000
+  r_result = 0000000000000003

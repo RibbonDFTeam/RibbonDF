@@ -1,0 +1,20 @@
+
+
+config MODULE_LIBC_TEST_ENABLE
+    bool "libc_test enalbe"
+    default n
+    help
+      Enable libc_test.
+
+choice LIBC_SUBSTITUTE
+    prompt "Libc func subtitute mode"
+    default LIBC_SUBSTITUTE_WRAP
+    depends on MODULE_LIBC_TEST_ENABLE
+
+config LIBC_SUBSTITUTE_WRAP
+    bool "use -Wl,--wrap="
+
+config LIBC_SUBSTITUTE_ALIAS
+    bool "use __attribute__((alias))"
+
+endchoice

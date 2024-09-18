@@ -1,0 +1,28 @@
+
+[submodule "third_lib/fdbus/fdbus"]
+	path = third_lib/fdbus/fdbus
+	url = git@gitee.com:myskip/fdbus.git
+[submodule "third_lib/gtest/googletest"]
+	path = third_lib/gtest/googletest
+	url = git@github.com:RibbonDFTeam/googletest.git
+[submodule "third_lib/cJSON/cJSON"]
+	path = third_lib/cJSON/cJSON
+	url = git@github.com:RibbonDFTeam/cJSON.git
+[submodule "third_lib/mbedtls/mbedtls"]
+	path = third_lib/mbedtls/mbedtls
+	url = git@github.com:RibbonDFTeam/mbedtls.git
+[submodule "third_lib/zlog/zlog"]
+	path = third_lib/zlog/zlog
+	url = git@github.com:RibbonDFTeam/zlog.git
+[submodule "third_lib/EasyLogger/EasyLogger"]
+	path = third_lib/EasyLogger/EasyLogger
+	url = https://github.com/RibbonDFTeam/EasyLogger.git
+[submodule "third_lib/securec/third_party_bounds_checking_function"]
+	path = third_lib/securec/third_party_bounds_checking_function
+	url = git@github.com:openharmony-gitee-mirror/third_party_bounds_checking_function.git
+[submodule "third_lib/nng/nng"]
+	path = third_lib/nng/nng
+	url = git@github.com:RibbonDFTeam/nng.git
+[submodule "third_lib/Melon/Melon"]
+	path = third_lib/Melon/Melon
+	url = git@github.com:Water-Melon/Melon.git

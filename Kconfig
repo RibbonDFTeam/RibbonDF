@@ -1,0 +1,3 @@
+source "${RibbonDF_PROJECT_DIR}/../Kconfig"
+source "${RibbonDF_PROJECT_DIR}/../../components/Kconfig"
+source "${RibbonDF_PROJECT_DIR}/../../third_lib/Kconfig"

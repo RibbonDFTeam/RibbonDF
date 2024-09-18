@@ -1,0 +1,9 @@
+
+
+config MODULE_PROTO_TEST_ENABLE
+    bool "proto_test app enalbe"
+    default n
+    help
+      Enable proto_test app.
+    select MODULE_LIBPROTO_ENABLE
+

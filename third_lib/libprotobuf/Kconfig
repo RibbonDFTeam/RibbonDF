@@ -1,0 +1,6 @@
+
+config MODULE_LIBPROTOBUF_ENABLE
+    bool "Enable protobuf library"
+    default n
+    help
+      Enable protobuf library.

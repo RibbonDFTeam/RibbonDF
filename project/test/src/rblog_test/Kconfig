@@ -1,0 +1,8 @@
+
+
+config MODULE_RBLOG_TEST_ENABLE
+    bool "rblog_test enalbe"
+    default n
+    help
+      Enable rblog_test.
+    select MODULE_RBLOG_ENABLE

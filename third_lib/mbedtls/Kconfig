@@ -1,0 +1,6 @@
+
+config MODULE_MBEDTLS_ENABLE
+    bool "Enable mbedtls"
+    default n
+    help
+      Enable mbedtls.

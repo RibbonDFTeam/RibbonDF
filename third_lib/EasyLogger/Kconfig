@@ -1,0 +1,21 @@
+
+config MODULE_EASYLOGGER_ENABLE
+    bool "Enable EasyLogger"
+    default n
+    help
+      Enable EasyLogger.
+
+config MODULE_EASYLOG_PLUGIN_FILE_ENABLE
+    bool "Enable file plugin"
+    default y
+    help
+      Enable file plugin
+    depends on MODULE_EASYLOGGER_ENABLE
+
+config MODULE_EASYLOG_PLUGIN_FLASH_ENABLE
+    bool "Enable flash plugin"
+    default n
+    help
+      Enable flash plugin
+    depends on MODULE_EASYLOGGER_ENABLE
+    

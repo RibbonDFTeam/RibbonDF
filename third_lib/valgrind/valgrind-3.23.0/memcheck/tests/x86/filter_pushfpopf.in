@@ -1,0 +1,8 @@
+#! /bin/sh
+# @configure_input@
+
+SED=@SED@
+
+./filter_stderr "$@" |
+$SED "s/: fooble ([^)]*)/: fooble (...)/"
+

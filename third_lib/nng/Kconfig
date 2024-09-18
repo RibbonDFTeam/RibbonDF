@@ -1,0 +1,6 @@
+
+config MODULE_NNG_ENABLE
+    bool "Enable nng"
+    default n
+    help
+      Enable nng.

@@ -1,0 +1,6 @@
+
+config MODULE_MELON_ENABLE
+    bool "Enable Melon"
+    default n
+    help
+      Enable Melon.

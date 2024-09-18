@@ -1,0 +1,6 @@
+
+config MODULE_ZLOG_ENABLE
+    bool "Enable zlog"
+    default n
+    help
+      Enable zlog.

@@ -1,0 +1,22 @@
+
+set(CUSTOM_CMAKE_C_FLAGS "")
+set(CUSTOM_CMAKE_CXX_FLAGS "")
+
+# include(ExternalProject)
+
+# ExternalProject_Add(
+# ${target_name}_project
+# SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/protobuf-3.21.12
+# CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX} -Dprotobuf_BUILD_TESTS=OFF -DWITH_PROTOC=OFF -Dprotobuf_BUILD_PROTOC_BINARIES=OFF -DBUILD_SHARED_LIBS=ON
+# UPDATE_COMMAND "" # 禁用更新命令
+# INSTALL_COMMAND $(MAKE) install # 使用默认的安装命令
+# )
+set(protobuf_BUILD_TESTS OFF)
+set(WITH_PROTOC OFF)
+set(protobuf_BUILD_PROTOC_BINARIES OFF)
+set(BUILD_SHARED_LIBS ON)
+message(STATUS "protobuf_BUILD_TESTS:${protobuf_BUILD_TESTS}")
+message(STATUS "WITH_PROTOC:${WITH_PROTOC}")
+message(STATUS "protobuf_BUILD_PROTOC_BINARIES:${protobuf_BUILD_PROTOC_BINARIES}")
+message(STATUS "BUILD_SHARED_LIBS:${BUILD_SHARED_LIBS}")
+add_subdirectory(protobuf-3.21.12)

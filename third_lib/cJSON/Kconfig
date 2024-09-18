@@ -1,0 +1,13 @@
+
+config MODULE_CJSON_ENABLE
+    bool "Enable cJSON"
+    default n
+    help
+      Enable cJSON.
+
+ config MODULE_CJSON_SHARED
+    bool "build cJSON shared lib"
+    default n
+    help
+      Enable build cJSON shared lib. 
+    depends on MODULE_CJSON_ENABLE

@@ -1,0 +1,8 @@
+
+
+config MODULE_MBED_SIGN_ENABLE
+    bool "mbed_sign enalbe"
+    default n
+    help
+      Enable mbed_sign.
+    select MODULE_MBEDTLS_ENABLE

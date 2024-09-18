@@ -1,0 +1,8 @@
+
+
+config MODULE_SECUREC_TEST_ENABLE
+    bool "securec_test enalbe"
+    default n
+    help
+      Enable securec_test app.
+    select MODULE_SECUREC_ENABLE

@@ -1,0 +1,6 @@
+
+config MODULE_VALGRIND_ENABLE
+    bool "Enable valgrind"
+    default n
+    help
+      Enable valgrind.

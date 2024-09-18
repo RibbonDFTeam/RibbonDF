@@ -1,0 +1,17 @@
+
+config MODULE_UNIT_TEST_ENABLE
+    bool "Enable unit test"
+    default n
+    help
+      Enable unit test.
+
+
+choice MODULE_UNIT_TEST_BASE_COMPONENT
+    prompt "unit test base componnet"
+    default MODULE_UNIT_TEST_BASE_GTEST
+    depends on MODULE_UNIT_TEST_ENABLE
+
+config MODULE_UNIT_TEST_BASE_GTEST
+    bool "use gtest"
+    select MODULE_GTEST_ENABLE
+endchoice

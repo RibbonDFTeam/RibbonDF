@@ -1,0 +1,1152 @@
+insn vcdgb00:
+  v_result = 0x1.ad52bf58a50cap+59 | 0x1.407bbfbb0362ep+62
+insn vcdgb00:
+  v_result = -0x1.abf4397c63bb4p+60 | 0x1.b769aa86fcc4cp+61
+insn vcdgb00:
+  v_result = -0x1.a1aa58464a8dp+62 | -0x1.a64c23099d6f4p+62
+insn vcdgb00:
+  v_result = 0x1.0985cc9e2b9c2p+60 | -0x1.365f11037af36p+62
+insn vcdgb01:
+  v_result = 0x1.08232dd5f03dp+62 | -0x1.b8070878a860dp+62
+insn vcdgb01:
+  v_result = -0x1.a0ede92b83c5ap+60 | -0x1.f53e8ca048625p+61
+insn vcdgb01:
+  v_result = 0x1.bb7dff49a12e4p+61 | 0x1.870f7a36a759bp+60
+insn vcdgb01:
+  v_result = -0x1.0e5d01889725fp+62 | 0x1.bf2bd031ffac1p+62
+insn vcdgb03:
+  v_result = -0x1.54a701933cd1fp+55 | 0x1.98f2e8a6a0043p+62
+insn vcdgb03:
+  v_result = 0x1.43e52e01b1113p+62 | 0x1.1d4e89d1f2799p+61
+insn vcdgb03:
+  v_result = -0x1.eb66a6bdee62dp+62 | 0x1.3c07bfc401df3p+60
+insn vcdgb03:
+  v_result = -0x1.120b0b8b47f6dp+62 | -0x1.59024e4faf753p+62
+insn vcdgb04:
+  v_result = 0x1.22de4537ebadep+60 | 0x1.b359083443f74p+60
+insn vcdgb04:
+  v_result = 0x1.d2c9a172c58cbp+62 | 0x1.45d64fca1243bp+61
+insn vcdgb04:
+  v_result = 0x1.3e5b697fa2facp+62 | -0x1.523a87deca2fp+61
+insn vcdgb04:
+  v_result = 0x1.5ccc0c13a4ebfp+62 | 0x1.612270cb5c1d5p+61
+insn vcdgb05:
+  v_result = 0x1.19b47cb786d9ep+62 | -0x1.dd89ab249f8e4p+57
+insn vcdgb05:
+  v_result = -0x1.8e15750f6b135p+62 | -0x1.8e58f871c2183p+62
+insn vcdgb05:
+  v_result = 0x1.8273dd4bb3158p+62 | -0x1.592d06236267cp+62
+insn vcdgb05:
+  v_result = -0x1.10de1f97402bcp+61 | -0x1.d95dbd7f729dbp+61
+insn vcdgb06:
+  v_result = 0x1.9fc02123afc38p+62 | 0x1.5717e96026793p+62
+insn vcdgb06:
+  v_result = 0x1.4ac275ed2ea3dp+60 | 0x1.32459cdac5fc4p+62
+insn vcdgb06:
+  v_result = -0x1.efb29a6b8798cp+62 | -0x1.27714f758612bp+61
+insn vcdgb06:
+  v_result = -0x1.9447a424e684ap+62 | 0x1.ed58226c89b81p+61
+insn vcdgb07:
+  v_result = 0x1.064937889c15cp+62 | 0x1.cc5399312bda5p+62
+insn vcdgb07:
+  v_result = 0x1.45210fe624523p+61 | 0x1.07329699fb1ddp+57
+insn vcdgb07:
+  v_result = -0x1.e0a150abdea68p+62 | -0x1.235779c552889p+62
+insn vcdgb07:
+  v_result = -0x1.32a22437fbf14p+61 | 0x1.8e14bd31e300fp+62
+insn wcdgb00:
+  v_result = -0x1.7f419f2b75bd8p+62 | --
+insn wcdgb00:
+  v_result = 0x1.25fde2a049b9dp+61 | --
+insn wcdgb00:
+  v_result = 0x1.ae2cd6e1b0bc3p+61 | --
+insn wcdgb00:
+  v_result = -0x1.a86a6ac2e7f86p+60 | --
+insn wcdgb01:
+  v_result = 0x1.428e59fd9cbf6p+62 | --
+insn wcdgb01:
+  v_result = 0x1.555c9882ac3cp+62 | --
+insn wcdgb01:
+  v_result = 0x1.6adf4adcd7eabp+62 | --
+insn wcdgb01:
+  v_result = 0x1.96834828cef42p+59 | --
+insn wcdgb03:
+  v_result = 0x1.dcbf3fa837c83p+60 | --
+insn wcdgb03:
+  v_result = 0x1.72a2876d8b21fp+58 | --
+insn wcdgb03:
+  v_result = -0x1.eba002eb73363p+61 | --
+insn wcdgb03:
+  v_result = -0x1.9927500a51fb1p+62 | --
+insn wcdgb04:
+  v_result = -0x1.63ed20dff75f8p+61 | --
+insn wcdgb04:
+  v_result = -0x1.f633b3df21512p+62 | --
+insn wcdgb04:
+  v_result = 0x1.d0e66eceac85p+61 | --
+insn wcdgb04:
+  v_result = -0x1.39123ddda21e1p+61 | --
+insn wcdgb05:
+  v_result = 0x1.fd23d3bb74973p+61 | --
+insn wcdgb05:
+  v_result = 0x1.6aeee9b39a78p+60 | --
+insn wcdgb05:
+  v_result = -0x1.cee4619dc60aep+62 | --
+insn wcdgb05:
+  v_result = 0x1.584ecd3f3428bp+60 | --
+insn wcdgb06:
+  v_result = 0x1.586fdf8ab49bdp+61 | --
+insn wcdgb06:
+  v_result = 0x1.fb08f27947d9ap+59 | --
+insn wcdgb06:
+  v_result = -0x1.e4641396e0158p+62 | --
+insn wcdgb06:
+  v_result = -0x1.8fe02a6e4343bp+62 | --
+insn wcdgb07:
+  v_result = 0x1.966a323112ccbp+62 | --
+insn wcdgb07:
+  v_result = -0x1.1eced54831d5fp+62 | --
+insn wcdgb07:
+  v_result = -0x1.a5298c4e2b7e9p+59 | --
+insn wcdgb07:
+  v_result = -0x1.14f4092cd5791p+62 | --
+insn vcdlgb00:
+  v_result = 0x1.704daf0b8b1cep+63 | 0x1.235c2f7eb7ebp+63
+insn vcdlgb00:
+  v_result = 0x1.71988e8f0e9e7p+62 | 0x1.504dd445ea9dp+62
+insn vcdlgb00:
+  v_result = 0x1.3de978b9d82cp+63 | 0x1.144b2c0b7c75ap+61
+insn vcdlgb00:
+  v_result = 0x1.722463002164fp+63 | 0x1.1dd97d597c00bp+63
+insn vcdlgb01:
+  v_result = 0x1.e11b1232c97f7p+63 | 0x1.e0d3165825009p+63
+insn vcdlgb01:
+  v_result = 0x1.260bf8c912cffp+62 | 0x1.31e672bff4076p+61
+insn vcdlgb01:
+  v_result = 0x1.546f0a4fbfb7bp+62 | 0x1.55acfc16dc7f2p+62
+insn vcdlgb01:
+  v_result = 0x1.cea37b049efc6p+63 | 0x1.4d1e1693b9d47p+63
+insn vcdlgb03:
+  v_result = 0x1.b1569d055fc8bp+63 | 0x1.5172c6a5f3a4fp+59
+insn vcdlgb03:
+  v_result = 0x1.95f80c2d05911p+63 | 0x1.eea27334b5c5bp+63
+insn vcdlgb03:
+  v_result = 0x1.c650e2fc478a7p+63 | 0x1.55102e25587d7p+61
+insn vcdlgb03:
+  v_result = 0x1.1dbb9aef2047bp+63 | 0x1.8f35f90367af5p+62
+insn vcdlgb04:
+  v_result = 0x1.f2e68fe97cb6fp+61 | 0x1.6b7314c5f3407p+61
+insn vcdlgb04:
+  v_result = 0x1.618b485c5019fp+61 | 0x1.2860c22836d3p+63
+insn vcdlgb04:
+  v_result = 0x1.4f57558143a43p+60 | 0x1.db15c4f4aef8ap+63
+insn vcdlgb04:
+  v_result = 0x1.f8251a37c576ap+63 | 0x1.25078b9a813f3p+63
+insn vcdlgb05:
+  v_result = 0x1.dcfb818ee4e93p+63 | 0x1.46e0382195fbdp+63
+insn vcdlgb05:
+  v_result = 0x1.72f8a39ad0fffp+63 | 0x1.8f67e20599607p+63
+insn vcdlgb05:
+  v_result = 0x1.68c0f2be9bcf1p+63 | 0x1.d4fa09c58d013p+63
+insn vcdlgb05:
+  v_result = 0x1.f128a4a93d8e2p+62 | 0x1.fb1914593f43dp+63
+insn vcdlgb06:
+  v_result = 0x1.65d38a3408302p+63 | 0x1.75d9e0b0beef5p+63
+insn vcdlgb06:
+  v_result = 0x1.7c73d63050b56p+63 | 0x1.7ae25a83e9523p+62
+insn vcdlgb06:
+  v_result = 0x1.1e88559cb4d4fp+63 | 0x1.b76656e814de1p+62
+insn vcdlgb06:
+  v_result = 0x1.6b8f318390dddp+62 | 0x1.cb11ea61fe392p+62
+insn vcdlgb07:
+  v_result = 0x1.5df238cdc47e3p+62 | 0x1.787e125d17e65p+63
+insn vcdlgb07:
+  v_result = 0x1.1188c551a95c8p+63 | 0x1.18dfe159878e4p+61
+insn vcdlgb07:
+  v_result = 0x1.c9f4d7872171bp+62 | 0x1.85f38578417fcp+63
+insn vcdlgb07:
+  v_result = 0x1.c47146f358a5ep+63 | 0x1.7610829ede041p+63
+insn wcdlgb00:
+  v_result = 0x1.52258a9c884b2p+63 | --
+insn wcdlgb00:
+  v_result = 0x1.85e790e5ee62ap+62 | --
+insn wcdlgb00:
+  v_result = 0x1.3f3a26991ae6fp+61 | --
+insn wcdlgb00:
+  v_result = 0x1.829768c6d347ep+62 | --
+insn wcdlgb01:
+  v_result = 0x1.d6205e9c27163p+62 | --
+insn wcdlgb01:
+  v_result = 0x1.2f6b390e4e679p+63 | --
+insn wcdlgb01:
+  v_result = 0x1.f17c0f8bdc10ep+62 | --
+insn wcdlgb01:
+  v_result = 0x1.0434ea203e838p+61 | --
+insn wcdlgb03:
+  v_result = 0x1.0b725ef49b39dp+63 | --
+insn wcdlgb03:
+  v_result = 0x1.d34ed53b96725p+62 | --
+insn wcdlgb03:
+  v_result = 0x1.de0102467f8f1p+61 | --
+insn wcdlgb03:
+  v_result = 0x1.b8e061bac9ad1p+62 | --
+insn wcdlgb04:
+  v_result = 0x1.4f037607388ep+63 | --
+insn wcdlgb04:
+  v_result = 0x1.18bd712b03bfcp+62 | --
+insn wcdlgb04:
+  v_result = 0x1.97323219bdfa7p+61 | --
+insn wcdlgb04:
+  v_result = 0x1.2c2aeed7837acp+63 | --
+insn wcdlgb05:
+  v_result = 0x1.4d78ccfd04be9p+63 | --
+insn wcdlgb05:
+  v_result = 0x1.609af4df15232p+62 | --
+insn wcdlgb05:
+  v_result = 0x1.6569006de04fp+61 | --
+insn wcdlgb05:
+  v_result = 0x1.caf7cbee7fc76p+63 | --
+insn wcdlgb06:
+  v_result = 0x1.391b6c9e26091p+62 | --
+insn wcdlgb06:
+  v_result = 0x1.ec2409a201843p+63 | --
+insn wcdlgb06:
+  v_result = 0x1.ebe4b7c9d4da2p+63 | --
+insn wcdlgb06:
+  v_result = 0x1.4b8b219c73f26p+63 | --
+insn wcdlgb07:
+  v_result = 0x1.abf31ce90130fp+62 | --
+insn wcdlgb07:
+  v_result = 0x1.b1457751f1eabp+62 | --
+insn wcdlgb07:
+  v_result = 0x1.663e8c093610ep+62 | --
+insn wcdlgb07:
+  v_result = 0x1.2285155dd0d56p+61 | --
+insn vcgdb00:
+  v_result = 8000000000000000 | 0000000000000000
+insn vcgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb01:
+  v_result = 0000000000000000 | 7fffffffffffffff
+insn vcgdb01:
+  v_result = 0000000000000000 | 8000000000000000
+insn vcgdb01:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb01:
+  v_result = 0000000000000000 | 7fffffffffffffff
+insn vcgdb03:
+  v_result = 7fffffffffffffff | 8000000000000000
+insn vcgdb03:
+  v_result = 8000000000000000 | 7fffffffffffffff
+insn vcgdb03:
+  v_result = 0000000000000001 | ffffffffffffffff
+insn vcgdb03:
+  v_result = 0000000000000001 | ffffffffffffffff
+insn vcgdb04:
+  v_result = 7fffffffffffffff | 0000000000000000
+insn vcgdb04:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb04:
+  v_result = 8000000000000000 | 7fffffffffffffff
+insn vcgdb04:
+  v_result = 7fffffffffffffff | 0000000000000000
+insn vcgdb05:
+  v_result = 0000000000000000 | 8000000000000000
+insn vcgdb05:
+  v_result = 8000000000000000 | 8000000000000000
+insn vcgdb05:
+  v_result = 7fffffffffffffff | 8000000000000000
+insn vcgdb05:
+  v_result = 0000000000000000 | 0000000000000000
+insn vcgdb06:
+  v_result = 7fffffffffffffff | 8000000000000000
+insn vcgdb06:
+  v_result = 0000000000000000 | 7fffffffffffffff
+insn vcgdb06:
+  v_result = 0000000000000001 | 8000000000000000
+insn vcgdb06:
+  v_result = 7fffffffffffffff | 8000000000000000
+insn vcgdb07:
+  v_result = 8000000000000000 | 8000000000000000
+insn vcgdb07:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn vcgdb07:
+  v_result = 8000000000000000 | 8000000000000000
+insn vcgdb07:
+  v_result = 7fffffffffffffff | 7fffffffffffffff
+insn wcgdb00:
+  v_result = 7fffffffffffffff | --
+insn wcgdb00:
+  v_result = 0000000000000000 | --
+insn wcgdb00:
+  v_result = 8000000000000000 | --
+insn wcgdb00:
+  v_result = 7fffffffffffffff | --
+insn wcgdb01:
+  v_result = 0000000000000000 | --
+insn wcgdb01:
+  v_result = 0000000000000000 | --
+insn wcgdb01:
+  v_result = 0000000000000000 | --
+insn wcgdb01:
+  v_result = 8000000000000000 | --
+insn wcgdb03:
+  v_result = 0000000000000001 | --
+insn wcgdb03:
+  v_result = 8000000000000000 | --
+insn wcgdb03:
+  v_result = 8000000000000000 | --
+insn wcgdb03:
+  v_result = 0000000000000001 | --
+insn wcgdb04:
+  v_result = ffffffffe9479a7d | --
+insn wcgdb04:
+  v_result = 0000000000000000 | --
+insn wcgdb04:
+  v_result = 0000000000000000 | --
+insn wcgdb04:
+  v_result = 7fffffffffffffff | --
+insn wcgdb05:
+  v_result = 0000000000000000 | --
+insn wcgdb05:
+  v_result = 8000000000000000 | --
+insn wcgdb05:
+  v_result = 7fffffffffffffff | --
+insn wcgdb05:
+  v_result = 0000000000000000 | --
+insn wcgdb06:
+  v_result = 0000000000000001 | --
+insn wcgdb06:
+  v_result = 7fffffffffffffff | --
+insn wcgdb06:
+  v_result = 0000000000000001 | --
+insn wcgdb06:
+  v_result = 0000000000000001 | --
+insn wcgdb07:
+  v_result = 7fffffffffffffff | --
+insn wcgdb07:
+  v_result = e636b693e39a1100 | --
+insn wcgdb07:
+  v_result = ffffffffffffffff | --
+insn wcgdb07:
+  v_result = 7fffffffffffffff | --
+insn vclgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb00:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb01:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn vclgdb01:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn vclgdb01:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb01:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vclgdb03:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vclgdb03:
+  v_result = 0000000000000001 | 0000000000000000
+insn vclgdb03:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb03:
+  v_result = 0000000000000000 | 0000000000000001
+insn vclgdb04:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb04:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb04:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vclgdb04:
+  v_result = ffffffffffffffff | ffffffffffffffff
+insn vclgdb05:
+  v_result = ffffffffffffffff | ffffffffffffffff
+insn vclgdb05:
+  v_result = ffffffffffffffff | ffffffffffffffff
+insn vclgdb05:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb05:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vclgdb06:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn vclgdb06:
+  v_result = 0000000000000001 | ffffffffffffffff
+insn vclgdb06:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb06:
+  v_result = 0000000000000001 | 0000000000000000
+insn vclgdb07:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb07:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb07:
+  v_result = 0000000000000000 | 0000000000000000
+insn vclgdb07:
+  v_result = 0000000000000000 | 0000000000000000
+insn wclgdb00:
+  v_result = 0000000000000000 | --
+insn wclgdb00:
+  v_result = 0000000000000000 | --
+insn wclgdb00:
+  v_result = 0000000000000000 | --
+insn wclgdb00:
+  v_result = 0000000000000000 | --
+insn wclgdb01:
+  v_result = 0000000000000000 | --
+insn wclgdb01:
+  v_result = 0000000000000000 | --
+insn wclgdb01:
+  v_result = ffffffffffffffff | --
+insn wclgdb01:
+  v_result = ffffffffffffffff | --
+insn wclgdb03:
+  v_result = 0000000000000001 | --
+insn wclgdb03:
+  v_result = 0000000000000000 | --
+insn wclgdb03:
+  v_result = ffffffffffffffff | --
+insn wclgdb03:
+  v_result = 0000000000000000 | --
+insn wclgdb04:
+  v_result = 0000000000000000 | --
+insn wclgdb04:
+  v_result = 0000000000000000 | --
+insn wclgdb04:
+  v_result = 0000000000000000 | --
+insn wclgdb04:
+  v_result = 0000000000000000 | --
+insn wclgdb05:
+  v_result = ffffffffffffffff | --
+insn wclgdb05:
+  v_result = 1ce8d9951b8c8600 | --
+insn wclgdb05:
+  v_result = 0000000000000000 | --
+insn wclgdb05:
+  v_result = 0000000000000000 | --
+insn wclgdb06:
+  v_result = 0000000000000001 | --
+insn wclgdb06:
+  v_result = 0000000000000000 | --
+insn wclgdb06:
+  v_result = 0000000000000000 | --
+insn wclgdb06:
+  v_result = 0000000000000000 | --
+insn wclgdb07:
+  v_result = 0000000000000000 | --
+insn wclgdb07:
+  v_result = ffffffffffffffff | --
+insn wclgdb07:
+  v_result = 0000000000000000 | --
+insn wclgdb07:
+  v_result = 0000000000000000 | --
+insn vfidb00:
+  v_result = -0x0p+0 | -0x1.049253d90dd92p+94
+insn vfidb00:
+  v_result = 0x1.75187b3d8d386p+793 | -0x1.0f5aea6c1c123p+547
+insn vfidb00:
+  v_result = 0x0p+0 | -0x1.0791295e0541p+59
+insn vfidb00:
+  v_result = -0x1.1b9a77d71eb22p+825 | -0x1.0189f7d748475p+647
+insn vfidb01:
+  v_result = -0x1.5d26e474def0ap+1013 | -0x0p+0
+insn vfidb01:
+  v_result = 0x1.4ad53aba85947p+105 | -0x0p+0
+insn vfidb01:
+  v_result = 0x1.aeacddb1336dep+106 | 0x0p+0
+insn vfidb01:
+  v_result = -0x1.ee2d2afcea935p+75 | 0x0p+0
+insn vfidb03:
+  v_result = -0x1p+0 | -0x1p+0
+insn vfidb03:
+  v_result = 0x1p+0 | -0x1.4715448c89f45p+675
+insn vfidb03:
+  v_result = -0x1p+0 | -0x1p+0
+insn vfidb03:
+  v_result = -0x1p+0 | -0x1p+0
+insn vfidb04:
+  v_result = 0x0p+0 | 0x0p+0
+insn vfidb04:
+  v_result = 0x1.ec22dc8481352p+516 | 0x1.948a15e99787bp+705
+insn vfidb04:
+  v_result = 0x0p+0 | -0x0p+0
+insn vfidb04:
+  v_result = -0x0p+0 | -0x1.959f40b0d52d1p+679
+insn vfidb05:
+  v_result = 0x1.714e0b00c3609p+188 | -0x0p+0
+insn vfidb05:
+  v_result = 0x0p+0 | -0x1.cbf3a5cc327c4p+987
+insn vfidb05:
+  v_result = -0x0p+0 | 0x0p+0
+insn vfidb05:
+  v_result = 0x0p+0 | -0x1.ea169b23ef443p+754
+insn vfidb06:
+  v_result = 0x1p+0 | -0x1.4286e146748fdp+864
+insn vfidb06:
+  v_result = 0x1p+0 | 0x1.9845bcfe1181dp+687
+insn vfidb06:
+  v_result = -0x1.f40c24aa8cae3p+141 | -0x1.33b94p+18
+insn vfidb06:
+  v_result = 0x1.497c3bfb72975p+895 | 0x1.94dc5d4f14f02p+866
+insn vfidb07:
+  v_result = 0x1.4p+9 | -0x1.0eb881ef09e8bp+144
+insn vfidb07:
+  v_result = 0x0p+0 | 0x1.a413f4290b781p+986
+insn vfidb07:
+  v_result = 0x1.89260655d1017p+657 | -0x1p+0
+insn vfidb07:
+  v_result = -0x1.e233d525b46edp+954 | 0x1.70742fcc3ce0bp+148
+insn wfidb00:
+  v_result = -0x0p+0 | --
+insn wfidb00:
+  v_result = -0x0p+0 | --
+insn wfidb00:
+  v_result = 0x1.920b565b7898ap+329 | --
+insn wfidb00:
+  v_result = -0x1.8482d1dfaa054p+729 | --
+insn wfidb01:
+  v_result = -0x1.e88ebfa665fcep+172 | --
+insn wfidb01:
+  v_result = 0x0p+0 | --
+insn wfidb01:
+  v_result = 0x1.098fed551a139p+372 | --
+insn wfidb01:
+  v_result = -0x0p+0 | --
+insn wfidb03:
+  v_result = -0x1.af465d77bce39p+75 | --
+insn wfidb03:
+  v_result = -0x1p+0 | --
+insn wfidb03:
+  v_result = 0x1p+0 | --
+insn wfidb03:
+  v_result = 0x1.d08648a9cbedcp+182 | --
+insn wfidb04:
+  v_result = 0x1.50b6db7fbbd1ap+133 | --
+insn wfidb04:
+  v_result = -0x0p+0 | --
+insn wfidb04:
+  v_result = -0x1.df15d38b85b39p+278 | --
+insn wfidb04:
+  v_result = 0x1.0fc2143d758f6p+241 | --
+insn wfidb05:
+  v_result = 0x0p+0 | --
+insn wfidb05:
+  v_result = 0x0p+0 | --
+insn wfidb05:
+  v_result = -0x1.c2aea42bdd582p+522 | --
+insn wfidb05:
+  v_result = -0x1.33846647de0efp+805 | --
+insn wfidb06:
+  v_result = 0x1p+0 | --
+insn wfidb06:
+  v_result = -0x1.2b33d73559b49p+432 | --
+insn wfidb06:
+  v_result = 0x1p+0 | --
+insn wfidb06:
+  v_result = 0x1.3e88df9ab4141p+1001 | --
+insn wfidb07:
+  v_result = 0x0p+0 | --
+insn wfidb07:
+  v_result = -0x1.22d9d06f10138p+388 | --
+insn wfidb07:
+  v_result = -0x1p+0 | --
+insn wfidb07:
+  v_result = 0x1.a38b4p+18 | --
+insn vledb00:
+  v_result = -0x0p+0 | -- | 0x0p+0 | --
+insn vledb00:
+  v_result = 0x1.fffffep+127 | -- | 0x1.1cb168p-99 | --
+insn vledb00:
+  v_result = -0x1.fffffep+127 | -- | -0x1.92cefep-117 | --
+insn vledb00:
+  v_result = -0x0p+0 | -- | 0x1.fffffep+127 | --
+insn vledb01:
+  v_result = -0x1.505196p+107 | -- | -0x1.342602p+80 | --
+insn vledb01:
+  v_result = -inf | -- | 0x0p+0 | --
+insn vledb01:
+  v_result = -inf | -- | -0x0p+0 | --
+insn vledb01:
+  v_result = -0x0p+0 | -- | -0x1.70c4fcp+53 | --
+insn vledb03:
+  v_result = 0x1.83961ep-57 | -- | -0x1.fffffep+127 | --
+insn vledb03:
+  v_result = -0x1p-149 | -- | 0x1.fffffep+127 | --
+insn vledb03:
+  v_result = 0x1.fffffep+127 | -- | -0x1p-149 | --
+insn vledb03:
+  v_result = -0x1.a9eb9ep+89 | -- | 0x1.fffffep+127 | --
+insn vledb04:
+  v_result = -inf | -- | -0x0p+0 | --
+insn vledb04:
+  v_result = -inf | -- | inf | --
+insn vledb04:
+  v_result = -inf | -- | inf | --
+insn vledb04:
+  v_result = inf | -- | 0x0p+0 | --
+insn vledb05:
+  v_result = 0x1.fffffep+127 | -- | 0x1.fep-142 | --
+insn vledb05:
+  v_result = -0x1.fffffep+127 | -- | 0x1.fffffep+127 | --
+insn vledb05:
+  v_result = -0x0p+0 | -- | -0x1.fffffep+127 | --
+insn vledb05:
+  v_result = -0x0p+0 | -- | -0x1.1d9ccep+36 | --
+insn vledb06:
+  v_result = inf | -- | 0x1p-149 | --
+insn vledb06:
+  v_result = -0x1.fffffep+127 | -- | inf | --
+insn vledb06:
+  v_result = inf | -- | inf | --
+insn vledb06:
+  v_result = -0x1.fffffep+127 | -- | 0x1p-149 | --
+insn vledb07:
+  v_result = 0x0p+0 | -- | -0x1p-149 | --
+insn vledb07:
+  v_result = 0x1.fffffep+127 | -- | 0x1.fffffep+127 | --
+insn vledb07:
+  v_result = -0x1p-149 | -- | -0x1p-149 | --
+insn vledb07:
+  v_result = 0x1.fffffep+127 | -- | -0x1.58f4c4p-70 | --
+insn wledb00:
+  v_result = 0x0p+0 | -- | -- | --
+insn wledb00:
+  v_result = -0x0p+0 | -- | -- | --
+insn wledb00:
+  v_result = 0x1.81f146p+15 | -- | -- | --
+insn wledb00:
+  v_result = -0x0p+0 | -- | -- | --
+insn wledb01:
+  v_result = inf | -- | -- | --
+insn wledb01:
+  v_result = -inf | -- | -- | --
+insn wledb01:
+  v_result = 0x0p+0 | -- | -- | --
+insn wledb01:
+  v_result = -0x0p+0 | -- | -- | --
+insn wledb03:
+  v_result = 0x1.3a6edep+104 | -- | -- | --
+insn wledb03:
+  v_result = 0x1.fffffep+127 | -- | -- | --
+insn wledb03:
+  v_result = 0x1p-149 | -- | -- | --
+insn wledb03:
+  v_result = -0x1.fffffep+127 | -- | -- | --
+insn wledb04:
+  v_result = -inf | -- | -- | --
+insn wledb04:
+  v_result = inf | -- | -- | --
+insn wledb04:
+  v_result = 0x0p+0 | -- | -- | --
+insn wledb04:
+  v_result = inf | -- | -- | --
+insn wledb05:
+  v_result = 0x0p+0 | -- | -- | --
+insn wledb05:
+  v_result = 0x1.ff6p-138 | -- | -- | --
+insn wledb05:
+  v_result = 0x1.fffffep+127 | -- | -- | --
+insn wledb05:
+  v_result = -0x1.fffffep+127 | -- | -- | --
+insn wledb06:
+  v_result = -0x0p+0 | -- | -- | --
+insn wledb06:
+  v_result = inf | -- | -- | --
+insn wledb06:
+  v_result = inf | -- | -- | --
+insn wledb06:
+  v_result = inf | -- | -- | --
+insn wledb07:
+  v_result = 0x0p+0 | -- | -- | --
+insn wledb07:
+  v_result = -inf | -- | -- | --
+insn wledb07:
+  v_result = -0x1p-149 | -- | -- | --
+insn wledb07:
+  v_result = 0x1.fffffep+127 | -- | -- | --
+insn vldeb:
+  v_result = -0x1.d173fap-104 | -0x1.b5dde6p-35
+insn vldeb:
+  v_result = 0x1.39a614p-53 | 0x1.24adeep-35
+insn vldeb:
+  v_result = -0x1.613792p-45 | 0x1.788502p-81
+insn vldeb:
+  v_result = -0x1.6f5fb2p+70 | -0x1.0d2df6p-107
+insn wldeb:
+  v_result = -0x1.9a4c2cp-54 | --
+insn wldeb:
+  v_result = -0x1.be96b2p-116 | --
+insn wldeb:
+  v_result = -0x1.d2c074p-55 | --
+insn wldeb:
+  v_result = 0x1.64b99ep+78 | --
+insn vflcdb:
+  v_result = -0x1.0ae6d82f76afp-166 | 0x1.e8fb1e03a7415p-191
+insn vflcdb:
+  v_result = -0x1.9f865a209464cp+19 | -0x1.a81bca7f2dbbcp-960
+insn vflcdb:
+  v_result = -0x1.ed6c6a3ed0163p-5 | -0x1.40b73b91e5a17p+838
+insn vflcdb:
+  v_result = -0x1.19520153d35b4p-301 | -0x1.ac5325cd23253p+396
+insn wflcdb:
+  v_result = -0x1.ffd3eecfd54d7p-831 | --
+insn wflcdb:
+  v_result = 0x1.508ea45606447p-442 | --
+insn wflcdb:
+  v_result = -0x1.da8ab2188c21ap+94 | --
+insn wflcdb:
+  v_result = 0x1.086882645e0c5p-1001 | --
+insn vflndb:
+  v_result = -0x1.5bec561d407dcp+819 | -0x1.a5773dadb7a2dp+935
+insn vflndb:
+  v_result = -0x1.fa5a407a116cep+972 | -0x1.7bf005c15063dp-437
+insn vflndb:
+  v_result = -0x1.184242f0442acp-994 | -0x1.e54e17c7617a2p-355
+insn vflndb:
+  v_result = -0x1.c5bc39a06d4e2p-259 | -0x1.c5e61ad849e77p-833
+insn wflndb:
+  v_result = -0x1.e9f3e6d1beffap-117 | --
+insn wflndb:
+  v_result = -0x1.3fc4ef2e7485ep-691 | --
+insn wflndb:
+  v_result = -0x1.7146c5afdec16p+23 | --
+insn wflndb:
+  v_result = -0x1.03f8d7e9afe84p-947 | --
+insn vflpdb:
+  v_result = 0x1.64ae59b6c762ep-407 | 0x1.fa7191ab21e86p+533
+insn vflpdb:
+  v_result = 0x1.e39a61250e473p-116 | 0x1.970a4244b7a3dp+800
+insn vflpdb:
+  v_result = 0x1.905c12e0e2c53p+264 | 0x1.87daa9c3e4967p-647
+insn vflpdb:
+  v_result = 0x1.85fa2de1d492ap+170 | 0x1.ac36828822c11p-968
+insn wflpdb:
+  v_result = 0x1.a6cf677640a73p-871 | --
+insn wflpdb:
+  v_result = 0x1.b886774f6d888p-191 | --
+insn wflpdb:
+  v_result = 0x1.5045d37d46f5fp+943 | --
+insn wflpdb:
+  v_result = 0x1.1e7bec6ada14dp+252 | --
+insn vfadb:
+  v_result = -0x1.9b49c31ca8ac5p+926 | 0x1.fdbc992926267p+677
+insn vfadb:
+  v_result = -0x1.6144d24f60f18p+321 | -0x1.d2a10763bba9ep+317
+insn vfadb:
+  v_result = -0x1.d400afb20401fp+608 | 0x1.600f85fbc2774p-86
+insn vfadb:
+  v_result = 0x1.a3a594bc0418dp+515 | 0x1.6d08aceb68681p+706
+insn wfadb:
+  v_result = 0x1.3c5466cb80722p+489 | --
+insn wfadb:
+  v_result = 0x1.b0b142d6b76a2p+577 | --
+insn wfadb:
+  v_result = -0x1.5eef86490fb0ap+481 | --
+insn wfadb:
+  v_result = 0x1.4dad707287288p+756 | --
+insn vfsdb:
+  v_result = 0x1.054fd9c4d4882p+644 | 0x1.7c9e1e858ba5bp-301
+insn vfsdb:
+  v_result = -0x1.697779c72f8a1p-232 | -0x1.91525e7f72d25p+516
+insn vfsdb:
+  v_result = 0x1.794d0fc274286p+204 | -0x1.25d121c81039p-344
+insn vfsdb:
+  v_result = 0x1.00c3f844d79b5p+354 | 0x1.d707e1ddd2a25p-13
+insn wfsdb:
+  v_result = 0x1.a7ceb293690dep+316 | --
+insn wfsdb:
+  v_result = 0x1.dedb9f3935b56p-155 | --
+insn wfsdb:
+  v_result = -0x1.1dcce4e81818fp+960 | --
+insn wfsdb:
+  v_result = 0x1.afb4cce4c43dcp+530 | --
+insn vfmdb:
+  v_result = 0x1.4b428afda35a7p-390 | -0x0p+0
+insn vfmdb:
+  v_result = 0x1.14ff2ed0ce42bp+510 | -0x0p+0
+insn vfmdb:
+  v_result = 0x1.cc7c9e66fd70ap-33 | 0x1.431fddc319ee2p+996
+insn vfmdb:
+  v_result = -0x1.fffffffffffffp+1023 | -0x1.a76863c8aab11p+614
+insn wfmdb:
+  v_result = -0x1.792f6fb13894ap-707 | --
+insn wfmdb:
+  v_result = -0x1.4d4b0a1827064p-134 | --
+insn wfmdb:
+  v_result = -0x1.81aca4bbcbd24p+470 | --
+insn wfmdb:
+  v_result = -0x0p+0 | --
+insn vfddb:
+  v_result = 0x1.37f78f2cbe546p+761 | 0x1.087170c12984cp-502
+insn vfddb:
+  v_result = 0x1.38cf2a1e99e53p-117 | -0x1.780d86d7eff49p+408
+insn vfddb:
+  v_result = 0x1.6a3702fbc252cp-10 | 0x0p+0
+insn vfddb:
+  v_result = 0x1.ad9a43954644bp-662 | 0x0p+0
+insn wfddb:
+  v_result = -0x1.9864f1511f8cp+288 | --
+insn wfddb:
+  v_result = 0x1.2d5cdb15a686cp-936 | --
+insn wfddb:
+  v_result = -0x1.c3d0799c1420fp+121 | --
+insn wfddb:
+  v_result = -0x1.b653a10ebdeccp-379 | --
+insn vfsqdb:
+  v_result = 0x1.fb009ab25ec11p-352 | nan
+insn vfsqdb:
+  v_result = nan | 0x1.575fa6778042ep-145
+insn vfsqdb:
+  v_result = 0x1.c51ecb6cc318p-103 | nan
+insn vfsqdb:
+  v_result = 0x1.833dba0954bccp+249 | nan
+insn wfsqdb:
+  v_result = 0x1.b30fc65551133p+240 | --
+insn wfsqdb:
+  v_result = 0x1.a144f43a592c1p+86 | --
+insn wfsqdb:
+  v_result = nan | --
+insn wfsqdb:
+  v_result = nan | --
+insn vfmadb:
+  v_result = 0x1.fffffffffffffp+1023 | 0x1.fffffffffffffp+1023
+insn vfmadb:
+  v_result = 0x1.be6dfa3f5b30dp-420 | 0x1.62720e4cb1583p+617
+insn vfmadb:
+  v_result = -0x1.e8be715f14671p-2 | 0x1.8f0b6073eadcbp+277
+insn vfmadb:
+  v_result = 0x1.60a3231346325p+102 | -0x1.5e0a7a3b97e9bp+110
+insn wfmadb:
+  v_result = -0x1.fffffffffffffp+1023 | --
+insn wfmadb:
+  v_result = -0x1.1c4933e117d95p-59 | --
+insn wfmadb:
+  v_result = -0x1.d2e19acf7c4bcp+99 | --
+insn wfmadb:
+  v_result = 0x1.17342292078b4p+188 | --
+insn vfmsdb:
+  v_result = -0x1.1743102949c9bp-230 | 0x1.ba15ae51a252bp+979
+insn vfmsdb:
+  v_result = -0x1.5e89932819567p+749 | -0x1.746835a6a3d29p+756
+insn vfmsdb:
+  v_result = -0x1.a1c5f6283d74p+602 | -0x1.60722d2eadabcp+573
+insn vfmsdb:
+  v_result = 0x1.54cc2efc022a7p+360 | -0x1.9ae520664c8abp+486
+insn wfmsdb:
+  v_result = -0x1.aa42b2bb17af8p+982 | --
+insn wfmsdb:
+  v_result = 0x1.c242894a0068p+416 | --
+insn wfmsdb:
+  v_result = -0x1.5ca912008e077p-217 | --
+insn wfmsdb:
+  v_result = 0x1.a67ca6ba395bcp+675 | --
+insn wfcdb:
+  r_result = 0000000000000002
+insn wfcdb:
+  r_result = 0000000000000001
+insn wfcdb:
+  r_result = 0000000000000002
+insn wfcdb:
+  r_result = 0000000000000002
+insn wfkdb:
+  r_result = 0000000000000001
+insn wfkdb:
+  r_result = 0000000000000002
+insn wfkdb:
+  r_result = 0000000000000001
+insn wfkdb:
+  r_result = 0000000000000001
+insn vfcedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn vfcedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn vfcedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn vfcedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn wfcedb:
+  v_result = 0000000000000000 | --
+insn wfcedb:
+  v_result = 0000000000000000 | --
+insn wfcedb:
+  v_result = 0000000000000000 | --
+insn wfcedb:
+  v_result = 0000000000000000 | --
+insn vfcedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfcedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfcedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfcedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn wfcedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn wfcedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn wfcedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn wfcedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn vfchdb:
+  v_result = ffffffffffffffff | ffffffffffffffff
+insn vfchdb:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn vfchdb:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vfchdb:
+  v_result = ffffffffffffffff | 0000000000000000
+insn wfchdb:
+  v_result = ffffffffffffffff | --
+insn wfchdb:
+  v_result = ffffffffffffffff | --
+insn wfchdb:
+  v_result = ffffffffffffffff | --
+insn wfchdb:
+  v_result = ffffffffffffffff | --
+insn vfchdbs:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vfchdbs:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000001
+insn vfchdbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfchdbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn wfchdbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn wfchdbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn wfchdbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn wfchdbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn vfchedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn vfchedb:
+  v_result = ffffffffffffffff | 0000000000000000
+insn vfchedb:
+  v_result = 0000000000000000 | 0000000000000000
+insn vfchedb:
+  v_result = 0000000000000000 | ffffffffffffffff
+insn wfchedb:
+  v_result = ffffffffffffffff | --
+insn wfchedb:
+  v_result = ffffffffffffffff | --
+insn wfchedb:
+  v_result = 0000000000000000 | --
+insn wfchedb:
+  v_result = 0000000000000000 | --
+insn vfchedbs:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vfchedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfchedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vfchedbs:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn wfchedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn wfchedbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn wfchedbs:
+  v_result = ffffffffffffffff | --
+  r_result = 0000000000000000
+insn wfchedbs:
+  v_result = 0000000000000000 | --
+  r_result = 0000000000000003
+insn vftcidb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb0:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb3:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb4:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb8:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb16:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb16:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb16:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb16:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb32:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb32:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb32:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb32:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb64:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb64:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb64:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb64:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb128:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb128:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb128:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb128:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb256:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vftcidb256:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vftcidb256:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000001
+insn vftcidb256:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vftcidb512:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb512:
+  v_result = ffffffffffffffff | ffffffffffffffff
+  r_result = 0000000000000000
+insn vftcidb512:
+  v_result = 0000000000000000 | ffffffffffffffff
+  r_result = 0000000000000001
+insn vftcidb512:
+  v_result = ffffffffffffffff | 0000000000000000
+  r_result = 0000000000000001
+insn vftcidb1024:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1024:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1024:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb1024:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2048:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2048:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2048:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003
+insn vftcidb2048:
+  v_result = 0000000000000000 | 0000000000000000
+  r_result = 0000000000000003

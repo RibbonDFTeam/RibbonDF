@@ -1,0 +1,18 @@
+.svn
+# test
+#clangd index cache
+.cache
+*.o
+*.so
+*.swp
+*.patch
+tags
+*.dylib*
+build/
+*.orig
+.vscode
+.idea
+cmake-build-debug
+*.lst
+*.lss
+install/

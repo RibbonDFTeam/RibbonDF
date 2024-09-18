@@ -1,0 +1,8 @@
+#! /bin/sh
+# @configure_input@
+
+SED=@SED@
+
+../../memcheck/tests/filter_xml |
+./filter_thread_no |
+$SED 's/ vc: \[[0-9:, ]*\]/ vc: [ ... ]/g'
