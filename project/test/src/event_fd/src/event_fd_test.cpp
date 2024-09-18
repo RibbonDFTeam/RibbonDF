@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <stdio.h>
 #include <sys/epoll.h>
-#include "RibbonDF_config.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/eventfd.h>

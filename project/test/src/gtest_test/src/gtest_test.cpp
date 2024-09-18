@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "RibbonDF_config.h"
+
 #include "gtest/gtest.h"
 
 bool Even(int num)

@@ -14,7 +14,7 @@ list(APPEND PRIVATE_HEADERS ${CMAKE_CURRENT_LIST_DIR}/include)
 if(CONFIG_MODULE_GTEST_ENABLE)
     list(APPEND DEPEND_COMPONENTS
         gtest
-        )
+    )
 endif()
 
 # 添加成果库依赖
@@ -34,10 +34,10 @@ set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
 list(APPEND CUSTOM_DEFINES "")
 
 if(CONFIG_MODULE_RBLOG_ENABLE)
-list(APPEND SRC_DIRS ${CMAKE_CURRENT_LIST_DIR}/src/rblog)
-list(APPEND PRIVATE_HEADERS ${CMAKE_CURRENT_LIST_DIR}/src/rblog)
-list(APPEND DEPEND_COMPONENTS rblog)
+    list(APPEND SRC_DIRS ${CMAKE_CURRENT_LIST_DIR}/src/rblog)
+    list(APPEND PRIVATE_HEADERS ${CMAKE_CURRENT_LIST_DIR}/src/rblog)
+    list(APPEND DEPEND_COMPONENTS rblog)
 endif()
 
-RibbonDF_build_application()
+RibbonBuildApplication()
 add_test(NAME UnitTest COMMAND ${target_name})

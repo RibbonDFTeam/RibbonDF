@@ -36,4 +36,4 @@ set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
 set(CUSTOM_DEFINES "")
 
 # INSTALL(SCRIPT)
-RibbonDF_build_application()
+RibbonBuildApplication()

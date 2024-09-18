@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "RibbonDF_config.h"
+//
 
 int example_component_init()
 {
-    printf("this is component example.\n");
+    printf("SYSTEM_NAME: %s\n", SYSTEM_NAME);
 
     return 0;
 }

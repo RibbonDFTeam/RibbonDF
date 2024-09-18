@@ -34,4 +34,4 @@ endif()
 # 添加自定义defines
 set(CUSTOM_DEFINES "")
 
-RibbonDF_build_application()
+RibbonBuildApplication()

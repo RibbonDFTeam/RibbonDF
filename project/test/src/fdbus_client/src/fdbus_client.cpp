@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "RibbonDF_config.h"
+
 #include "fdbus/CBaseClient.h"
 #include "fdbus/CBaseJob.h"
 #include "fdbus/CFdbCJsonMsgBuilder.h"

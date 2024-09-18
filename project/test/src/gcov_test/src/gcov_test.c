@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "gcov_test.h"
-#include "RibbonDF_config.h"
+
 
 int test(int num)
 {

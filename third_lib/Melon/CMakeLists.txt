@@ -39,4 +39,4 @@ list(APPEND CUSTOM_DEFINES
     "-DMLN_LANG_DYLIB=\"${CMAKE_INSTALL_PREFIX}/lib\"")
 
 message("CUSTOM_DEFINES: ${CUSTOM_DEFINES}")
-RibbonDF_build_component(DYNAMIC)
+RibbonBuildComponent(DYNAMIC)

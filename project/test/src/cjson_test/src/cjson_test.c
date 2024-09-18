@@ -1,6 +1,6 @@
 #include "cjson_test.h"
 #include <stdio.h>
-#include "RibbonDF_config.h"
+
 #include "cJSON.h"
 
 int main()

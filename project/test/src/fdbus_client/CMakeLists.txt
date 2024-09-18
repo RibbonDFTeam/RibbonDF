@@ -30,4 +30,4 @@ set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
 # 添加自定义defines
 set(CUSTOM_DEFINES "")
 
-RibbonDF_build_application()
+RibbonBuildApplication()

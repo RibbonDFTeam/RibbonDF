@@ -35,4 +35,4 @@ if(CONFIG_MODULE_CJSON_UNIT_TEST_ENABLE)
     add_subdirectory(unit_test)
 endif()
 
-RibbonDF_build_application()
+RibbonBuildApplication()

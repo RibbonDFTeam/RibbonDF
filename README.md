@@ -150,9 +150,9 @@ RibbonDF的目录按功能划分如下：
       - CUSTOM_CMAKE_CXX_FLAGS：组件自定义的C++编译选项。
       - CUSTOM_CMAKE_EXE_LINKER_FLAGS：组件自定义的链接选项。
       - CUSTOM_DEFINES：组件自定义的宏定义。
-      - RibbonDF_build_component
+      - RibbonBuildComponent
         - 库组件编译命令，参数可选`STATIC`，`DYNAMIC`。不填则默认为`STATIC`。
-      - RibbonDF_build_application
+      - RibbonBuildApplication
         - 应用组件编译命令
    2. **Kconfig文件说明**
       - 组件使能项配置（必填项）：`MODULE_${COMPONENT_NAME}_ENABLE`

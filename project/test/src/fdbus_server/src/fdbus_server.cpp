@@ -3,7 +3,7 @@
 #include <string>
 #include <unistd.h>
 // #include "fdbus_server.h"
-#include "RibbonDF_config.h"
+
 #include "fdbus/CBaseJob.h"
 #include "fdbus/CBaseServer.h"
 #include "fdbus/CBaseWorker.h"

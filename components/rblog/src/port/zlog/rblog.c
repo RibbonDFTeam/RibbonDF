@@ -1,5 +1,5 @@
 #include "rblog.h"
-#include "RibbonDF_config.h"
+
 #include "zlog.h"
 #include <stdarg.h>
 #include <stdint.h>

@@ -30,4 +30,4 @@ set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
 
 # 添加自定义defines
 list(APPEND CUSTOM_DEFINES "")
-RibbonDF_build_component()
+RibbonBuildComponent()

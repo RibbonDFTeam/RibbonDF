@@ -1,6 +1,6 @@
 
 #include "zlog.h"
-#include "RibbonDF_config.h"
+
 #include <cstdio>
 
 #define zlog_i(TAG, fmt, ...) \

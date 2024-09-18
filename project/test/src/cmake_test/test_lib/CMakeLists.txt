@@ -2,7 +2,7 @@
 set(CMAKE_CXX_FLAGS "-std=c++14")
 message(STATUS "CMAKE_CXX_FLAGS:${CMAKE_CXX_FLAGS}")
 
-function(RibbonDF_build_component)
+function(RibbonBuildComponent)
     set(component_dynamic "STATIC")
 
     if(ARGN)
@@ -18,9 +18,9 @@ function(RibbonDF_build_component)
     message(STATUS "LIBRARY_TYPE:${LIBRARY_TYPE}")
 endfunction()
 
-RibbonDF_build_component(DYNAMIC)
+RibbonBuildComponent(DYNAMIC)
 
-# RibbonDF_build_component()
+# RibbonBuildComponent()
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SRC)
 add_library(test_lib ${SRC})
 target_include_directories(test_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

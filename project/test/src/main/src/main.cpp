@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include "RibbonDF_config.h"
+
 #include <string>
 
 int main()
