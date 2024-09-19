@@ -1,4 +1,6 @@
-
+[submodule "RibbonBuild"]
+	path = RibbonBuild
+	url = git@github.com:RibbonDFTeam/RibbonBuild.git
 [submodule "third_lib/fdbus/fdbus"]
 	path = third_lib/fdbus/fdbus
 	url = git@gitee.com:myskip/fdbus.git
