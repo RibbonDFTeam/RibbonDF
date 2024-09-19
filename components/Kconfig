@@ -1,3 +1,0 @@
-menu "components Configuration"
-osource "${RibbonDF_PROJECT_DIR}/../../components/*/Kconfig"
-endmenu

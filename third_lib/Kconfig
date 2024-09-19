@@ -1,3 +1,0 @@
-menu "Third lib Configuration"
-osource "${RibbonDF_PROJECT_DIR}/../../third_lib/*/Kconfig"
-endmenu

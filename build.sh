@@ -14,4 +14,12 @@ if [ ! -d "project/$ProjectName" ]; then
 fi
 
 cd project/$ProjectName
-sh build.sh
+
+if [ ! -d "build" ]; then
+    mkdir build
+fi
+
+cd build
+cmake ..
+make -j4 install
+cd - > /dev/null

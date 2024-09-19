@@ -1,8 +1,0 @@
-
-config MODULE_EXAMPLE_APP_ENABLE
-    bool "Enable Example App"
-    default n
-    help
-      Enable Example App.
-    select MODULE_EXAMPLE_COMPONENT_ENABLE
-

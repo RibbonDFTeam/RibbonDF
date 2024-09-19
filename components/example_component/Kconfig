@@ -1,7 +1,0 @@
-
-config MODULE_EXAMPLE_COMPONENT_ENABLE
-    bool "Enable example component"
-    default n
-    help
-      Enable example component.
-
