@@ -18,7 +18,7 @@ int test(int num)
 int main()
 {
     test(1);
-    test(2);
+    // test(2);
 
     return 0;
 }

@@ -24,7 +24,7 @@ list(APPEND DEPEND_LIBS
 set(CUSTOM_CMAKE_C_FLAGS "--coverage")
 
 # 添加C++编译选项
-set(CUSTOM_CMAKE_CXX_FLAGS "")
+set(CUSTOM_CMAKE_CXX_FLAGS "--coverage")
 
 # 添加链接选项
 set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
