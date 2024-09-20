@@ -32,8 +32,7 @@
    ```
    git submodule update --init
    ```
-   > `--recursive`可视情况添加。
-   > `RibbonBuild`模块为必须模块。
+> `RibbonBuild`模块为必选模块。`--recursive`可视情况添加。
 
 - 编译
     依赖`python3.8`以上版本
@@ -115,8 +114,7 @@ RibbonDF的目录按功能划分如下：
    - `CMakeLists.txt`, 项目编译入口文件。
    - `Kconfig`项目全局配置文件，配置项对所有组件生效。
 
-   ### 组件
-   #### 组件分类
+### 组件
  1. `RibbonDF`的组件分为三类：
    - 三方组件：三方组件是指`RibbonDF`框架体系外的公共组件，如`cJSON`组件。此类组件通常拥有独立的仓库，可通过子仓库方式引入。
    - 标准组件：标准组件是在`RibbonDF`框架中供不同项目公用的组件。如`rblog`组件，为`RibbonDF`提供统一的日志接口。
