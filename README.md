@@ -16,9 +16,9 @@
 
 ## 实现方式
 1.  适配`git` submodule，引入三方开源组件，通过`Kconfig`配置，实现开源组件灵活配置、编译。
-2.  支持clang-format、clang-tidy，实现代码格式化、代码检查、代码静态分析等。
+2.  支持`clang-format`、`clang-tidy`，实现代码格式化、代码检查、代码静态分析等。
 3. 集成`valgrind`工具进行内存泄漏、系统性能验证。
-4.搭建单元测试框架，集成单元测试工具gtest，简化系统级单元测试开发难度。
+4.搭建单元测试框架，集成单元测试工具`gtest`，简化系统级单元测试开发难度。
 5. 集成`gcov`, `lcov`工具，实现代码覆盖率统计。
 
 ## 快速上手
@@ -78,7 +78,7 @@ RibbonDF
 ```
 
 RibbonDF的目录按功能划分如下：
-- 组件目录：存放RibbonDF组件。包括`components`，`third_lib`，`project/${project_name}/src`三类，具体说明见组件一节。
+- 组件目录：存放`RibbonDF`组件。包括`components`，`third_lib`，`project/${project_name}/src`三类，具体说明见组件一节。
 - 项目目录：`project/${project_name}`：存放RibbonDF项目。
 - 工具目录：`tools`：存放工具工具。
 - 文档目录：`docs`，存放系统相关文档。
