@@ -5,5 +5,5 @@ config MODULE_DEMO_APP_ENABLE
     help
       Enable demo app.
     select MODULE_DEMO_COMPONENT_ENABLE
-    # select MODULE_RBLOG_ENABLE
+    select MODULE_RBLOG_ENABLE
 

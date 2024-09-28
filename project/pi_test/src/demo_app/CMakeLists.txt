@@ -13,8 +13,7 @@ list(APPEND PRIVATE_HEADERS ${CMAKE_CURRENT_LIST_DIR}/include)
 # 添加库依赖
 list(APPEND DEPEND_COMPONENTS
     demo_component
-
-    # rblog
+    rblog
 )
 
 # 添加成果库依赖
