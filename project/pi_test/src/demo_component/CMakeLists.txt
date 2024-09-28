@@ -30,4 +30,4 @@ set(CUSTOM_CMAKE_EXE_LINKER_FLAGS "")
 
 # 添加自定义defines
 list(APPEND CUSTOM_DEFINES "-DDEBUG=2 -DTAG=222")
-RibbonBuildComponent()
+RibbonBuildComponent(DYNAMIC)

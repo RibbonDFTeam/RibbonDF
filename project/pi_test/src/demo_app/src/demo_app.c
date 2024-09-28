@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include "demo_app.h"
 #include "demo_component.h"
+// #include "rblog.h"
 
 int main()
 {
