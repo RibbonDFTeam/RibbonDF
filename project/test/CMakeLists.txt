@@ -9,7 +9,6 @@ set(RibbonComponentsPath
     "${PROJECT_SOURCE_DIR}/../../third_lib")
 
 include(${RibbonBuildPath}/RibbonBuild.cmake)
-KconfigSetup()
 project(${PROJECT_NAME} VERSION 0.0.1 LANGUAGES C CXX)
 
 RibbonBuild()
