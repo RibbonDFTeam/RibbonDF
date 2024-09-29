@@ -1,0 +1,7 @@
+
+config MODULE_UUID_ENABLE
+    bool "Enable uuid"
+    default n
+    help
+      Enable uuid.
+

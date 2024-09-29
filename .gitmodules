@@ -28,3 +28,6 @@
 [submodule "third_lib/Melon/Melon"]
 	path = third_lib/Melon/Melon
 	url = git@github.com:Water-Melon/Melon.git
+[submodule "third_lib/uuid/uuid4"]
+	path = third_lib/uuid/uuid4
+	url = git@github.com:rxi/uuid4.git
