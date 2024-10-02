@@ -12,12 +12,12 @@ int main()
     rblog_init();
     rblog_start();
 
-    rblog_a(TAG, "hello rblog!");
-    rblog_e(TAG, "hello rblog!");
-    rblog_w(TAG, "hello rblog!");
-    rblog_i(TAG, "hello rblog!");
-    rblog_d(TAG, "hello rblog!");
-    rblog_v(TAG, "hello rblog!");
+    rblog_a(TAG, "hello rblog!, %d", __LINE__);
+    rblog_e(TAG, "hello rblog!, %d", __LINE__);
+    rblog_w(TAG, "hello rblog!, %d", __LINE__);
+    rblog_i(TAG, "hello rblog!, %d", __LINE__);
+    rblog_d(TAG, "hello rblog!, %d", __LINE__);
+    rblog_v(TAG, "hello rblog!, %d", __LINE__);
 
     rblog_stop();
     rblog_fini();

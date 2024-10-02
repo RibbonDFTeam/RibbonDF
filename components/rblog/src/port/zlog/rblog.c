@@ -39,22 +39,22 @@ void rblog_output(const char *tag, RBLOG_LVL_E level, const char *fmt, ...)
     switch (level)
     {
     case RBLOG_LVL_FATAL:
-        zlog_fatal(zlog_get_category(tag), fmt, args);
+        vzlog_fatal(zlog_get_category(tag), fmt, args);
         break;
     case RBLOG_LVL_ERROR:
-        zlog_error(zlog_get_category(tag), fmt, args);
+        vzlog_error(zlog_get_category(tag), fmt, args);
         break;
     case RBLOG_LVL_WARN:
-        zlog_warn(zlog_get_category(tag), fmt, args);
+        vzlog_warn(zlog_get_category(tag), fmt, args);
         break;
     case RBLOG_LVL_INFO:
-        zlog_notice(zlog_get_category(tag), fmt, args);
+        vzlog_notice(zlog_get_category(tag), fmt, args);
         break;
     case RBLOG_LVL_DEBUG:
-        zlog_info(zlog_get_category(tag), fmt, args);
+        vzlog_info(zlog_get_category(tag), fmt, args);
         break;
     case RBLOG_LVL_VERBOSE:
-        zlog_debug(zlog_get_category(tag), fmt, args);
+        vzlog_debug(zlog_get_category(tag), fmt, args);
         break;
     default:
         zlog_fatal(zlog_get_category(RBLOG_TAG), "log level:%d invalid", level);
