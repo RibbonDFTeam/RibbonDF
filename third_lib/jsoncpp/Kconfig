@@ -1,0 +1,6 @@
+
+config MODULE_JSONCPP_ENABLE
+    bool "Enable jsoncpp"
+    default n
+    help
+      Enable jsoncpp.

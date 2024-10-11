@@ -31,3 +31,6 @@
 [submodule "third_lib/uuid/uuid4"]
 	path = third_lib/uuid/uuid4
 	url = git@github.com:rxi/uuid4.git
+[submodule "third_lib/jsoncpp/jsoncpp"]
+	path = third_lib/jsoncpp/jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp.git
