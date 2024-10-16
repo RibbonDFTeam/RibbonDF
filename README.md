@@ -34,8 +34,13 @@
    ```
 > `RibbonBuild`模块为必选模块。`--recursive`可视情况添加。
 
-- 编译
-    依赖`python3.8`以上版本
+- 工程编译
+    依赖`python3.8`以上版本,以及kconfiglib库。
+    - 安装kconfiglib库：
+    ```
+    pip install kconfiglib
+    ```
+    - 编译
     ```
     sh build.sh ${project_name}
     ```
