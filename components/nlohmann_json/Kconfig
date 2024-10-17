@@ -1,0 +1,10 @@
+
+
+config MODULE_NLOHMANN_JSON_ENABLE
+    bool "nlohmann_json enalbe"
+    default n
+    help
+      Enable nlohmann_json.
+
+
+
