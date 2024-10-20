@@ -1,0 +1,8 @@
+
+
+config MODULE_FDBUS_CLIENT_ENABLE
+    bool "fdbus client enalbe"
+    default n
+    help
+      Enable fdbus client.
+    select MODULE_FDBUS_ENABLE
