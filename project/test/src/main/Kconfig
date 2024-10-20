@@ -1,7 +1,0 @@
-
-
-config MODULE_MAIN_ENABLE
-    bool "main app enalbe"
-    default n
-    help
-      Enable main app.

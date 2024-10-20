@@ -1,8 +1,0 @@
-
-
-config MODULE_GTEST_TEST_ENABLE
-    bool "gtest test enalbe"
-    default n
-    help
-      Enable gtest test.
-    select MODULE_GTEST_ENABLE

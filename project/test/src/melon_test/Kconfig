@@ -1,8 +1,0 @@
-
-
-config MODULE_MELON_TEST_ENABLE
-    bool "melon_test enalbe"
-    default n
-    help
-      Enable melon_test.
-    select MODULE_MELON_ENABLE

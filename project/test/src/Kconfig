@@ -1,3 +1,0 @@
-menu "Project Src Configuration"
-osource "${RibbonDF_PROJECT_DIR}/src/*/Kconfig"
-endmenu

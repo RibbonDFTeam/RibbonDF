@@ -1,5 +1,0 @@
-
-
-config MODULE_GCOV_TEST_ENABLE
-    bool "gcov_test enalbe"
-    default n

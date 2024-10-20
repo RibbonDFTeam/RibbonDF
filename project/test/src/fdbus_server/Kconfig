@@ -1,8 +1,0 @@
-
-
-config MODULE_FDBUS_SERVER_ENABLE
-    bool "fdbus server enalbe"
-    default n
-    help
-      Enable fdbus server.
-    select MODULE_FDBUS_ENABLE
