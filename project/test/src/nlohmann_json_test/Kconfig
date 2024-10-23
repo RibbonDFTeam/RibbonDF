@@ -1,0 +1,8 @@
+
+
+config MODULE_NLOHMANN_JSON_TEST_ENABLE
+    bool "nlohmann_json_test enalbe"
+    default n
+    help
+      Enable nlohmann_json_test.
+    select MODULE_NLOHMANN_JSON_ENABLE
