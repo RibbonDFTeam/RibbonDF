@@ -1,8 +1,0 @@
-
-
-config MODULE_ZLOG_TEST_ENABLE
-    bool "zlog_test enalbe"
-    default n
-    help
-      Enable zlog_test.
-    select MODULE_ZLOG_ENABLE

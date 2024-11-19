@@ -1,8 +1,0 @@
-
-
-config MODULE_UUID_TEST_ENABLE
-    bool "uuid_test enalbe"
-    default n
-    help
-      Enable uuid_test.
-    select MODULE_UUID_ENABLE

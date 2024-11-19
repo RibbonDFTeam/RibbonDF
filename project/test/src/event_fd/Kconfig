@@ -1,7 +1,0 @@
-
-
-config MODULE_EVENT_FD_ENABLE
-    bool "event_fd enalbe"
-    default n
-    help
-      Enable event_fd.

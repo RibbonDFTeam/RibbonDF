@@ -1,8 +1,0 @@
-
-
-config MODULE_EASYLOGGER_TEST_ENABLE
-    bool "EasyLogger test enalbe"
-    default n
-    help
-      Enable EasyLogger test.
-    select MODULE_EASYLOGGER_ENABLE

@@ -1,7 +1,0 @@
-
-
-config MODULE_CMAKE_TEST_ENABLE
-    bool "cmake test enalbe"
-    default n
-    help
-      Enable cmake test.
