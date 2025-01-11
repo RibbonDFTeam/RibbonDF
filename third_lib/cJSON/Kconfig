@@ -7,7 +7,7 @@ config MODULE_CJSON_ENABLE
 
  config MODULE_CJSON_SHARED
     bool "build cJSON shared lib"
-    default n
+    default y
     help
-      Enable build cJSON shared lib. 
+      Enable build cJSON shared lib.
     depends on MODULE_CJSON_ENABLE
