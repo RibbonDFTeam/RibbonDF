@@ -25,11 +25,12 @@
 #include <google/protobuf/arenastring.h>
 #include <google/protobuf/generated_message_util.h>
 #include <google/protobuf/metadata_lite.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/message.h>
+#include <google/protobuf/message_lite.h>
 #include <google/protobuf/repeated_field.h>  // IWYU pragma: export
 #include <google/protobuf/extension_set.h>  // IWYU pragma: export
-#include <google/protobuf/unknown_field_set.h>
+#include <google/protobuf/map.h>  // IWYU pragma: export
+#include <google/protobuf/map_entry_lite.h>
+#include <google/protobuf/map_field_lite.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 #define PROTOBUF_INTERNAL_EXPORT_Person_2eproto
@@ -43,21 +44,48 @@ PROTOBUF_NAMESPACE_CLOSE
 struct TableStruct_Person_2eproto {
   static const uint32_t offsets[];
 };
-extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_Person_2eproto;
 namespace proto_test {
 class Person;
 struct PersonDefaultTypeInternal;
 extern PersonDefaultTypeInternal _Person_default_instance_;
+class Person_GradesEntry_DoNotUse;
+struct Person_GradesEntry_DoNotUseDefaultTypeInternal;
+extern Person_GradesEntry_DoNotUseDefaultTypeInternal _Person_GradesEntry_DoNotUse_default_instance_;
 }  // namespace proto_test
 PROTOBUF_NAMESPACE_OPEN
 template<> ::proto_test::Person* Arena::CreateMaybeMessage<::proto_test::Person>(Arena*);
+template<> ::proto_test::Person_GradesEntry_DoNotUse* Arena::CreateMaybeMessage<::proto_test::Person_GradesEntry_DoNotUse>(Arena*);
 PROTOBUF_NAMESPACE_CLOSE
 namespace proto_test {
 
 // ===================================================================
 
+class Person_GradesEntry_DoNotUse : public ::PROTOBUF_NAMESPACE_ID::internal::MapEntryLite<Person_GradesEntry_DoNotUse, 
+    std::string, int32_t,
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_STRING,
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32> {
+public:
+  typedef ::PROTOBUF_NAMESPACE_ID::internal::MapEntryLite<Person_GradesEntry_DoNotUse, 
+    std::string, int32_t,
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_STRING,
+    ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32> SuperType;
+  Person_GradesEntry_DoNotUse();
+  explicit PROTOBUF_CONSTEXPR Person_GradesEntry_DoNotUse(
+      ::PROTOBUF_NAMESPACE_ID::internal::ConstantInitialized);
+  explicit Person_GradesEntry_DoNotUse(::PROTOBUF_NAMESPACE_ID::Arena* arena);
+  void MergeFrom(const Person_GradesEntry_DoNotUse& other);
+  static const Person_GradesEntry_DoNotUse* internal_default_instance() { return reinterpret_cast<const Person_GradesEntry_DoNotUse*>(&_Person_GradesEntry_DoNotUse_default_instance_); }
+  static bool ValidateKey(std::string* s) {
+    return ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(s->data(), static_cast<int>(s->size()), ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::PARSE, "proto_test.Person.GradesEntry.key");
+ }
+  static bool ValidateValue(void*) { return true; }
+  friend struct ::TableStruct_Person_2eproto;
+};
+
+// -------------------------------------------------------------------
+
 class Person final :
-    public ::PROTOBUF_NAMESPACE_ID::Message /* @@protoc_insertion_point(class_definition:proto_test.Person) */ {
+    public ::PROTOBUF_NAMESPACE_ID::MessageLite /* @@protoc_insertion_point(class_definition:proto_test.Person) */ {
  public:
   inline Person() : Person(nullptr) {}
   ~Person() override;
@@ -87,15 +115,6 @@ class Person final :
     return *this;
   }
 
-  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {
-    return GetDescriptor();
-  }
-  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {
-    return default_instance().GetMetadata().descriptor;
-  }
-  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {
-    return default_instance().GetMetadata().reflection;
-  }
   static const Person& default_instance() {
     return *internal_default_instance();
   }
@@ -104,7 +123,7 @@ class Person final :
                &_Person_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    0;
+    1;
 
   friend void swap(Person& a, Person& b) {
     a.Swap(&b);
@@ -133,15 +152,9 @@ class Person final :
   Person* New(::PROTOBUF_NAMESPACE_ID::Arena* arena = nullptr) const final {
     return CreateMaybeMessage<Person>(arena);
   }
-  using ::PROTOBUF_NAMESPACE_ID::Message::CopyFrom;
+  void CheckTypeAndMergeFrom(const ::PROTOBUF_NAMESPACE_ID::MessageLite& from)  final;
   void CopyFrom(const Person& from);
-  using ::PROTOBUF_NAMESPACE_ID::Message::MergeFrom;
-  void MergeFrom( const Person& from) {
-    Person::MergeImpl(*this, from);
-  }
-  private:
-  static void MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg);
-  public:
+  void MergeFrom(const Person& from);
   PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;
   bool IsInitialized() const final;
 
@@ -154,7 +167,7 @@ class Person final :
   private:
   void SharedCtor(::PROTOBUF_NAMESPACE_ID::Arena* arena, bool is_message_owned);
   void SharedDtor();
-  void SetCachedSize(int size) const final;
+  void SetCachedSize(int size) const;
   void InternalSwap(Person* other);
 
   private:
@@ -167,18 +180,34 @@ class Person final :
                        bool is_message_owned = false);
   public:
 
-  static const ClassData _class_data_;
-  const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*GetClassData() const final;
-
-  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;
+  std::string GetTypeName() const final;
 
   // nested types ----------------------------------------------------
+
 
   // accessors -------------------------------------------------------
 
   enum : int {
+    kGradesFieldNumber = 2,
     kNameFieldNumber = 1,
   };
+  // map<string, int32> grades = 2;
+  int grades_size() const;
+  private:
+  int _internal_grades_size() const;
+  public:
+  void clear_grades();
+  private:
+  const ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >&
+      _internal_grades() const;
+  ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >*
+      _internal_mutable_grades();
+  public:
+  const ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >&
+      grades() const;
+  ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >*
+      mutable_grades();
+
   // string name = 1;
   void clear_name();
   const std::string& name() const;
@@ -201,6 +230,11 @@ class Person final :
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
   struct Impl_ {
+    ::PROTOBUF_NAMESPACE_ID::internal::MapFieldLite<
+        Person_GradesEntry_DoNotUse,
+        std::string, int32_t,
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_STRING,
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::TYPE_INT32> grades_;
     ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr name_;
     mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   };
@@ -216,6 +250,8 @@ class Person final :
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
 // Person
 
 // string name = 1;
@@ -268,9 +304,40 @@ inline void Person::set_allocated_name(std::string* name) {
   // @@protoc_insertion_point(field_set_allocated:proto_test.Person.name)
 }
 
+// map<string, int32> grades = 2;
+inline int Person::_internal_grades_size() const {
+  return _impl_.grades_.size();
+}
+inline int Person::grades_size() const {
+  return _internal_grades_size();
+}
+inline void Person::clear_grades() {
+  _impl_.grades_.Clear();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >&
+Person::_internal_grades() const {
+  return _impl_.grades_.GetMap();
+}
+inline const ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >&
+Person::grades() const {
+  // @@protoc_insertion_point(field_map:proto_test.Person.grades)
+  return _internal_grades();
+}
+inline ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >*
+Person::_internal_mutable_grades() {
+  return _impl_.grades_.MutableMap();
+}
+inline ::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >*
+Person::mutable_grades() {
+  // @@protoc_insertion_point(field_mutable_map:proto_test.Person.grades)
+  return _internal_mutable_grades();
+}
+
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
 
 // @@protoc_insertion_point(namespace_scope)
 

@@ -4,4 +4,5 @@ package proto_test;
 
 message Person {
   string name = 1;
+  map<string, int32>grades = 2;
 }

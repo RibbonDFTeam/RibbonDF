@@ -13,7 +13,9 @@ int main()
     cJSON_CreateObject();
     proto_test::Person person;
     person.set_name("Alice");
-
-    printf("Hello, %s!\n", person.name().c_str());
+    (*person.mutable_grades())["math"]    = 100;
+    (*person.mutable_grades())["chinese"] = 90;
+    person.DebugString();
+    printf("%s\n", person.DebugString().c_str());
     return 0;
 }

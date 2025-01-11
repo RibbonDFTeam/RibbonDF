@@ -8,10 +8,7 @@
 #include <google/protobuf/io/coded_stream.h>
 #include <google/protobuf/extension_set.h>
 #include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/reflection_ops.h>
-#include <google/protobuf/wire_format.h>
+#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
@@ -21,9 +18,21 @@ namespace _pb = ::PROTOBUF_NAMESPACE_ID;
 namespace _pbi = _pb::internal;
 
 namespace proto_test {
+PROTOBUF_CONSTEXPR Person_GradesEntry_DoNotUse::Person_GradesEntry_DoNotUse(
+    ::_pbi::ConstantInitialized) {}
+struct Person_GradesEntry_DoNotUseDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR Person_GradesEntry_DoNotUseDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~Person_GradesEntry_DoNotUseDefaultTypeInternal() {}
+  union {
+    Person_GradesEntry_DoNotUse _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 Person_GradesEntry_DoNotUseDefaultTypeInternal _Person_GradesEntry_DoNotUse_default_instance_;
 PROTOBUF_CONSTEXPR Person::Person(
     ::_pbi::ConstantInitialized): _impl_{
-    /*decltype(_impl_.name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+    /*decltype(_impl_.grades_)*/{}
+  , /*decltype(_impl_.name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
   , /*decltype(_impl_._cached_size_)*/{}} {}
 struct PersonDefaultTypeInternal {
   PROTOBUF_CONSTEXPR PersonDefaultTypeInternal()
@@ -35,47 +44,16 @@ struct PersonDefaultTypeInternal {
 };
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 PersonDefaultTypeInternal _Person_default_instance_;
 }  // namespace proto_test
-static ::_pb::Metadata file_level_metadata_Person_2eproto[1];
-static constexpr ::_pb::EnumDescriptor const** file_level_enum_descriptors_Person_2eproto = nullptr;
-static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_Person_2eproto = nullptr;
-
-const uint32_t TableStruct_Person_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::proto_test::Person, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::proto_test::Person, _impl_.name_),
-};
-static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, -1, sizeof(::proto_test::Person)},
-};
-
-static const ::_pb::Message* const file_default_instances[] = {
-  &::proto_test::_Person_default_instance_._instance,
-};
-
-const char descriptor_table_protodef_Person_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
-  "\n\014Person.proto\022\nproto_test\"\026\n\006Person\022\014\n\004"
-  "name\030\001 \001(\tb\006proto3"
-  ;
-static ::_pbi::once_flag descriptor_table_Person_2eproto_once;
-const ::_pbi::DescriptorTable descriptor_table_Person_2eproto = {
-    false, false, 58, descriptor_table_protodef_Person_2eproto,
-    "Person.proto",
-    &descriptor_table_Person_2eproto_once, nullptr, 0, 1,
-    schemas, file_default_instances, TableStruct_Person_2eproto::offsets,
-    file_level_metadata_Person_2eproto, file_level_enum_descriptors_Person_2eproto,
-    file_level_service_descriptors_Person_2eproto,
-};
-PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_Person_2eproto_getter() {
-  return &descriptor_table_Person_2eproto;
-}
-
-// Force running AddDescriptors() at dynamic initialization time.
-PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_Person_2eproto(&descriptor_table_Person_2eproto);
 namespace proto_test {
+
+// ===================================================================
+
+Person_GradesEntry_DoNotUse::Person_GradesEntry_DoNotUse() {}
+Person_GradesEntry_DoNotUse::Person_GradesEntry_DoNotUse(::PROTOBUF_NAMESPACE_ID::Arena* arena)
+    : SuperType(arena) {}
+void Person_GradesEntry_DoNotUse::MergeFrom(const Person_GradesEntry_DoNotUse& other) {
+  MergeFromInternal(other);
+}
 
 // ===================================================================
 
@@ -85,18 +63,20 @@ class Person::_Internal {
 
 Person::Person(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                          bool is_message_owned)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  : ::PROTOBUF_NAMESPACE_ID::MessageLite(arena, is_message_owned) {
   SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:proto_test.Person)
 }
 Person::Person(const Person& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  : ::PROTOBUF_NAMESPACE_ID::MessageLite() {
   Person* const _this = this; (void)_this;
   new (&_impl_) Impl_{
-      decltype(_impl_.name_){}
+      /*decltype(_impl_.grades_)*/{}
+    , decltype(_impl_.name_){}
     , /*decltype(_impl_._cached_size_)*/{}};
 
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _internal_metadata_.MergeFrom<std::string>(from._internal_metadata_);
+  _this->_impl_.grades_.MergeFrom(from._impl_.grades_);
   _impl_.name_.InitDefault();
   #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
     _impl_.name_.Set("", GetArenaForAllocation());
@@ -113,7 +93,8 @@ inline void Person::SharedCtor(
   (void)arena;
   (void)is_message_owned;
   new (&_impl_) Impl_{
-      decltype(_impl_.name_){}
+      /*decltype(_impl_.grades_)*/{::_pbi::ArenaInitialized(), arena}
+    , decltype(_impl_.name_){}
     , /*decltype(_impl_._cached_size_)*/{}
   };
   _impl_.name_.InitDefault();
@@ -124,7 +105,7 @@ inline void Person::SharedCtor(
 
 Person::~Person() {
   // @@protoc_insertion_point(destructor:proto_test.Person)
-  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<std::string>()) {
   (void)arena;
     return;
   }
@@ -133,6 +114,8 @@ Person::~Person() {
 
 inline void Person::SharedDtor() {
   GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.grades_.Destruct();
+  _impl_.grades_.~MapFieldLite();
   _impl_.name_.Destroy();
 }
 
@@ -146,8 +129,9 @@ void Person::Clear() {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
+  _impl_.grades_.Clear();
   _impl_.name_.ClearToEmpty();
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
+  _internal_metadata_.Clear<std::string>();
 }
 
 const char* Person::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
@@ -162,7 +146,20 @@ const char* Person::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
           auto str = _internal_mutable_name();
           ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-          CHK_(::_pbi::VerifyUTF8(str, "proto_test.Person.name"));
+          CHK_(::_pbi::VerifyUTF8(str, nullptr));
+        } else
+          goto handle_unusual;
+        continue;
+      // map<string, int32> grades = 2;
+      case 2:
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
+          ptr -= 1;
+          do {
+            ptr += 1;
+            ptr = ctx->ParseMessage(&_impl_.grades_, ptr);
+            CHK_(ptr);
+            if (!ctx->DataAvailable(ptr)) break;
+          } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
         } else
           goto handle_unusual;
         continue;
@@ -177,7 +174,7 @@ const char* Person::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
     }
     ptr = UnknownFieldParse(
         tag,
-        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        _internal_metadata_.mutable_unknown_fields<std::string>(),
         ptr, ctx);
     CHK_(ptr != nullptr);
   }  // while
@@ -205,9 +202,35 @@ uint8_t* Person::_InternalSerialize(
         1, this->_internal_name(), target);
   }
 
+  // map<string, int32> grades = 2;
+  if (!this->_internal_grades().empty()) {
+    using MapType = ::_pb::Map<std::string, int32_t>;
+    using WireHelper = Person_GradesEntry_DoNotUse::Funcs;
+    const auto& map_field = this->_internal_grades();
+    auto check_utf8 = [](const MapType::value_type& entry) {
+      (void)entry;
+      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
+        entry.first.data(), static_cast<int>(entry.first.length()),
+        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
+        "proto_test.Person.GradesEntry.key");
+    };
+
+    if (stream->IsSerializationDeterministic() && map_field.size() > 1) {
+      for (const auto& entry : ::_pbi::MapSorterPtr<MapType>(map_field)) {
+        target = WireHelper::InternalSerialize(2, entry.first, entry.second, target, stream);
+        check_utf8(entry);
+      }
+    } else {
+      for (const auto& entry : map_field) {
+        target = WireHelper::InternalSerialize(2, entry.first, entry.second, target, stream);
+        check_utf8(entry);
+      }
+    }
+  }
+
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
+    target = stream->WriteRaw(_internal_metadata_.unknown_fields<std::string>(::PROTOBUF_NAMESPACE_ID::internal::GetEmptyString).data(),
+        static_cast<int>(_internal_metadata_.unknown_fields<std::string>(::PROTOBUF_NAMESPACE_ID::internal::GetEmptyString).size()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto_test.Person)
   return target;
@@ -221,6 +244,15 @@ size_t Person::ByteSizeLong() const {
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
+  // map<string, int32> grades = 2;
+  total_size += 1 *
+      ::PROTOBUF_NAMESPACE_ID::internal::FromIntSize(this->_internal_grades_size());
+  for (::PROTOBUF_NAMESPACE_ID::Map< std::string, int32_t >::const_iterator
+      it = this->_internal_grades().begin();
+      it != this->_internal_grades().end(); ++it) {
+    total_size += Person_GradesEntry_DoNotUse::Funcs::ByteSizeLong(it->first, it->second);
+  }
+
   // string name = 1;
   if (!this->_internal_name().empty()) {
     total_size += 1 +
@@ -228,28 +260,32 @@ size_t Person::ByteSizeLong() const {
         this->_internal_name());
   }
 
-  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
+  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
+    total_size += _internal_metadata_.unknown_fields<std::string>(::PROTOBUF_NAMESPACE_ID::internal::GetEmptyString).size();
+  }
+  int cached_size = ::_pbi::ToCachedSize(total_size);
+  SetCachedSize(cached_size);
+  return total_size;
 }
 
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Person::_class_data_ = {
-    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
-    Person::MergeImpl
-};
-const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Person::GetClassData() const { return &_class_data_; }
+void Person::CheckTypeAndMergeFrom(
+    const ::PROTOBUF_NAMESPACE_ID::MessageLite& from) {
+  MergeFrom(*::_pbi::DownCast<const Person*>(
+      &from));
+}
 
-
-void Person::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
-  auto* const _this = static_cast<Person*>(&to_msg);
-  auto& from = static_cast<const Person&>(from_msg);
+void Person::MergeFrom(const Person& from) {
+  Person* const _this = this;
   // @@protoc_insertion_point(class_specific_merge_from_start:proto_test.Person)
   GOOGLE_DCHECK_NE(&from, _this);
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
+  _this->_impl_.grades_.MergeFrom(from._impl_.grades_);
   if (!from._internal_name().empty()) {
     _this->_internal_set_name(from._internal_name());
   }
-  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
+  _this->_internal_metadata_.MergeFrom<std::string>(from._internal_metadata_);
 }
 
 void Person::CopyFrom(const Person& from) {
@@ -268,21 +304,25 @@ void Person::InternalSwap(Person* other) {
   auto* lhs_arena = GetArenaForAllocation();
   auto* rhs_arena = other->GetArenaForAllocation();
   _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.grades_.InternalSwap(&other->_impl_.grades_);
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
       &_impl_.name_, lhs_arena,
       &other->_impl_.name_, rhs_arena
   );
 }
 
-::PROTOBUF_NAMESPACE_ID::Metadata Person::GetMetadata() const {
-  return ::_pbi::AssignDescriptors(
-      &descriptor_table_Person_2eproto_getter, &descriptor_table_Person_2eproto_once,
-      file_level_metadata_Person_2eproto[0]);
+std::string Person::GetTypeName() const {
+  return "proto_test.Person";
 }
+
 
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace proto_test
 PROTOBUF_NAMESPACE_OPEN
+template<> PROTOBUF_NOINLINE ::proto_test::Person_GradesEntry_DoNotUse*
+Arena::CreateMaybeMessage< ::proto_test::Person_GradesEntry_DoNotUse >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::proto_test::Person_GradesEntry_DoNotUse >(arena);
+}
 template<> PROTOBUF_NOINLINE ::proto_test::Person*
 Arena::CreateMaybeMessage< ::proto_test::Person >(Arena* arena) {
   return Arena::CreateMessageInternal< ::proto_test::Person >(arena);

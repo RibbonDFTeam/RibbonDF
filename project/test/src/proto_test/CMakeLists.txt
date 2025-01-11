@@ -17,7 +17,7 @@ list(APPEND PRIVATE_HEADERS
 # 添加库依赖
 list(APPEND DEPEND_COMPONENTS
     cJSON
-    libprotobuf)
+    libprotobuf-lite)
 
 # 添加成果库依赖
 # list(APPEND DEPEND_LIBS pthread)
