@@ -5,5 +5,6 @@ config MODULE_PROTO_TEST_ENABLE
     default n
     help
       Enable proto_test app.
-    select MODULE_LIBPROTO_ENABLE
+    select MODULE_LIBPROTOBUF_ENABLE
+    select MODULE_CJSON_ENABLE
 
