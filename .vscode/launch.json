@@ -1,0 +1,75 @@
+{
+    // 使用 IntelliSense 了解相关属性。
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kconfig init",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/RibbonBuild/RibbonKconfig.py",
+            "args": [
+                "-i${workspaceFolder}/project/test;${workspaceFolder}/project/test/src;${workspaceFolder}/project/test/../../components;${workspaceFolder}/project/test/../../third_lib"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "menuconfig",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/RibbonBuild/RibbonKconfig.py",
+            "args": [
+                "-m${workspaceFolder}/project/test"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "gdbserver",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/project/pi_test/install/bin/demo_app_debug",
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/project/pi_test/install/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "text": "file ${workspaceFolder}/project/pi_test/install/lib/libzlog.so.1",
+                    "description": "Load the zlog library",
+                },
+                {
+                    "text": "file ${workspaceFolder}/project/pi_test/install/lib/libdemo_component_debug.so",
+                    "description": "Load the demo_component library",
+                }
+            ],
+            "miDebuggerPath": "/home/myskip/codes/gdb/output/bin/aarch64-linux-gnu-gdb",
+            "miDebuggerServerAddress": "192.168.43.223:9876"
+        },
+        {
+            "name": "gdb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/project/test/install/bin/rblog_test_debug",
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/project/test/install/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb",
+        }
+    ]
+}

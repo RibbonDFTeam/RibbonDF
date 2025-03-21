@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"cmake.buildDirectory": "${workspaceFolder}/project/test/build",
+		"clangd.arguments": [
+			"--compile-commands-dir=${workspaceFolder}/project/test/build"
+		],
+		"cmake.sourceDirectory": "${workspaceFolder}/project/test",
+		"cSpell.words": [
+			"AUTOHEADER",
+			"distclean",
+			"gcov",
+			"gtest",
+			"kconf",
+			"Kconfig",
+			"kconfiglib",
+			"lcov",
+			"menuconfig",
+			"protobuf",
+			"RBLOG",
+			"valgrind"
+		],
+		"editor.formatOnSave": true,
+		"git.autofetch": true,
+		"git.autofetchPeriod": 60,
+	}
+}
