@@ -3,14 +3,25 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	// "image": "mcr.microsoft.com/devcontainers/base:noble",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+	"remoteUser": "vscode",
+	"runArgs": [
+        "--user",
+        "vscode",
+        "--group-add",
+        "sudo"
+    ],
 	"features": {
 		"ghcr.io/devcontainers-extra/features/cmake:1": {
 			"version": "3.31.4"
 		}
+	},
+	"settings": {
+		"editor.rulers": [
+			120
+		]
 	},
 	"extensions": [
 		"ms-vscode.cpptools",
