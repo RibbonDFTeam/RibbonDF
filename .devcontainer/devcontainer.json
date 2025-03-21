@@ -25,6 +25,7 @@
 	},
 	"extensions": [
 		"ms-vscode.cpptools",
+		"streetsidesoftware.code-spell-checker",
 		"mhutchie.git-graph",
 		"ms-azuretools.vscode-docker",
 		"jeff-hykin.macro-commander",
