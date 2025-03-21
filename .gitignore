@@ -10,7 +10,6 @@ tags
 *.dylib*
 build/
 *.orig
-.vscode
 .idea
 cmake-build-debug
 *.lst
