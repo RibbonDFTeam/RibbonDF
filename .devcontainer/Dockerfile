@@ -17,5 +17,9 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 RUN apt install -y python3-kconfiglib
 
+RUN apt install iputils-ping -y
+
 # 清理 apt 缓存以减小镜像体积
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+
