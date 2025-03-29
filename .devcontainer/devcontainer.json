@@ -18,20 +18,24 @@
 			"version": "3.31.4"
 		}
 	},
-	"settings": {
-		"editor.rulers": [
-			120
-		]
-	},
-	"extensions": [
-		"ms-vscode.cpptools",
-		"streetsidesoftware.code-spell-checker",
-		"mhutchie.git-graph",
-		"ms-azuretools.vscode-docker",
-		"jeff-hykin.macro-commander",
-		"ms-vscode.cmake-tools",
-		"llvm-vs-code-extensions.vscode-clangd"
-	]
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"editor.rulers": [
+					120
+				]
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-vscode.cpptools",
+				"mhutchie.git-graph",
+				"jeff-hykin.macro-commander",
+				"ms-vscode.cmake-tools",
+				"llvm-vs-code-extensions.vscode-clangd"
+			]
+		}
+	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
