@@ -6,24 +6,19 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"remoteUser": "vscode",
-	"runArgs": [
-        "--user",
-        "vscode",
-        "--group-add",
-        "sudo"
-    ],
-	"features": {
-		"ghcr.io/devcontainers-extra/features/cmake:1": {
-			"version": "3.31.4"
-		}
-	},
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"settings": {
 				"editor.rulers": [
-					120
+					80
 				]
 			},
 			// Add the IDs of extensions you want installed when the container is created.
@@ -35,15 +30,13 @@
 				"llvm-vs-code-extensions.vscode-clangd"
 			]
 		}
-	}
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-	// Configure tool-specific properties.
-	// "customizations": {},
+	},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "vscode",
+	"runArgs": [
+		"--user",
+		"vscode",
+		"--group-add",
+		"sudo"
+	],
 }
