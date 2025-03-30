@@ -6,40 +6,40 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"remoteUser": "vscode",
-	"runArgs": [
-		"--user",
-		"vscode",
-		"--group-add",
-		"sudo"
-	],
-	"features": {
-		"ghcr.io/devcontainers-extra/features/cmake:1": {
-			"version": "3.31.4"
-		}
-	},
-	"settings": {
-		"editor.rulers": [
-			120
-		]
-	},
-	"extensions": [
-		"ms-vscode.cpptools",
-		"streetsidesoftware.code-spell-checker",
-		"mhutchie.git-graph",
-		"ms-azuretools.vscode-docker",
-		"jeff-hykin.macro-commander",
-		"ms-vscode.cmake-tools",
-		"llvm-vs-code-extensions.vscode-clangd"
-	]
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"editor.rulers": [
+					80
+				]
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-vscode.cpptools",
+				"mhutchie.git-graph",
+				"jeff-hykin.macro-commander",
+				"ms-vscode.cmake-tools",
+				"llvm-vs-code-extensions.vscode-clangd"
+			]
+		}
+	},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "vscode",
+	"runArgs": [
+		"--user",
+		"vscode",
+		"--group-add",
+		"sudo",
+	],
+	// "mounts": [
+	// 	"source=${localEnv:SSH_AUTH_SOCK},target=/tmp/ssh_auth_sock,type=bind"
+	// ]
 }
