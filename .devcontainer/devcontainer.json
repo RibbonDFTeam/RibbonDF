@@ -37,6 +37,9 @@
 		"--user",
 		"vscode",
 		"--group-add",
-		"sudo"
+		"sudo",
 	],
+	// "mounts": [
+	// 	"source=${localEnv:SSH_AUTH_SOCK},target=/tmp/ssh_auth_sock,type=bind"
+	// ]
 }
