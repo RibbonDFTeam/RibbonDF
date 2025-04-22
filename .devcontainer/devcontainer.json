@@ -39,7 +39,8 @@
 		"--group-add",
 		"sudo",
 	],
-	// "mounts": [
-	// 	"source=${localEnv:SSH_AUTH_SOCK},target=/tmp/ssh_auth_sock,type=bind"
-	// ]
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+	],
+	"postCreateCommand": "chmod 600 /home/vscode/.ssh/id_rsa"
 }
