@@ -6,10 +6,10 @@
 	],
 	"settings": {
 		"cmake.buildDirectory": "${workspaceFolder}/project/test/build",
+		"cmake.sourceDirectory": "${workspaceFolder}/project/test",
 		"clangd.arguments": [
 			"--compile-commands-dir=${workspaceFolder}/project/test/build"
 		],
-		"cmake.sourceDirectory": "${workspaceFolder}/project/test",
 		"cSpell.words": [
 			"AUTOHEADER",
 			"distclean",
@@ -26,7 +26,31 @@
 		],
 		"editor.formatOnSave": true,
 		"git.autofetch": true,
-		"git.autofetchPeriod": 60,
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "gdb",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "${workspaceFolder}/project/test/install/bin/rblog_test_debug",
+				"stopAtEntry": true,
+				"cwd": "${workspaceFolder}/project/test/install/bin",
+				"environment": [],
+				"externalConsole": false,
+				"MIMode": "gdb",
+				"setupCommands": [
+					{
+						"description": "Enable pretty-printing for gdb",
+						"text": "-enable-pretty-printing",
+						"ignoreFailures": true
+					}
+				],
+				"miDebuggerPath": "/usr/bin/gdb",
+			}
+		],
+		"compounds": []
 	},
 	"tasks": {
 		"version": "2.0.0",
@@ -34,9 +58,9 @@
 			{
 				"label": "Build Project",
 				"type": "shell",
-				"command": "cd ${workspaceFolder}/project/${input:selectProject}/build && cmake .. && make -j4",
+				"command": "cd ${workspaceFolder}/project/${input:selectProject}/build && cmake .. && make -j${nproc} install",
 				"problemMatcher": [
-					"$gcc"
+					"$gcc",
 				],
 				"group": {
 					"kind": "build",
