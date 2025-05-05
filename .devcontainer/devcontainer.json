@@ -23,6 +23,7 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"streetsidesoftware.code-spell-checker",
 				"ms-vscode.cpptools",
 				"mhutchie.git-graph",
 				"jeff-hykin.macro-commander",
